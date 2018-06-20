@@ -1,0 +1,93 @@
+{
+	"central": [{
+			"measureId": 585,
+			"name": "Adults with asthma (ever)",
+			"info": "% adults ever diagnosed (2011-)",
+			"bench": 14.2,
+			"desc": "\"Asthma is a common long term inflammatory disease of the airways of the lungs. It is characterized by variable and recurring symptoms, reversible airflow obstruction, and bronchospasm. Symptoms include episodes of wheezing, coughing, chest tightness, and shortness of breath. These episodes may occur a few times a day or a few times per week.\" -wikiPedia"
+
+		},
+		{
+			"measureId": 589,
+			"name": "Adults with asthma (active)",
+			"info": "% adults with active asthma in past 5 years",
+			"bench": 12.47,
+			"desc": "\"Asthma is a common long term inflammatory disease of the airways of the lungs. It is characterized by variable and recurring symptoms, reversible airflow obstruction, and bronchospasm. Symptoms include episodes of wheezing, coughing, chest tightness, and shortness of breath. These episodes may occur a few times a day or a few times per week.\" -wikiPedia"
+		},
+		{
+			"measureId": 587,
+			"name": "Children with asthma (ever)",
+			"info": "% children ever diagnosed (2011-)",
+			"bench": 14,
+			"desc": "\"Asthma is the leading cause of chronic illness in children. It affects about 7 million children in the United States and, for unknown reasons, is steadily increasing. Asthma can begin at any age (even in the very elderly), but most children have their first symptoms by age 5.\" -webMd"
+		},
+		{
+			"measureId": 588,
+			"name": "Children with asthma (active)",
+			"info": "% children ever diagnosed and currently have ",
+			"bench": 9.42,
+			"desc": "\"Asthma is the leading cause of chronic illness in children. It affects about 7 million children in the United States and, for unknown reasons, is steadily increasing. Asthma can begin at any age (even in the very elderly), but most children have their first symptoms by age 5.\" -webMd"
+		},
+		{
+			"measureId": 103,
+			"name": "Hospitalization due to asthma",
+			"info": "rate per 10,000",
+			"bench": 7.84,
+			"desc": "\"Asthma is a common long term inflammatory disease of the airways of the lungs. It is characterized by variable and recurring symptoms, reversible airflow obstruction, and bronchospasm. Symptoms include episodes of wheezing, coughing, chest tightness, and shortness of breath. These episodes may occur a few times a day or a few times per week.\" -wikiPedia"
+		}
+
+	],
+
+	"side": [{
+		"measureId": 560,
+		"name": "Smoking",
+		"info": "% adults ever smoked",
+		"bench": 43,
+		"desc": "\"Smoking generally has negative health effects, because smoke inhalation inherently poses challenges to various physiologic processes such as respiration. Diseases related to tobacco smoking have been shown to kill approximately half of long-term smokers when compared to average mortality rates faced by non-smokers.\" -wikiPedia"
+
+	    },
+
+        {
+			"measureId": 327,
+			"name": "Poverty",
+			"info": "percent",
+			"bench": 17.2,
+			"desc": "Percent of people in poverty"
+		},
+
+        {
+			"measureId": 87,
+			"name": "Particles",
+			"info": "AnnualPM2.5 Level (ug/m3)",
+			"bench": 0,
+			"desc": "\"Atmospheric particulate matter, also known as particulate matter (PM) or particulates, are microscopic solid or liquid matter suspended in Earth's atmosphere. The term aerosol commonly refers to the particulate/air mixture, as opposed to the particulate matter alone. Sources of particulate matter can be natural or anthropogenic. They have impacts on climate and precipitation that adversely affect human health.\" -wikiPedia"
+		},  
+
+        {
+			"measureId": 96,
+			"name": "Age of housing",
+			"info": "percent",
+			"bench": 25.35,
+			"desc": "Homes built before 1950"
+		}, 
+		 {
+			"measureId": 428,
+			"name": "Distance from park",
+			"info": "percent",
+			"bench": 0,
+			"desc": "Pecentage of population living within half a mile of park"
+		},
+         {
+			"measureId": 328,
+			"name": "Income",
+			"info": "US$",
+			"bench": 53118,
+			"desc": "Median Household Income"
+		}
+
+
+    
+    ]
+
+   
+}

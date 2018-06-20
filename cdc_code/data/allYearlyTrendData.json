@@ -1,0 +1,755 @@
+{
+    "Acute Myeloid Leukemia":[{
+        "measureId":58,
+        "calculationType":"per 100,000 population",
+         "displayName": "Acute Myeloid Leukemia"},
+
+    {
+         "measureId":57,
+        "calculationType":"Annual Number of Cases",
+        "displayName": "Acute Myeloid Leukemia"}
+    
+  ],
+
+  "Bladder":[{
+        "measureId":48,
+        "calculationType":"per 100,000 population",
+        "displayName": "Bladder Cancer"},
+
+        {
+        "measureId":221,
+        "calculationType":"per 100,000 population (5 years)",
+        "displayName": "Bladder Cancer"},
+
+        {
+        "measureId":47,
+        "calculationType":"Annual Number of Cases",
+         "displayName": "Bladder Cancer"
+        },
+
+
+        {
+        "measureId":229,
+        "calculationType":"Average annual cases (5 years)",
+         "displayName": "Bladder Cancer"  
+        }],
+
+"Brain/Nervous System":[{
+        "measureId":50,
+        "calculationType":"per 100,000 population",
+        "displayName": "Brain/Nervous Cancer"},
+
+        {
+        "measureId":222,
+        "calculationType":"per 100,000 population (5 years)",
+         "displayName": "Brain/Nervous Cancer"
+        },
+        {
+        "measureId":49,
+        "calculationType":"Annual Number of Cases",
+         "displayName": "Brain/Nervous Cancer" 
+        },
+        {
+        "measureId":230,
+        "calculationType":"Average annual cases (5 years)",
+         "displayName": "Brain/Nervous Cancer" 
+        }],
+
+
+"Breast":[{
+        "measureId":287,
+        "calculationType":"per 100,000 population",
+        "displayName": "Breast Cancer"},
+
+        {
+        "measureId":291,
+        "calculationType":"per 100,000 population (5 years)",
+         "displayName": "Breast Cancer"
+        },
+        {
+        "measureId":286,
+        "calculationType":"Annual Number of Cases",
+         "displayName": "Breast Cancer" 
+        },
+        {
+        "measureId":290,
+        "calculationType":"Average annual cases (5 years)",
+         "displayName": "Breast Cancer" 
+        }],
+
+"Chronic Lymphocytic Leukemia":[{
+        "measureId":60,
+        "calculationType":"per 100,000 population",
+        "displayName": "Chronic Lymphocytic Leukemia"},
+
+        {
+        "measureId":59,
+        "calculationType":"Annual Number of Cases",
+         "displayName": "Chronic Lymphocytic Leukemia" 
+        }],
+
+"Esophageal":[{
+        "measureId":487,
+        "calculationType":"per 100,000 population",
+        "displayName": "Esophageal Cancer"},
+
+        {
+        "measureId":488,
+        "calculationType":"per 100,000 population (5 years)",
+         "displayName": "Esophageal Cancer"
+        },
+        {
+        "measureId":485,
+        "calculationType":"Annual Number of Cases",
+         "displayName": "Esophageal Cancer"
+        },
+        {
+        "measureId":486,
+        "calculationType":"Average annual cases (5 years)",
+         "displayName": "Esophageal Cancer"
+        }],
+
+"Kidney":[{
+        "measureId":390,
+        "calculationType":"per 100,000 population",
+        "displayName": "Kidney Cancer"},
+
+        {
+        "measureId":391,
+        "calculationType":"per 100,000 population (5 years)",
+         "displayName": "Kidney Cancer"
+        },
+        {
+        "measureId":388,
+        "calculationType":"Annual Number of Cases",
+         "displayName": "Kidney Cancer"
+        },
+        {
+        "measureId":389,
+        "calculationType":"Average annual cases (5 years)",
+         "displayName": "Kidney Cancer"
+        }],
+
+
+"Larynx":[{
+        "measureId":495,
+        "calculationType":"per 100,000 population",
+        "displayName": "Larynx Cancer"},
+
+        {
+        "measureId":496,
+        "calculationType":"per 100,000 population (5 years)",
+         "displayName": "Larynx Cancer"
+        },
+        {
+        "measureId":493,
+        "calculationType":"Annual Number of Cases",
+         "displayName": "LarynxCancer"
+        },
+        {
+        "measureId":494,
+        "calculationType":"Average annual cases (5 years)",
+         "displayName": "LarynxCancer"
+        }],
+
+
+"Leukemia":[{
+        "measureId":56,
+        "calculationType":"per 100,000 population",
+        "displayName": "Leukemia"},
+
+        {
+        "measureId":223,
+        "calculationType":"per 100,000 population (5 years)",
+         "displayName": "Leukemia"
+        },
+        {
+        "measureId":55,
+        "calculationType":"Annual Number of Cases",
+         "displayName": "Leukemia"
+        },
+        {
+        "measureId":231,
+        "calculationType":"Average annual cases (5 years)",
+         "displayName": "Leukemia"
+        }],
+
+
+"Liver":[{
+        "measureId":394,
+        "calculationType":"per 100,000 population",
+        "displayName": "Liver Cancer"},
+
+        {
+        "measureId":395,
+        "calculationType":"per 100,000 population (5 years)",
+         "displayName": "Liver Cancer"
+        },
+        {
+        "measureId":392,
+        "calculationType":"Annual Number of Cases",
+         "displayName": "Liver Cancer"
+        },
+        {
+        "measureId":393,
+        "calculationType":"Average annual cases (5 years)",
+         "displayName": "Liver Cancer"
+        }],
+
+"Lung/Bronchus":[{
+        "measureId":62,
+        "calculationType":"per 100,000 population",
+        "displayName": "Lung/Bronchus Cancer"},
+
+        {
+        "measureId":224,
+        "calculationType":"per 100,000 population (5 years)",
+         "displayName": "Lung/Bronchus Cancer"
+        },
+        {
+        "measureId":61,
+        "calculationType":"Annual Number of Cases",
+         "displayName": "Lung/Bronchus Cancer"
+        },
+        {
+        "measureId":232,
+        "calculationType":"Average annual cases (5 years)",
+         "displayName": "Lung/Bronchus Cancer"
+        }],
+
+
+"Melanoma":[{
+        "measureId":386,
+        "calculationType":"per 100,000 population",
+        "displayName": "Melanoma"},
+
+        {
+        "measureId":387,
+        "calculationType":"per 100,000 population (5 years)",
+         "displayName": "Melanoma"
+        },
+        {
+        "measureId":384,
+        "calculationType":"Annual Number of Cases",
+         "displayName": "Melanoma"
+        },
+        {
+        "measureId":385,
+        "calculationType":"Average annual cases (5 years)",
+         "displayName": "Melanoma"
+        }],	
+
+
+"Mesothelioma":[{
+        "measureId":383,
+        "calculationType":"per 100,000 population",
+        "displayName": "Mesothelioma"},
+
+    
+        {
+        "measureId":382,
+        "calculationType":"Average annual cases (5 years)",
+         "displayName": "Mesothelioma"
+        }],	
+
+
+
+"Non-Hodgkin's Lymphoma":[{
+        "measureId":64,
+        "calculationType":"per 100,000 population",
+        "displayName": "Non-Hodgkin's Lymphoma"},
+
+        {
+        "measureId":225,
+        "calculationType":"per 100,000 population (5 years)",
+         "displayName": "Non-Hodgkin's Lymphoma"
+        },
+        {
+        "measureId":63,
+        "calculationType":"Annual Number of Cases",
+         "displayName": "Non-Hodgkin's Lymphoma"
+        },
+        {
+        "measureId":233,
+        "calculationType":"Average annual cases (5 years)",
+         "displayName": "Non-Hodgkin's Lymphoma"
+        }],
+
+
+"Oral":[{
+        "measureId":483,
+        "calculationType":"per 100,000 population",
+        "displayName": "Oral Cancer"},
+
+        {
+        "measureId":484,
+        "calculationType":"per 100,000 population (5 years)",
+         "displayName": "Oral Cancer"
+        },
+        {
+        "measureId":482,
+        "calculationType":"Annual Number of Cases",
+         "displayName": "Oral Cancer"
+        },
+        {
+        "measureId":482,
+        "calculationType":"Average annual cases (5 years)",
+         "displayName": "Oral Cancer"
+        }],
+
+"Pancreatic":[{
+        "measureId":491,
+        "calculationType":"per 100,000 population",
+        "displayName": "Pancreatic Cancer"},
+
+        {
+        "measureId":492,
+        "calculationType":"per 100,000 population (5 years)",
+         "displayName": "Pancreatic Cancer"
+        },
+        {
+        "measureId":489,
+        "calculationType":"Annual Number of Cases",
+         "displayName": "Pancreatic Cancer"
+        },
+        {
+        "measureId":490,
+        "calculationType":"Average annual cases (5 years)",
+         "displayName": "Pancreatic Cancer"
+        }],
+
+
+"Thyroid":[{
+        "measureId":66,
+        "calculationType":"per 100,000 population",
+        "displayName": "Thyroid Cancer"},
+
+        {
+        "measureId":226,
+        "calculationType":"per 100,000 population (5 years)",
+         "displayName": "Thyroid Cancer"
+        },
+        {
+        "measureId":65,
+        "calculationType":"Annual Number of Cases",
+         "displayName": "Thyroid Cancer"
+        },
+        {
+        "measureId":234,
+        "calculationType":"Average annual cases (5 years)",
+         "displayName": "Thyroid Cancer"
+        }],
+
+
+
+  "Annual PM2.5": [{
+        "measureId":87,
+        "calculationType":"Annual avergae ambient concentration",
+        "displayName": "Particles PM2.5"},
+
+        {
+        "measureId":85,
+        "calculationType":"Percent of days with Days above regulatory standard",
+         "displayName": "Particles PM2.5"
+        }
+      ],
+
+    "Ozone - Days above regulatory standard": [{
+        "measureId":83,
+        "calculationType":"Days above regulatory standard",
+        "displayName": "Ozone"},
+
+        {
+        "measureId":85,
+        "calculationType":"Person-Days above regulatory standard",
+         "displayName": "Ozone"
+        }], 
+
+"Adults with asthma (ever)":[{
+
+         "measureId":585,
+        "calculationType":"% adults ever diagnosed (2011-)",
+        "displayName": "Adults with asthma (ever)"}
+
+        ],
+
+
+ "Adults with asthma (active)":[{
+
+         "measureId":589,
+        "calculationType":"% adults with active asthma in past 5 years",
+        "displayName": "Adults with asthma (active)"}
+
+        ],
+
+
+ "Children with asthma (ever)":[{
+
+         "measureId":587,
+        "calculationType":"% children ever diagnosed (2011-)",
+        "displayName": "Children with asthma (ever)"}
+
+        ],
+
+ "Children with asthma (active)":[{
+
+         "measureId":588,
+        "calculationType":"% children ever diagnosed and currently have",
+        "displayName": "Children with asthma (active)"}
+
+        ],   
+
+  "Hospitalization due to asthma":[{
+
+         "measureId":588,
+        "calculationType":"rate per 10,000",
+        "displayName": "Hospitalization due to asthma"}
+
+        ],
+
+
+   "Death from heart attack (>35 and older)":[{
+
+         "measureId":554,
+        "calculationType":"rate per 100,000",
+        "displayName": "Death from heart attack (>35 and older)"}
+
+        ],
+
+ "Rate of hospitalization":[{
+
+         "measureId":108,
+        "calculationType":"rate per 10,000",
+        "displayName": "Rate of hospitalization"}
+
+        ],   
+
+  "Death from ischemic heart disease":[{
+
+         "measureId":551,
+        "calculationType":"rate per 100,000",
+        "displayName": "Death from ischemic heart disease"}
+
+        ],
+
+
+"Carbon Monoxide Posioning":[{
+
+         "measureId":119,
+        "calculationType":"Hospitalization for CO Poisiong/100,000",
+        "displayName": "Carbon Monoxide Posioning"},
+
+        {
+
+         "measureId":122,
+        "calculationType":"Emergency dept. visits/100,000",
+        "displayName": "Carbon Monoxide Posioning"},
+
+        {
+
+         "measureId":121,
+        "calculationType":"Crude rate of Emergency dept. visits/100,000",
+        "displayName": "Carbon Monoxide Posioning"},
+
+         {
+
+         "measureId":120,
+        "calculationType":"Number of Emergency dept. visits",
+        "displayName": "Carbon Monoxide Posioning"},
+
+        {
+
+         "measureId":118,
+        "calculationType":"Crude rate of hospitalization/100,000",
+        "displayName": "Carbon Monoxide Posioning"},
+
+        {
+
+         "measureId":117,
+        "calculationType":"Number of hospitalizations",
+        "displayName": "Carbon Monoxide Posioning"},
+
+        {
+
+         "measureId":575,
+        "calculationType":"Death from CO poisioning/100,000 (over 5 years)",
+        "displayName": "Carbon Monoxide Posioning"},
+
+        {
+
+         "measureId":573,
+        "calculationType":"Annual # of deaths (over 5 years)",
+        "displayName": "Carbon Monoxide Posioning"},
+
+        {
+
+         "measureId":574,
+        "calculationType":"Crude rate of death from CO poisioning/100,000 (over 5 years)",
+        "displayName": "Carbon Monoxide Posioning"}
+
+        ],
+
+"Pesticide Exposure":[{
+
+         "measureId":506,
+        "calculationType":"Exposure to all pesticides/100,000",
+        "displayName": "Pesticide Exposure"},
+
+        {
+
+         "measureId":521,
+        "calculationType":"# death from exposure to all pesticides",
+        "displayName": "Pesticide Exposure"},
+
+        {
+
+         "measureId":523,
+        "calculationType":"# major illness from exposure to all pesticides",
+        "displayName": "Pesticide Exposure"},
+
+         {
+
+         "measureId":527,
+        "calculationType":"# minor illness from exposure to all pesticides",
+        "displayName": "Pesticide Exposure"},
+
+        {
+
+         "measureId":529,
+        "calculationType":"# no effect illness from exposure to all pesticides",
+        "displayName": "Pesticide Exposure"},
+
+        {
+
+         "measureId":531,
+        "calculationType":"# unbale to follow - potentially toxic",
+        "displayName": "Pesticide Exposure"},
+
+        {
+
+         "measureId":528,
+        "calculationType":"minor illness/100,000",
+        "displayName": "Pesticide Exposure"},
+
+        {
+
+         "measureId":526,
+        "calculationType":"moderate illness/100,000",
+        "displayName": "Pesticide Exposure"},
+
+        {
+
+         "measureId":530,
+        "calculationType":"no-effect illness/100,000",
+        "displayName": "Pesticide Exposure"},
+
+        {
+         "measureId":532,
+        "calculationType":"unable to follow illness/100,000",
+        "displayName": "Pesticide Exposure"}
+
+
+        ],
+
+  "Rodenticides Exposure":[{
+
+         "measureId":520,
+        "calculationType":"Exposure to all rodenticides/100,000",
+        "displayName": "Rodenticides Exposure"},
+
+        {
+
+         "measureId":519,
+        "calculationType":"# reported exposure to rodenticide",
+        "displayName": "Rodenticides Exposure"},
+
+        {
+
+         "measureId":525,
+        "calculationType":"# reported exposure to rodenticide",
+        "displayName": "Rodenticides Exposure"}
+
+        
+
+
+        ],
+
+"Disinfectants Exposure":[{
+
+         "measureId":508,
+        "calculationType":"Exposure to all disinfectants/100,000",
+        "displayName": "Disinfectants Exposure"},
+
+        {
+
+         "measureId":507,
+        "calculationType":"# reported exposure to disinfectant",
+        "displayName": "Disinfectants Exposure"}
+
+         ],
+
+"Fungicides Exposure":[{
+
+         "measureId":512,
+        "calculationType":"Exposure to all fungicides/100,000",
+        "displayName": "Fungicides Exposure"},
+
+        {
+
+         "measureId":511,
+        "calculationType":"# reported exposure to fungicides",
+        "displayName": "Fungicides Exposure"}
+
+         ],
+
+"Fumigants Exposure":[{
+
+         "measureId":510,
+        "calculationType":"Exposure to all fumigants/100,000",
+        "displayName": "Fumigants Exposure"},
+
+        {
+
+         "measureId":509,
+        "calculationType":"# reported exposure to fumigants",
+        "displayName": "Fumigants Exposure"}
+
+         ],
+
+"Herbicides Exposure":[{
+
+         "measureId":514,
+        "calculationType":"Exposure to all herbicides/100,000",
+        "displayName": "Herbicides Exposure"},
+
+        {
+
+         "measureId":513,
+        "calculationType":"# reported exposure to herbicides",
+        "displayName": "Herbicides Exposure"}
+
+         ],
+
+"Insecticides Exposure":[{
+
+         "measureId":516,
+        "calculationType":"Exposure to all insecticides/100,000",
+        "displayName": "Insecticides Exposure"},
+
+        {
+
+         "measureId":515,
+        "calculationType":"# reported exposure to insecticides",
+        "displayName": "Insecticides Exposure"}
+
+         ],
+"Repellents Exposure":[{
+
+         "measureId":518,
+        "calculationType":"Exposure to all repellents/100,000",
+        "displayName": "Repellents Exposure"},
+
+        {
+
+         "measureId":517,
+        "calculationType":"# reported exposure to repellents",
+        "displayName": "Repellents Exposure"}
+
+         ],
+
+
+"Acute Toxic Substance Release":[{
+
+         "measureId":559,
+        "calculationType":"Reported release incidents/100,000",
+        "displayName": "Acute Toxic Substance Release"},
+
+        {
+
+         "measureId":555,
+        "calculationType":"# reported release incidents",
+        "displayName": "Acute Toxic Substance Release"},
+
+        {
+
+         "measureId":556,
+        "calculationType":"% reported release incidents with atleast 1 injury",
+        "displayName": "Acute Toxic Substance Release"},
+
+        {
+
+         "measureId":557,
+        "calculationType":"% reported release incidents with evacuation",
+        "displayName": "Acute Toxic Substance Release"},
+
+        {
+
+         "measureId":558,
+        "calculationType":"Rate of injuries/fatalities - reported release incidents",
+        "displayName": "Acute Toxic Substance Release"}
+
+         ],
+
+"Obesity":[{
+
+         "measureId":564,
+        "calculationType":"% adults (>18 years) obese (2011-)",
+        "displayName": "Obesity"},
+
+        {
+
+         "measureId":540,
+        "calculationType":"% adults (>18 years) obese (2000-2010)",
+        "displayName": "Obesity"}],
+
+     
+"Overweight":[{
+
+         "measureId":563,
+        "calculationType":"% adults (>18 years) overweight (2011-)",
+        "displayName": "Overweight"},
+
+        {
+
+         "measureId":541,
+        "calculationType":"% adults (>18 years) overweight (2000-2010)",
+        "displayName": "Overweight"}],
+
+
+"Smoking":[{
+
+         "measureId":561,
+        "calculationType":"% of current adult smokers (2011 -)",
+        "displayName": "Smoking"},
+
+        {
+
+         "measureId":418,
+        "calculationType":"% of adults ever smoked (2000 - 2010)",
+        "displayName": "Smoking"},
+
+        {
+         "measureId":560,
+        "calculationType":"% of adults ever smoked (2000 - 2010)",
+        "displayName": "Smoking"},
+
+        {
+
+         "measureId":420,
+        "calculationType":"% of current adult smokers (2011 -)",
+        "displayName": "Smoking"},
+
+         {
+         "measureId":422,
+        "calculationType":"% of forem adults smoker (2000 - 2010)",
+        "displayName": "Smoking"},
+
+        {
+
+         "measureId":562,
+        "calculationType":"% of forem adults smoker (2011 -)",
+        "displayName": "Smoking"}    
+        ]       
+
+
+}

@@ -1,0 +1,160 @@
+{
+	"central": [{
+			"measureId": 58,
+			"name": "Acute Myeloid Leukemia",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Acute myeloid leukemia (AML) is a cancer of the myeloid line of blood cells, characterized by the rapid growth of abnormal white blood cells that build up in the bone marrow and interfere with the production of normal blood cells. AML is the most common acute leukemia affecting adults, and its incidence increases with age.\"-wikiPedia"
+		},
+		{
+			"measureId": 48,
+			"name": "Bladder",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Bladder cancer is any of several types of cancer arising from the epithelial lining (i.e., the urothelium) of the urinary bladder. Rarely the bladder is involved by non-epithelial cancers, such as lymphoma or sarcoma, but these are not ordinarily included in the colloquial term \"bladder cancer.\" It is a disease in which abnormal cells multiply without control in the bladder.\"-wikiPedia"
+		},
+		{
+			"measureId": 50,
+			"name": "Brain/Nervous System",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"A brain tumor or intracranial neoplasm occurs when abnormal cells form within the brain. There are two main types of tumors: malignant or cancerous tumors and benign tumors. Cancerous tumors can be divided into primary tumors that start within the brain, and secondary tumors that have spread from somewhere else, known as brain metastasis tumors. All types of brain tumors may produce symptoms that vary depending on the part of the brain involved.\"-wikiPedia"
+		},
+		{
+			"measureId": 287,
+			"name": "Breast",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Breast cancer is cancer that develops from breast tissue. Signs of breast cancer may include a lump in the breast, a change in breast shape, dimpling of the skin, fluid coming from the nipple, or a red scaly patch of skin. In those with distant spread of the disease, there may be bone pain, swollen lymph nodes, shortness of breath, or yellow skin.\"-wikiPedia"
+		},
+		{
+			"measureId": 60,
+			"name": "Chronic Lymphocytic Leukemia",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"B-cell chronic lymphocytic leukemia (B-CLL), also known as chronic lymphoid leukemia (CLL), is the most common type of leukemia (a type of cancer of the white blood cells) in adults. CLL affects B cell lymphocytes, which originate in the bone marrow, develop in the lymph nodes, and normally fight infection by producing antibodies.\"-wikiPedia"
+		},
+		{
+			"measureId": 487,
+			"name": "Esophageal",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Esophageal cancer is cancer arising from the esophagus—the food pipe that runs between the throat and the stomach. Symptoms often include difficulty in swallowing and weight loss. Other symptoms may include pain when swallowing, a hoarse voice, enlarged lymph nodes (\"glands\") around the collarbone, a dry cough, and possibly coughing up or vomiting blood.\"-wikiPedia"
+		},
+		{
+			"measureId": 390,
+			"name": "Kidney",
+			"info": "rate per 100,000 adults",
+			"desc": "\"Kidney cancer, also known as renal cancer, is a type of cancer that starts in the cells in the kidney.The two most common types of kidney cancer are renal cell carcinoma (RCC) and transitional cell carcinoma (TCC, also known as urothelial cell carcinoma) of the renal pelvis. These names reflect the type of cell from which the cancer developed.\"-wikiPedia"
+		},
+		{
+			"measureId": 495,
+			"name": "Larynx",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Laryngeal cancer, also known as cancer of the larynx or laryngeal carcinoma, are mostly squamous cell carcinomas, reflecting their origin from the skin of the larynx. Cancer can develop in any part of the larynx, but the cure rate is affected by the location of the tumour. For the purposes of tumour staging, the larynx is divided into three anatomical regions: the glottis (true vocal cords, anterior and posterior commissures); the supraglottis (epiglottis, arytenoids and aryepiglottic folds, and false cords); and the subglottis.\"-wikiPedia"
+		},
+		{
+			"measureId": 56,
+			"name": "Leukemia",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Leukemia, also spelled leukaemia, is a group of cancers that usually begin in the bone marrow and result in high numbers of abnormal white blood cells. These white blood cells are not fully developed and are called blasts or leukemia cells. Symptoms may include bleeding and bruising problems, feeling tired, fever, and an increased risk of infections. These symptoms occur due to a lack of normal blood cells..\"-wikiPedia"
+		},
+		{
+			"measureId": 394,
+			"name": "Liver",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Liver cancer, also known as hepatic cancer and primary hepatic cancer, is cancer that starts in the liver. Cancer which has spread from elsewhere to the liver, known as liver metastasis, is more common than that which starts in the liver.[3] Symptoms of liver cancer may include a lump or pain in the right side below the rib cage, swelling of the abdomen, yellowish skin, easy bruising, weight loss, and weakness.\"-wikiPedia"
+		},
+		{
+			"measureId": 62,
+			"name": "Lung/Bronchus",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Lung cancer, also known as lung carcinoma,is a malignant lung tumor characterized by uncontrolled cell growth in tissues of the lung.[10] This growth can spread beyond the lung by the process of metastasis into nearby tissue or other parts of the body. Most cancers that start in the lung, known as primary lung cancers, are carcinomas. The two main types are small-cell lung carcinoma (SCLC) and non-small-cell lung carcinoma (NSCLC).\"-wikiPedia"
+		},
+		{ 
+			"measureId": 386,
+			"name": "Melanoma",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Melanoma, also known as malignant melanoma, is a type of cancer that develops from the pigment-containing cells known as melanocytes. Melanomas typically occur in the skin but may rarely occur in the mouth, intestines, or eye. In women they most commonly occur on the legs, while in men they are most common on the back.\"-wikiPedia"
+		},
+		
+		{
+			"measureId": 64,
+			"name": "Non-Hodgkin's Lymphoma",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Non-Hodgkin lymphoma (NHL) is a group of blood cancers that includes all types of lymphoma except Hodgkin's lymphomas. Symptoms include enlarged lymph nodes, fever, night sweats, weight loss, and tiredness. Other symptoms may include bone pain, chest pain, or itchiness. Some forms are slow growing while others are fast growing.\"-wikiPedia"
+		},
+		{
+			"measureId": 483,
+			"name": "Oral",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Oral cancer, also known as mouth cancer, is a type of head and neck cancer and is any cancerous tissue growth located in the oral cavity.It may arise as a primary lesion originating in any of the tissues in the mouth, by metastasis from a distant site of origin, or by extension from a neighboring anatomic structure, such as the nasal cavity.\"-wikiPedia"
+		},
+		{
+			"measureId": 491,
+			"name": "Pancreatic",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Pancreatic cancer arises when cells in the pancreas, a glandular organ behind the stomach, begin to multiply out of control and form a mass. These cancerous cells have the ability to invade other parts of the body.[There are a number of types of pancreatic cancer. The most common, pancreatic adenocarcinoma, accounts for about 85% of cases, and the term \"pancreatic cancer\" is sometimes used to refer only to that type.\"-wikiPedia"
+		},
+		{
+			"measureId": 66,
+			"name": "Thyroid",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Thyroid cancer is a cancer originating from follicular or parafollicular thyroid cells. These cells give rise to both well-differentiated cancers – papillary thyroid cancer (PTC) and follicular thyroid cancer (FTC) – and anaplastic thyroid cancer (ATC), whose anaplastic cells are poorly differentiated. The second cell type, the C or parafollicular cell, produces the hormone calcitonin and is the cell of origin for medullary thyroid cancer (MTC).\"-wikiPedia"
+		}
+	],
+
+	"side": [{
+		"measureId": 560,
+		"name": "Smoking",
+		"info": "% adults ever smoked",
+		"bench": 43,
+		"desc": "\"Smoking generally has negative health effects, because smoke inhalation inherently poses challenges to various physiologic processes such as respiration. Diseases related to tobacco smoking have been shown to kill approximately half of long-term smokers when compared to average mortality rates faced by non-smokers.\"-wikiPedia"
+
+	    },
+
+  {
+			"measureId": 327,
+			"name": "Poverty",
+			"info": "percent",
+			"bench": 17.2,
+			"desc": "Percent of people in poverty"
+		},
+
+   {
+			"measureId": 87,
+			"name": "Particles",
+			"info": "AnnualPM2.5 Level (ug/m3)",
+			"bench": 0,
+			"desc": "\"Atmospheric particulate matter, also known as particulate matter (PM) or particulates, are microscopic solid or liquid matter suspended in Earth's atmosphere. The term aerosol commonly refers to the particulate/air mixture, as opposed to the particulate matter alone. Sources of particulate matter can be natural or anthropogenic. They have impacts on climate and precipitation that adversely affect human health.\"-wikiPedia"
+		},  
+ 
+
+  {
+			"measureId": 506,
+			"name": "Pesticide",
+			"info": "Pesticide Exposurer per 100,000 people",
+			"desc": "\"A pesticide poisoning occurs when chemicals intended to control a pest affect non-target organisms such as humans, wildlife, or bees. There are three types of pesticide poisoning. The first of the three is a single and short-term very high level of exposure which can be experienced by individuals who commit suicide, as well as pesticide formulators. The second type of poisoning is long-term high-level exposure, which can occur in pesticide formulators and manufacturers. The third type of poisoning is a long-term low-level exposure, which individuals are exposed to from sources such as pesticide residues in food as well as contact with pesticide residues in the air, water, soil, sediment, food materials, plants and animals.\"-wikiPedia",
+			"bench": 32.77
+		}, 
+		 {
+			"measureId": 83,
+			"name": "Ozone",
+			"info": "Days Above Regulatory Standard",
+			"desc": "\"Ozone, while a minority constituent in Earth's atmosphere, is responsible for most of the absorption of UVB radiation. The amount of UVB radiation that penetrates through the ozone layer decreases exponentially with the slant-path thickness and density of the layer. When stratospheric ozone levels decrease, higher levels of UVB reach the Earth’s surface. UV-driven phenolic formation in tree rings has dated the start of ozone depletion in northern latitudes to the late 1700s.\"-wikiPedia",
+			"bench": 3.3
+		} 
+    
+    ]
+
+   
+}

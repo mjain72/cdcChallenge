@@ -1,0 +1,8 @@
+{
+        "Acute Myeloid Leukemia":[{"measureId":58, "name":"Acute Myeloid Leukemia per 100,000 population"},
+                                  {"measureId":57, "name": "Annual number of cases of Acute Myeloid Leukemia" }],
+
+        
+        "Bladder":[{"measureId":48, "name":"Bladder Cancer (including in situ) per 100,000 population"},
+                   {"measureId":57, "name": "Bladder Cancer (including in situ) per 100,000 population over a five year period" }]
+}

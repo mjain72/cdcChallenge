@@ -1,0 +1,79 @@
+{
+	"central": [{
+			"measureId": 554,
+			"name": "Death from heart attack (>35 and older)",
+			"info": "rate per 100,000",
+			"bench": 97.74,
+			"desc": "\"Cardiovascular disease (CVD) is a class of diseases that involve the heart or blood vessels. Cardiovascular disease includes coronary artery diseases (CAD) such as angina and myocardial infarction (commonly known as a heart attack). Other CVDs include stroke, heart failure, hypertensive heart disease, rheumatic heart disease, cardiomyopathy, heart arrhythmia, congenital heart disease, valvular heart disease, carditis, aortic aneurysms, peripheral artery disease, thromboembolic disease, and venous thrombosis.\"-wikiPedia"
+		},
+		{
+			"measureId": 108,
+			"name": "Rate of hospitalization",
+			"info": "rate per 10,000",
+			"bench": 29.74,
+			"desc": "\"Cardiovascular disease (CVD) is a class of diseases that involve the heart or blood vessels. Cardiovascular disease includes coronary artery diseases (CAD) such as angina and myocardial infarction (commonly known as a heart attack). Other CVDs include stroke, heart failure, hypertensive heart disease, rheumatic heart disease, cardiomyopathy, heart arrhythmia, congenital heart disease, valvular heart disease, carditis, aortic aneurysms, peripheral artery disease, thromboembolic disease, and venous thrombosis.\"-wikiPedia"
+		},
+		{
+			"measureId": 551,
+			"name": "Death from ischemic heart disease",
+			"info": "rate per 100,000",
+			"bench": 185.23,
+			"desc": "\"Coronary artery disease (CAD), also known as ischemic heart disease (IHD), is a group of diseases that includes: stable angina, unstable angina, myocardial infarction, and sudden cardiac death. It is within the group of cardiovascular diseases of which it is the most common type. A common symptom is chest pain or discomfort which may travel into the shoulder, arm, back, neck, or jaw.\"-wikiPedia"
+		}
+
+	],
+
+	"side": [{
+		"measureId": 560,
+		"name": "Smoking",
+		"info": "% adults ever smoked",
+		"bench": 43,
+		"desc": "\"Smoking generally has negative health effects, because smoke inhalation inherently poses challenges to various physiologic processes such as respiration. Diseases related to tobacco smoking have been shown to kill approximately half of long-term smokers when compared to average mortality rates faced by non-smokers.\"-wikiPedia"
+
+	    },
+
+        {
+			"measureId": 327,
+			"name": "Poverty",
+			"info": "percent",
+			"bench": 17.2,
+			"desc": "Percent of people in poverty"
+		},
+
+		 {
+			"measureId": 428,
+			"name": "Distance from park",
+			"info": "percent",
+			"bench": 0,
+			"desc": "Pecentage of population living within half a mile of park"
+		},
+
+         {
+			"measureId": 328,
+			"name": "Income",
+			"info": "US$",
+			"bench": 53118,
+			"desc": "Median Household Income"
+		},
+
+        {
+			"measureId": 564,
+			"name": "Percent of overweight adults",
+			"info": "percent",
+			"bench":29.28,
+			"desc": "\"Overweight is having more body fat than is optimally healthy. Being overweight is common especially where food supplies are plentiful and lifestyles are sedentary.\"-wikiPedia"
+		},
+        {
+			"measureId": 332,
+			"name": "Education",
+			"info": "percent",
+			"bench": 84.98,
+			"desc": "Percent of People aged 25 years and older, with High School Diploma or Equivalent"
+		}
+
+
+    
+    ]
+
+   
+}
