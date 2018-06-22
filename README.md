@@ -10,3 +10,5 @@ python -m http.server 8000
 and then open Google Chorme and type localhost:8000 and the web-app will load.
 
 Live demo can be seen at http://cdc.hminnowiz.com (Desktop/Laptop only)
+
+#d3.js, #bootstrap, #jstat, #flexdatalist
