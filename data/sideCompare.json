@@ -1,0 +1,1293 @@
+  {  
+      
+      "Acute Myeloid Leukemia":[
+        {
+        "measureId":58,
+        "calculationType":"per 100,000 population",
+         "displayName": "Acute Myeloid Leukemia"},
+
+      {
+         "measureId":560,
+        "calculationType":"Percent Adult Smoker",
+        "displayName": "Smoking"},
+
+
+        {
+         "measureId":526,
+        "calculationType":"Yearly cases",
+        "displayName": "Pasticide"},
+
+        {
+         "measureId":83,
+        "calculationType":"Number of max. days (>8 hours)",
+        "displayName": "Ozone"},
+        
+        
+        {
+         "measureId":327,
+        "calculationType":"Percent of People in Poverty",
+        "displayName": "Poverty"}],
+
+         "Bladder":[
+        {
+        "measureId":48,
+        "calculationType":"per 100,000 population",
+        "displayName": "Bladder Cancer"},
+
+      {
+         "measureId":560,
+        "calculationType":"Percent Adult Smoker",
+        "displayName": "Smoking"},
+
+
+        {
+         "measureId":526,
+        "calculationType":"Yearly cases",
+        "displayName": "Pasticide"},
+
+        {
+         "measureId":83,
+        "calculationType":"Number of max. days (>8 hours)",
+        "displayName": "Ozone"},
+        
+        
+        {
+         "measureId":327,
+        "calculationType":"Percent of People in Poverty",
+        "displayName": "Poverty"}],
+
+          "Brain/Nervous System":[
+        {
+        "measureId":50,
+        "calculationType":"per 100,000 population",
+        "displayName": "Brain/Nervous Cancer"},
+
+      {
+         "measureId":560,
+        "calculationType":"Percent Adult Smoker",
+        "displayName": "Smoking"},
+
+
+        {
+         "measureId":526,
+        "calculationType":"Yearly cases",
+        "displayName": "Pasticide"},
+
+        {
+         "measureId":83,
+        "calculationType":"Number of max. days (>8 hours)",
+        "displayName": "Ozone"},
+        
+        
+        {
+         "measureId":327,
+        "calculationType":"Percent of People in Poverty",
+        "displayName": "Poverty"}],
+
+         "Breast":[
+        {
+        "measureId":287,
+        "calculationType":"per 100,000 population",
+        "displayName": "Breast Cancer"},
+
+      {
+         "measureId":560,
+        "calculationType":"Percent Adult Smoker",
+        "displayName": "Smoking"},
+
+
+        {
+         "measureId":526,
+        "calculationType":"Yearly cases",
+        "displayName": "Pasticide"},
+
+        {
+         "measureId":83,
+        "calculationType":"Number of max. days (>8 hours)",
+        "displayName": "Ozone"},
+        
+        
+        {
+         "measureId":327,
+        "calculationType":"Percent of People in Poverty",
+        "displayName": "Poverty"}],
+
+         "Chronic Lymphocytic Leukemia":[
+        {
+        "measureId":60,
+        "calculationType":"per 100,000 population",
+        "displayName": "Chronic Lymphocytic Leukemia"},
+
+      {
+         "measureId":560,
+        "calculationType":"Percent Adult Smoker",
+        "displayName": "Smoking"},
+
+
+        {
+         "measureId":526,
+        "calculationType":"Yearly cases",
+        "displayName": "Pasticide"},
+
+        {
+         "measureId":83,
+        "calculationType":"Number of max. days (>8 hours)",
+        "displayName": "Ozone"},
+        
+        
+        {
+         "measureId":327,
+        "calculationType":"Percent of People in Poverty",
+        "displayName": "Poverty"}],
+
+          "Esophageal":[
+        {
+        "measureId":487,
+        "calculationType":"per 100,000 population",
+        "displayName": "Esophageal Cancer"},
+
+      {
+         "measureId":560,
+        "calculationType":"Percent Adult Smoker",
+        "displayName": "Smoking"},
+
+
+        {
+         "measureId":526,
+        "calculationType":"Yearly cases",
+        "displayName": "Pasticide"},
+
+        {
+         "measureId":83,
+        "calculationType":"Number of max. days (>8 hours)",
+        "displayName": "Ozone"},
+        
+        
+        {
+         "measureId":327,
+        "calculationType":"Percent of People in Poverty",
+        "displayName": "Poverty"}],
+
+         "Kidney":[
+        {
+        "measureId":390,
+        "calculationType":"per 100,000 population",
+        "displayName": "Kidney Cancer"},
+
+      {
+         "measureId":560,
+        "calculationType":"Percent Adult Smoker",
+        "displayName": "Smoking"},
+
+
+        {
+         "measureId":526,
+        "calculationType":"Yearly cases",
+        "displayName": "Pasticide"},
+
+        {
+         "measureId":83,
+        "calculationType":"Number of max. days (>8 hours)",
+        "displayName": "Ozone"},
+        
+        
+        {
+         "measureId":327,
+        "calculationType":"Percent of People in Poverty",
+        "displayName": "Poverty"}],
+
+          "Larynx":[
+        {
+         "measureId":495,
+        "calculationType":"per 100,000 population",
+        "displayName": "Larynx Cancer"},
+
+      {
+         "measureId":560,
+        "calculationType":"Percent Adult Smoker",
+        "displayName": "Smoking"},
+
+
+        {
+         "measureId":526,
+        "calculationType":"Yearly cases",
+        "displayName": "Pasticide"},
+
+        {
+         "measureId":83,
+        "calculationType":"Number of max. days (>8 hours)",
+        "displayName": "Ozone"},
+        
+        
+        {
+         "measureId":327,
+        "calculationType":"Percent of People in Poverty",
+        "displayName": "Poverty"}],
+
+          "Leukemia":[
+        {
+          "measureId":56,
+        "calculationType":"per 100,000 population",
+        "displayName": "Leukemia"},
+
+      {
+         "measureId":560,
+        "calculationType":"Percent Adult Smoker",
+        "displayName": "Smoking"},
+
+
+        {
+         "measureId":526,
+        "calculationType":"Yearly cases",
+        "displayName": "Pasticide"},
+
+        {
+         "measureId":83,
+        "calculationType":"Number of max. days (>8 hours)",
+        "displayName": "Ozone"},
+        
+        
+        {
+         "measureId":327,
+        "calculationType":"Percent of People in Poverty",
+        "displayName": "Poverty"}],
+
+          "Liver":[
+        {
+         "measureId":394,
+        "calculationType":"per 100,000 population",
+        "displayName": "Liver Cancer"},
+
+      {
+         "measureId":560,
+        "calculationType":"Percent Adult Smoker",
+        "displayName": "Smoking"},
+
+
+        {
+         "measureId":526,
+        "calculationType":"Yearly cases",
+        "displayName": "Pasticide"},
+
+        {
+         "measureId":83,
+        "calculationType":"Number of max. days (>8 hours)",
+        "displayName": "Ozone"},
+        
+        
+        {
+         "measureId":327,
+        "calculationType":"Percent of People in Poverty",
+        "displayName": "Poverty"}],
+
+         "Lung/Bronchus":[
+        {
+         "measureId":62,
+        "calculationType":"per 100,000 population",
+        "displayName": "Lung/Bronchus Cancer"},
+
+      {
+         "measureId":560,
+        "calculationType":"Percent Adult Smoker",
+        "displayName": "Smoking"},
+
+
+        {
+         "measureId":526,
+        "calculationType":"Yearly cases",
+        "displayName": "Pasticide"},
+
+        {
+         "measureId":83,
+        "calculationType":"Number of max. days (>8 hours)",
+        "displayName": "Ozone"},
+        
+        
+        {
+         "measureId":327,
+        "calculationType":"Percent of People in Poverty",
+        "displayName": "Poverty"}],
+
+        "Melanoma":[
+        {
+           "measureId":386,
+        "calculationType":"per 100,000 population",
+        "displayName": "Melanoma"},
+
+      {
+         "measureId":560,
+        "calculationType":"Percent Adult Smoker",
+        "displayName": "Smoking"},
+
+
+        {
+         "measureId":526,
+        "calculationType":"Yearly cases",
+        "displayName": "Pasticide"},
+
+        {
+         "measureId":83,
+        "calculationType":"Number of max. days (>8 hours)",
+        "displayName": "Ozone"},
+        
+        
+        {
+         "measureId":327,
+        "calculationType":"Percent of People in Poverty",
+        "displayName": "Poverty"}],
+
+         "Mesothelioma":[
+        {
+          "measureId":383,
+        "calculationType":"per 100,000 population",
+        "displayName": "Mesothelioma"},
+
+      {
+         "measureId":560,
+        "calculationType":"Percent Adult Smoker",
+        "displayName": "Smoking"},
+
+
+        {
+         "measureId":526,
+        "calculationType":"Yearly cases",
+        "displayName": "Pasticide"},
+
+        {
+         "measureId":83,
+        "calculationType":"Number of max. days (>8 hours)",
+        "displayName": "Ozone"},
+        
+        
+        {
+         "measureId":327,
+        "calculationType":"Percent of People in Poverty",
+        "displayName": "Poverty"}],
+
+        "Non-Hodgkin's Lymphoma":[
+        {
+         "measureId":64,
+        "calculationType":"per 100,000 population",
+        "displayName": "Non-Hodgkin's Lymphoma"},
+
+      {
+         "measureId":560,
+        "calculationType":"Percent Adult Smoker",
+        "displayName": "Smoking"},
+
+
+        {
+         "measureId":526,
+        "calculationType":"Yearly cases",
+        "displayName": "Pasticide"},
+
+        {
+         "measureId":83,
+        "calculationType":"Number of max. days (>8 hours)",
+        "displayName": "Ozone"},
+        
+        
+        {
+         "measureId":327,
+        "calculationType":"Percent of People in Poverty",
+        "displayName": "Poverty"}],
+
+        "Oral":[
+        {
+       "measureId":483,
+        "calculationType":"per 100,000 population",
+        "displayName": "Oral Cancer"},
+
+      {
+         "measureId":560,
+        "calculationType":"Percent Adult Smoker",
+        "displayName": "Smoking"},
+
+
+        {
+         "measureId":526,
+        "calculationType":"Yearly cases",
+        "displayName": "Pasticide"},
+
+        {
+         "measureId":83,
+        "calculationType":"Number of max. days (>8 hours)",
+        "displayName": "Ozone"},
+        
+        
+        {
+         "measureId":327,
+        "calculationType":"Percent of People in Poverty",
+        "displayName": "Poverty"}],
+
+         "Pancreatic":[
+        {
+      "measureId":491,
+        "calculationType":"per 100,000 population",
+        "displayName": "Pancreatic Cancer"},
+
+      {
+         "measureId":560,
+        "calculationType":"Percent Adult Smoker",
+        "displayName": "Smoking"},
+
+
+        {
+         "measureId":526,
+        "calculationType":"Yearly cases",
+        "displayName": "Pasticide"},
+
+        {
+         "measureId":83,
+        "calculationType":"Number of max. days (>8 hours)",
+        "displayName": "Ozone"},
+        
+        
+        {
+         "measureId":327,
+        "calculationType":"Percent of People in Poverty",
+        "displayName": "Poverty"}],
+
+          "Thyroid":[
+              {
+            "measureId":66,
+              "calculationType":"per 100,000 population",
+              "displayName": "Thyroid Cancer"},
+
+            {
+              "measureId":560,
+              "calculationType":"Percent Adult Smoker",
+              "displayName": "Smoking"},
+
+
+              {
+              "measureId":526,
+              "calculationType":"Yearly cases",
+              "displayName": "Pasticide"},
+
+              {
+              "measureId":83,
+              "calculationType":"Number of max. days (>8 hours)",
+              "displayName": "Ozone"},
+              
+              
+              {
+              "measureId":327,
+              "calculationType":"Percent of People in Poverty",
+              "displayName": "Poverty"}],
+
+
+         "Adults with asthma (ever)":[
+              {
+            "measureId":585,
+              "calculationType":"% adults ever diagnosed (2011-)",
+              "displayName": "Adults with asthma (ever)"},
+
+            {
+              "measureId":560,
+              "calculationType":"Percent Adult Smoker",
+              "displayName": "Smoking"},
+
+
+              {
+              "measureId":327,
+              "calculationType":"Persent",
+              "displayName": "Poverty"},
+
+              {
+              "measureId":87,
+              "calculationType":"AnnualPM2.5 Level (ug/m3)",
+              "displayName": "Particles"},
+              
+              
+              {
+              "measureId":96,
+              "calculationType":"percent",
+              "displayName": "Homes built before 1950"},
+
+               {
+              "measureId":428,
+              "calculationType":"percent",
+              "displayName": "Distance from park"},
+
+               {
+              "measureId":328,
+              "calculationType":"US$",
+              "displayName": "Median Household Income"}
+              
+              ],
+
+        
+         "Adults with asthma (active)":[
+              {
+            "measureId":589,
+              "calculationType":"% adults ever diagnosed (2011-)",
+              "displayName": "Adults with asthma (active)"},
+
+            {
+              "measureId":560,
+              "calculationType":"Percent Adult Smoker",
+              "displayName": "Smoking"},
+
+
+              {
+              "measureId":327,
+              "calculationType":"Persent",
+              "displayName": "Poverty"},
+
+              {
+              "measureId":87,
+              "calculationType":"AnnualPM2.5 Level (ug/m3)",
+              "displayName": "Particles"},
+              
+              
+              {
+              "measureId":96,
+              "calculationType":"percent",
+              "displayName": "Homes built before 1950"},
+
+               {
+              "measureId":428,
+              "calculationType":"percent",
+              "displayName": "Distance from park"},
+
+               {
+              "measureId":328,
+              "calculationType":"US$",
+              "displayName": "Median Household Income"}
+              
+              ],
+
+            
+         "Children with asthma (ever)":[
+              {
+            "measureId":587,
+              "calculationType":"% children ever diagnosed (2011-)",
+              "displayName": "Children with asthma (ever)"},
+
+            {
+              "measureId":560,
+              "calculationType":"Percent Adult Smoker",
+              "displayName": "Smoking"},
+
+
+              {
+              "measureId":327,
+              "calculationType":"Persent",
+              "displayName": "Poverty"},
+
+              {
+              "measureId":87,
+              "calculationType":"AnnualPM2.5 Level (ug/m3)",
+              "displayName": "Particles"},
+              
+              
+              {
+              "measureId":96,
+              "calculationType":"percent",
+              "displayName": "Homes built before 1950"},
+
+               {
+              "measureId":428,
+              "calculationType":"percent",
+              "displayName": "Distance from park"},
+
+               {
+              "measureId":328,
+              "calculationType":"US$",
+              "displayName": "Median Household Income"}
+              
+              ], 
+
+            
+         "Children with asthma (active)":[
+              {
+            "measureId":588,
+              "calculationType":"percent",
+              "displayName": "Children with asthma (active)"},
+
+            {
+              "measureId":560,
+              "calculationType":"Percent Adult Smoker",
+              "displayName": "Smoking"},
+
+
+              {
+              "measureId":327,
+              "calculationType":"Persent",
+              "displayName": "Poverty"},
+
+              {
+              "measureId":87,
+              "calculationType":"AnnualPM2.5 Level (ug/m3)",
+              "displayName": "Particles"},
+              
+              
+              {
+              "measureId":96,
+              "calculationType":"percent",
+              "displayName": "Homes built before 1950"},
+
+               {
+              "measureId":428,
+              "calculationType":"percent",
+              "displayName": "Distance from park"},
+
+               {
+              "measureId":328,
+              "calculationType":"US$",
+              "displayName": "Median Household Income"}
+              
+              ], 
+
+             "Hospitalization due to asthma":[
+              {
+            "measureId":103,
+              "calculationType":"rate per 10,000",
+              "displayName": "Hospitalization due to asthma"},
+
+            {
+              "measureId":560,
+              "calculationType":"Percent Adult Smoker",
+              "displayName": "Smoking"},
+
+
+              {
+              "measureId":327,
+              "calculationType":"Persent",
+              "displayName": "Poverty"},
+
+              {
+              "measureId":87,
+              "calculationType":"AnnualPM2.5 Level (ug/m3)",
+              "displayName": "Particles"},
+              
+              
+              {
+              "measureId":96,
+              "calculationType":"percent",
+              "displayName": "Homes built before 1950"},
+
+               {
+              "measureId":428,
+              "calculationType":"percent",
+              "displayName": "Distance from park"},
+
+               {
+              "measureId":328,
+              "calculationType":"US$",
+              "displayName": "Median Household Income"}
+              
+              ],
+
+
+          "Death from heart attack (>35 and older)":[
+              {
+              "measureId":554,
+              "calculationType":"rate per 100,000",
+              "displayName": "Death from heart attack (>35 and older)"},
+
+            {
+              "measureId":560,
+              "calculationType":"Percent Adult Smoker",
+              "displayName": "Smoking"},
+
+
+              {
+              "measureId":327,
+              "calculationType":"Persent",
+              "displayName": "Poverty"},
+
+              {
+              "measureId":564,
+              "calculationType":"Percent",
+              "displayName": "Percent of overweight adults"},
+              
+              
+              {
+              "measureId":96,
+              "calculationType":"percent",
+              "displayName": "Homes built before 1950"},
+
+               {
+              "measureId":428,
+              "calculationType":"percent",
+              "displayName": "Distance from park"},
+
+               {
+              "measureId":328,
+              "calculationType":"US$",
+              "displayName": "Median Household Income"},
+
+              {
+              "measureId":332,
+              "calculationType":"percent",
+              "displayName": "Education"}
+              
+              ],
+
+          "Rate of hospitalization":[
+              {
+              "measureId":108,
+              "calculationType":"rate per 10,000",
+              "displayName": "Rate of hospitalization"},
+ {
+              "measureId":560,
+              "calculationType":"Percent Adult Smoker",
+              "displayName": "Smoking"},
+
+
+              {
+              "measureId":327,
+              "calculationType":"Persent",
+              "displayName": "Poverty"},
+
+              {
+              "measureId":564,
+              "calculationType":"Percent",
+              "displayName": "Percent of overweight adults"},
+              
+              
+              {
+              "measureId":96,
+              "calculationType":"percent",
+              "displayName": "Homes built before 1950"},
+
+               {
+              "measureId":428,
+              "calculationType":"percent",
+              "displayName": "Distance from park"},
+
+               {
+              "measureId":328,
+              "calculationType":"US$",
+              "displayName": "Median Household Income"},
+
+              {
+              "measureId":332,
+              "calculationType":"percent",
+              "displayName": "Education"}
+              
+              ],
+
+         "Death from ischemic heart disease":[
+              {
+              "measureId":551,
+              "calculationType":"rate per 100,000",
+              "displayName": "Death from ischemic heart disease"},
+
+            {
+              "measureId":560,
+              "calculationType":"Percent Adult Smoker",
+              "displayName": "Smoking"},
+
+
+              {
+              "measureId":327,
+              "calculationType":"Persent",
+              "displayName": "Poverty"},
+
+              {
+              "measureId":564,
+              "calculationType":"Percent",
+              "displayName": "Percent of overweight adults"},
+              
+              
+              {
+              "measureId":96,
+              "calculationType":"percent",
+              "displayName": "Homes built before 1950"},
+
+               {
+              "measureId":428,
+              "calculationType":"percent",
+              "displayName": "Distance from park"},
+
+               {
+              "measureId":328,
+              "calculationType":"US$",
+              "displayName": "Median Household Income"},
+
+              {
+              "measureId":332,
+              "calculationType":"percent",
+              "displayName": "Education"}
+              
+              ],
+
+
+        "Annual PM2.5":[
+              {
+              "measureId":87,
+              "calculationType":"Annual PM2.5 ug/m3",
+              "displayName": "Annual PM2.5 Level ug/m3"},
+
+           {
+            "measureId":585,
+              "calculationType":"% adults ever diagnosed (2011-)",
+              "displayName": "Adults with asthma (ever)"},
+
+            {
+               "measureId":588,
+              "calculationType":"percent",
+              "displayName": "Children with asthma (active)"},
+
+              {
+                  "measureId":62,
+                  "calculationType":"per 100,000 population",
+                  "displayName": "Lung/Bronchus Cancer"}
+             
+              
+              ],
+
+        "Ozone - Days above regulatory standard":[
+              {
+              "measureId":83,
+              "calculationType":"Number of Days",
+              "displayName": "Ozone -Number of Days above regulatory standard"},
+
+           {
+            "measureId":386,
+              "calculationType":"per 100,000 population",
+              "displayName": "Melanoma"} 
+              
+              ],
+
+          "Carbon Monoxide Posioning":[
+              {
+              "measureId":119,
+              "calculationType":"Hospitalization rate per 100,000 over",
+              "displayName": "Carbon Monoxide Posioning"},
+
+           {
+            "measureId":386,
+              "calculationType":"per 100,000 population",
+              "displayName": "It is a place holder"} 
+              
+              ],
+
+       "Pesticide Exposure":[
+              {
+              "measureId":506,
+              "calculationType":"Reported exposure per 100,000",
+              "displayName": "Pesticide Exposure"},
+
+           {
+            "measureId":48,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Bladder Cancer"},
+
+          {
+            "measureId":56,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Leukimia"},
+          {
+            "measureId":394,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Liver Cancer"},
+          
+          {
+            "measureId":62,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Lung/Bronchus Cancer"},
+
+          {
+            "measureId":390,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Kidney Cancer"},
+
+          {
+            "measureId":487,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Esophageal Cancer"}      
+              ],
+
+        "Rodenticides Exposure":[
+              {
+              "measureId":520,
+              "calculationType":"Reported exposure per 100,000",
+              "displayName": "Rodenticides Exposure"},
+
+           {
+            "measureId":48,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Bladder Cancer"},
+
+          {
+            "measureId":56,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Leukimia"},
+          {
+            "measureId":394,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Liver Cancer"},
+          
+          {
+            "measureId":62,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Lung/Bronchus Cancer"},
+
+          {
+            "measureId":390,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Kidney Cancer"},
+
+          {
+            "measureId":487,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Esophageal Cancer"}      
+              ],
+
+        "Disinfectants Exposure":[
+              {
+              "measureId":508,
+              "calculationType":"Reported exposure per 100,000",
+              "displayName": "Disinfectants Exposure"},
+
+           {
+            "measureId":48,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Bladder Cancer"},
+
+          {
+            "measureId":56,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Leukimia"},
+          {
+            "measureId":394,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Liver Cancer"},
+          
+          {
+            "measureId":62,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Lung/Bronchus Cancer"},
+
+          {
+            "measureId":390,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Kidney Cancer"},
+
+          {
+            "measureId":487,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Esophageal Cancer"}      
+              ],
+
+          "Fumigants Exposure":[
+              {
+              "measureId":510,
+              "calculationType":"Reported exposure per 100,000",
+              "displayName": "Fumigants Exposure"},
+
+           {
+            "measureId":48,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Bladder Cancer"},
+
+          {
+            "measureId":56,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Leukimia"},
+          {
+            "measureId":394,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Liver Cancer"},
+          
+          {
+            "measureId":62,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Lung/Bronchus Cancer"},
+
+          {
+            "measureId":390,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Kidney Cancer"},
+
+          {
+            "measureId":487,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Esophageal Cancer"}      
+              ],
+
+          "Fungicides Exposure":[
+              {
+              "measureId":512,
+              "calculationType":"Reported exposure per 100,000",
+              "displayName": "Fungicides Exposure"},
+
+           {
+            "measureId":48,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Bladder Cancer"},
+
+          {
+            "measureId":56,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Leukimia"},
+          {
+            "measureId":394,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Liver Cancer"},
+          
+          {
+            "measureId":62,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Lung/Bronchus Cancer"},
+
+          {
+            "measureId":390,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Kidney Cancer"},
+
+          {
+            "measureId":487,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Esophageal Cancer"}      
+              ],
+
+
+          "Herbicides Exposure":[
+              {
+              "measureId":514,
+              "calculationType":"Reported exposure per 100,000",
+              "displayName": "Herbicides Exposure"},
+
+           {
+            "measureId":48,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Bladder Cancer"},
+
+          {
+            "measureId":56,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Leukimia"},
+          {
+            "measureId":394,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Liver Cancer"},
+          
+          {
+            "measureId":62,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Lung/Bronchus Cancer"},
+
+          {
+            "measureId":390,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Kidney Cancer"},
+
+          {
+            "measureId":487,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Esophageal Cancer"}      
+              ],
+
+             
+        
+          "Insecticides Exposure":[
+              {
+              "measureId":516,
+              "calculationType":"Reported exposure per 100,000",
+              "displayName": "Insecticides Exposure"},
+
+           {
+            "measureId":48,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Bladder Cancer"},
+
+          {
+            "measureId":56,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Leukimia"},
+          {
+            "measureId":394,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Liver Cancer"},
+          
+          {
+            "measureId":62,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Lung/Bronchus Cancer"},
+
+          {
+            "measureId":390,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Kidney Cancer"},
+
+          {
+            "measureId":487,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Esophageal Cancer"}      
+              ],
+
+            "Insecticides Exposure":[
+              {
+              "measureId":516,
+              "calculationType":"Reported exposure per 100,000",
+              "displayName": "Insecticides Exposure"},
+
+           {
+            "measureId":48,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Bladder Cancer"},
+
+          {
+            "measureId":56,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Leukimia"},
+          {
+            "measureId":394,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Liver Cancer"},
+          
+          {
+            "measureId":62,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Lung/Bronchus Cancer"},
+
+          {
+            "measureId":390,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Kidney Cancer"},
+
+          {
+            "measureId":487,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Esophageal Cancer"}      
+              ],
+
+        "Repellents Exposure":[
+              {
+              "measureId":518,
+              "calculationType":"Reported exposure per 100,000",
+              "displayName": "Repellents Exposure"},
+
+           {
+            "measureId":48,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Bladder Cancer"},
+
+          {
+            "measureId":56,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Leukimia"},
+          {
+            "measureId":394,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Liver Cancer"},
+          
+          {
+            "measureId":62,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Lung/Bronchus Cancer"},
+
+          {
+            "measureId":390,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Kidney Cancer"},
+
+          {
+            "measureId":487,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Esophageal Cancer"}      
+              ],
+
+
+          "Acute Toxic Substance Release":[
+              {
+              "measureId":518,
+              "calculationType":"Reported exposure per 100,000",
+              "displayName": "Acute Toxic Substance Release"},
+
+           {
+            "measureId":48,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Bladder Cancer"},
+
+          {
+            "measureId":56,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Leukimia"},
+          {
+            "measureId":394,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Liver Cancer"},
+          
+          {
+            "measureId":62,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Lung/Bronchus Cancer"},
+
+          {
+            "measureId":390,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Kidney Cancer"},
+
+          {
+            "measureId":487,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Esophageal Cancer"}      
+              ],
+
+        "Obesity":[
+              {
+              "measureId":564,
+              "calculationType":"percent of obese adults",
+              "displayName": "Obesity"},
+
+           {
+            "measureId":554,
+              "calculationType":"rate per 100,000",
+              "displayName": "Death from heart attack (>35 and older)"},
+
+          {
+            "measureId":551,
+              "calculationType":"rate per 100,000 ",
+              "displayName": "Death from ischemic heart disease"}
+              
+              ],
+
+        
+        "Overweight":[
+              {
+              "measureId":563,
+              "calculationType":"percent of overweightadults",
+              "displayName": "Overweight"},
+
+           {
+            "measureId":554,
+              "calculationType":"rate per 100,000",
+              "displayName": "Death from heart attack (>35 and older)"},
+
+          {
+            "measureId":551,
+              "calculationType":"rate per 100,000 ",
+              "displayName": "Death from ischemic heart disease"}
+              
+              ],
+
+         "Smoking":[
+              {
+              "measureId":563,
+              "calculationType":"% of adult smokers",
+              "displayName": "Smoking"},
+
+           {
+            "measureId":62,
+              "calculationType":"rate per 100,000 adults",
+              "displayName": "Lung/Bronchus Cancer"},
+
+          {
+            "measureId":483,
+              "calculationType":"rate per 100,000 adults ",
+              "displayName": "Oral Cancer"}
+              
+              ]
+          
+        
+     }
+        
+        
+        
+        

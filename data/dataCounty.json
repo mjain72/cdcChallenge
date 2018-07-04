@@ -1,0 +1,1977 @@
+[
+  {
+    "MeasureId": 29,
+    "Measure Name": "Number of preterm live singleton births",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 29,
+    "Measure Name": "Number of preterm live singleton births",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 30,
+    "Measure Name": "Percent of preterm live singleton births",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 30,
+    "Measure Name": "Percent of preterm live singleton births",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 30,
+    "Measure Name": "Percent of preterm live singleton births",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 35,
+    "Measure Name": "Number of low birthweight live term singleton births",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 35,
+    "Measure Name": "Number of low birthweight live term singleton births",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 36,
+    "Measure Name": "Percent of low birthweight live term singleton births",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 36,
+    "Measure Name": "Percent of low birthweight live term singleton births",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 36,
+    "Measure Name": "Percent of low birthweight live term singleton births",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 45,
+    "Measure Name": "Total Fertility Rate per 1000 women of reproductive age",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 45,
+    "Measure Name": "Total Fertility Rate per 1000 women of reproductive age",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 46,
+    "Measure Name": "Male to Female sex ratio at birth (term singletons only)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 46,
+    "Measure Name": "Male to Female sex ratio at birth (term singletons only)",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 46,
+    "Measure Name": "Male to Female sex ratio at birth (term singletons only)",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 47,
+    "Measure Name": "Annual number of cases",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 48,
+    "Measure Name": "Age-adjusted rate per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 49,
+    "Measure Name": "Annual number of cases",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 50,
+    "Measure Name": "Age-adjusted rate per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 55,
+    "Measure Name": "Annual number of cases",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 56,
+    "Measure Name": "Age-adjusted rate per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 57,
+    "Measure Name": "Annual number of cases",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 58,
+    "Measure Name": "Age-adjusted rate per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 59,
+    "Measure Name": "Annual number of cases",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 60,
+    "Measure Name": "Age-adjusted rate per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 61,
+    "Measure Name": "Annual number of cases",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 62,
+    "Measure Name": "Age-adjusted rate per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 63,
+    "Measure Name": "Annual number of cases",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 64,
+    "Measure Name": "Age-adjusted rate per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 65,
+    "Measure Name": "Annual number of cases",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 66,
+    "Measure Name": "Age-adjusted rate per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 67,
+    "Measure Name": "Number of cases among children less than 20 years of age",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 68,
+    "Measure Name": "Age-adjusted rate per 1,000,000 population among children less than 20 years of age",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 69,
+    "Measure Name": "Number of cases among children less than 15 years of age",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 70,
+    "Measure Name": "Age-adjusted rate per 1,000,000 population among children less than 15 years of age",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 71,
+    "Measure Name": "Number of cases among children less than 20 years of age",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 72,
+    "Measure Name": "Age-adjusted rate per 1,000,000 population among children less than 20 years of age",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 73,
+    "Measure Name": "Number of cases among children less than 15 years of",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 74,
+    "Measure Name": "Age-adjusted rate per 1,000,000 population among children less than 15 years of age",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 75,
+    "Measure Name": "Number of cases among children less than 20 years of age",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 76,
+    "Measure Name": "Age-adjusted rate per 1,000,000 population among children less than 20 years of age",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 77,
+    "Measure Name": "Number of cases among children less than 15 years of age",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 78,
+    "Measure Name": "Age-adjusted rate per 1,000,000 population among children less than 15 years of age",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 79,
+    "Measure Name": "Number of cases among children less than 20 years of age",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 80,
+    "Measure Name": "Age-adjusted rate per 1,000,000 population among children less than 20 years of age",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 81,
+    "Measure Name": "Number of cases among children less than 15 years of age",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 82,
+    "Measure Name": "Age-adjusted rate per 1,000,000 population among children less than 15 years of age",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 83,
+    "Measure Name": "Number of days with maximum 8-hour average ozone concentration over the NAAQS",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 84,
+    "Measure Name": "Number of person-days with max 8-hour average ozone concentration over the NAAQS",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 85,
+    "Measure Name": "Percent of days with PM2.5 levels over the NAAQS",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 86,
+    "Measure Name": "Number of person-days with PM2.5 over the NAAQS",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 87,
+    "Measure Name": "Annual average ambient concentrations of PM 2.5 in micrograms per cubic meter",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 89,
+    "Measure Name": "Number of children born in the same year and tested before age 3",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 89,
+    "Measure Name": "Number of children born in the same year and tested before age 3",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 90,
+    "Measure Name": "Percent of children born in the same year and tested before age 3",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 90,
+    "Measure Name": "Percent of children born in the same year and tested before age 3",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 93,
+    "Measure Name": "Number of children born in the same year and tested before age 3 with confirmed blood lead levels of 10 μg/dL or greater",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 93,
+    "Measure Name": "Number of children born in the same year and tested before age 3 with confirmed blood lead levels of 10 μg/dL or greater",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 94,
+    "Measure Name": "Percent of children born in the same year and tested before age 3 with confirmed blood lead levels of 10 μg/dL or greater",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 94,
+    "Measure Name": "Percent of children born in the same year and tested before age 3 with confirmed blood lead levels of 10 μg/dL or greater",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 95,
+    "Measure Name": "Number of homes built before 1950",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 95,
+    "Measure Name": "Number of homes built before 1950",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 96,
+    "Measure Name": "Percent of homes built before 1950",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 96,
+    "Measure Name": "Percent of homes built before 1950",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 97,
+    "Measure Name": "Number of homes built between 1950 and 1979",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 97,
+    "Measure Name": "Number of homes built between 1950 and 1979",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 98,
+    "Measure Name": "Percent of homes built between 1950 and 1979",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 98,
+    "Measure Name": "Percent of homes built between 1950 and 1979",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 99,
+    "Measure Name": "Number of hospitalizations for asthma",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 99,
+    "Measure Name": "Number of hospitalizations for asthma",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 101,
+    "Measure Name": "Crude rate of hospitalization for asthma per 10,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 101,
+    "Measure Name": "Crude rate of hospitalization for asthma per 10,000 population",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 101,
+    "Measure Name": "Crude rate of hospitalization for asthma per 10,000 population",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 103,
+    "Measure Name": "Age-adjusted rate of hospitalization for asthma per 10,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 103,
+    "Measure Name": "Age-adjusted rate of hospitalization for asthma per 10,000 population",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 103,
+    "Measure Name": "Age-adjusted rate of hospitalization for asthma per 10,000 population",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 104,
+    "Measure Name": "Number of hospitalizations for heart attack among persons 35 and older",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 104,
+    "Measure Name": "Number of hospitalizations for heart attack among persons 35 and older",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 106,
+    "Measure Name": "Crude rate of hospitalization for heart attack among persons 35 and over per 10,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 106,
+    "Measure Name": "Crude rate of hospitalization for heart attack among persons 35 and over per 10,000 population",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 106,
+    "Measure Name": "Crude rate of hospitalization for heart attack among persons 35 and over per 10,000 population",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 108,
+    "Measure Name": "Age-adjusted rate of hospitalization for heart attack among persons 35 and over per 10,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 108,
+    "Measure Name": "Age-adjusted rate of hospitalization for heart attack among persons 35 and over per 10,000 population",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 108,
+    "Measure Name": "Age-adjusted rate of hospitalization for heart attack among persons 35 and over per 10,000 population",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 117,
+    "Measure Name": "Number of hospitalizations for CO poisoning",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 118,
+    "Measure Name": "Crude rate of hospitalization for CO poisoning per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 119,
+    "Measure Name": "Age-adjusted rate of hospitalization for CO poisoning per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 120,
+    "Measure Name": "Number of emergency department visits for CO Poisoning",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 121,
+    "Measure Name": "Crude rate of emergency department visits for CO poisoning per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 122,
+    "Measure Name": "Age-adjusted rate of emergency department visits for CO poisoning per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 129,
+    "Measure Name": "Number of people served by CWS",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 221,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 221,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 221,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 222,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 222,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 222,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 223,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 223,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 223,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 224,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 224,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 224,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 225,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 225,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 225,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 226,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 226,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 226,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 229,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 229,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 230,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 230,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 231,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 231,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 232,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 232,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 233,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 233,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 234,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 234,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 274,
+    "Measure Name": "Average annual number of very preterm live singleton births over 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 274,
+    "Measure Name": "Average annual number of very preterm live singleton births over 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 275,
+    "Measure Name": "Average annual percent of very preterm live singleton births over 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 275,
+    "Measure Name": "Average annual percent of very preterm live singleton births over 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 275,
+    "Measure Name": "Average annual percent of very preterm live singleton births over 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 276,
+    "Measure Name": "Average annual number of very low birthweight live singleton births over 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 276,
+    "Measure Name": "Average annual number of very low birthweight live singleton births over 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 277,
+    "Measure Name": "Average annual percent of very low birthweight live singleton births over 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 277,
+    "Measure Name": "Average annual percent of very low birthweight live singleton births over 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 277,
+    "Measure Name": "Average annual percent of very low birthweight live singleton births over 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 278,
+    "Measure Name": "Average annual number of Infant Deaths over 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 278,
+    "Measure Name": "Average annual number of Infant Deaths over 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 279,
+    "Measure Name": "Average annual Infant Mortality Rate per 1000 live births over 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 279,
+    "Measure Name": "Average annual Infant Mortality Rate per 1000 live births over 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 279,
+    "Measure Name": "Average annual Infant Mortality Rate per 1000 live births over 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 280,
+    "Measure Name": "Average annual number of Neonatal Deaths over 5 year period.",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 280,
+    "Measure Name": "Average annual number of Neonatal Deaths over 5 year period.",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 281,
+    "Measure Name": "Average annual Neonatal Mortality Rate per 1000 live births over 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 281,
+    "Measure Name": "Average annual Neonatal Mortality Rate per 1000 live births over 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 281,
+    "Measure Name": "Average annual Neonatal Mortality Rate per 1000 live births over 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 284,
+    "Measure Name": "Average annual number of Postneonatal Deaths over 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 284,
+    "Measure Name": "Average annual number of Postneonatal Deaths over 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 285,
+    "Measure Name": "Average annual Postneonatal Mortality Rate per 1000 live births over 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 285,
+    "Measure Name": "Average annual Postneonatal Mortality Rate per 1000 live births over 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 285,
+    "Measure Name": "Average annual Postneonatal Mortality Rate per 1000 live births over 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 286,
+    "Measure Name": "Annual number of cases",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 287,
+    "Measure Name": "Age-adjusted rate per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 290,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 290,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 291,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 291,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 291,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 324,
+    "Measure Name": "Number of People",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 324,
+    "Measure Name": "Number of People",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 326,
+    "Measure Name": "Number of People in Poverty",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 326,
+    "Measure Name": "Number of People in Poverty",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 327,
+    "Measure Name": "Percent of People in Poverty",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 327,
+    "Measure Name": "Percent of People in Poverty",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 328,
+    "Measure Name": "Median Household Income",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 328,
+    "Measure Name": "Median Household Income",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 329,
+    "Measure Name": "Number of People without Health Insurance",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 329,
+    "Measure Name": "Number of People without Health Insurance",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 330,
+    "Measure Name": "Percent of People without Health insurance",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 330,
+    "Measure Name": "Percent of People without Health insurance",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 331,
+    "Measure Name": "Number of People aged 25 years and older with High School Diploma or Equivalent",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 331,
+    "Measure Name": "Number of People aged 25 years and older with High School Diploma or Equivalent",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 332,
+    "Measure Name": "Percent of People aged 25 years and older with High School Diploma or Equivalent",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 332,
+    "Measure Name": "Percent of People aged 25 years and older with High School Diploma or Equivalent",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 333,
+    "Measure Name": "Percent of adults with diagnosed asthma (1999-2010)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 334,
+    "Measure Name": "Percent of adults with current asthma (1999-2010)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 335,
+    "Measure Name": "Percent of children with diagnosed asthma (1999-2010)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 336,
+    "Measure Name": "Percent of children with current asthma asthma (1999- 2010)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 337,
+    "Measure Name": "Percent of adults with active asthma diagnosed within the past 5 years (1999-2010)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 338,
+    "Measure Name": "Percent of adults with active asthma with an attack in the past year (1999-2010)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 339,
+    "Measure Name": "Percent of adults with active asthma with one or more routine doctor’s visit in the past year (1999-2010)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 340,
+    "Measure Name": "Number of workers that took Car, Truck, Van (drove alone)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 340,
+    "Measure Name": "Number of workers that took Car, Truck, Van (drove alone)",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 341,
+    "Measure Name": "Percentage of workers that took Car, Truck, Van (drove alone)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 341,
+    "Measure Name": "Percentage of workers that took Car, Truck, Van (drove alone)",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 342,
+    "Measure Name": "Number of workers that took Car, Truck, Van (carpooled)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 342,
+    "Measure Name": "Number of workers that took Car, Truck, Van (carpooled)",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 343,
+    "Measure Name": "Percentage of workers that took Car, Truck, Van (carpooled)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 343,
+    "Measure Name": "Percentage of workers that took Car, Truck, Van (carpooled)",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 344,
+    "Measure Name": "Number of workers that took Public Transportation (excluding taxicabs)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 344,
+    "Measure Name": "Number of workers that took Public Transportation (excluding taxicabs)",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 345,
+    "Measure Name": "Percentage of workers that took Public Transportation (excluding taxicabs)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 345,
+    "Measure Name": "Percentage of workers that took Public Transportation (excluding taxicabs)",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 346,
+    "Measure Name": "Number of workers that took Motorcycle",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 346,
+    "Measure Name": "Number of workers that took Motorcycle",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 347,
+    "Measure Name": "Percentage of workers that took Motorcycle",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 347,
+    "Measure Name": "Percentage of workers that took Motorcycle",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 348,
+    "Measure Name": "Number of workers that took Bicycle",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 348,
+    "Measure Name": "Number of workers that took Bicycle",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 349,
+    "Measure Name": "Percentage of workers that took Bicycle",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 349,
+    "Measure Name": "Percentage of workers that took Bicycle",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 350,
+    "Measure Name": "Number of workers that Walked",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 350,
+    "Measure Name": "Number of workers that Walked",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 351,
+    "Measure Name": "Percentage of workers that Walked",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 351,
+    "Measure Name": "Percentage of workers that Walked",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 352,
+    "Measure Name": "Number of workers that Worked at Home",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 352,
+    "Measure Name": "Number of workers that Worked at Home",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 353,
+    "Measure Name": "Percentage of workers that Worked at Home",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 353,
+    "Measure Name": "Percentage of workers that Worked at Home",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 354,
+    "Measure Name": "Number of workers that took Bus or Trolley Bus",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 354,
+    "Measure Name": "Number of workers that took Bus or Trolley Bus",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 355,
+    "Measure Name": "Percentage of workers that took Bus or Trolley Bus",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 355,
+    "Measure Name": "Percentage of workers that took Bus or Trolley Bus",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 356,
+    "Measure Name": "Total number of workers over 16 years",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 356,
+    "Measure Name": "Total number of workers over 16 years",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 360,
+    "Measure Name": "Age-adjusted, estimated percent of adults >= 20 years with diagnosed diabetes",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 363,
+    "Measure Name": "Percent of population of a race other than white",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 364,
+    "Measure Name": "Percent of population aged 65 years and over living alone",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 370,
+    "Measure Name": "Number of summertime (May-Sep) heat-related deaths, by year",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 374,
+    "Measure Name": "Number of children ages 3 to 17 receiving services for a developmental disability",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 375,
+    "Measure Name": "Percent of children ages 3 to 17 receiving services for a developmental disability",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 376,
+    "Measure Name": "Number of children ages 3 to 5 receiving services for a developmental disability",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 377,
+    "Measure Name": "Percent of children ages 3 to 5 receiving services for a developmental disability",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 378,
+    "Measure Name": "Number of children ages 6 to 11 receiving services for a developmental disability",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 379,
+    "Measure Name": "Percent of children ages 6 to 11 receiving services for a developmental disability",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 380,
+    "Measure Name": "Number of children ages 12 to 17 receiving services for a developmental disability",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 381,
+    "Measure Name": "Percent of children ages 12 to 17 receiving services for a developmental disability",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 382,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 383,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 384,
+    "Measure Name": "Annual number of cases",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 385,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 385,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 386,
+    "Measure Name": "Age-adjusted rate per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 387,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 387,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 387,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 388,
+    "Measure Name": "Annual number of cases",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 389,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 389,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 390,
+    "Measure Name": "Age-adjusted rate per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 391,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 391,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 391,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 392,
+    "Measure Name": "Annual number of cases",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 393,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 393,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 394,
+    "Measure Name": "Age-adjusted rate per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 395,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 395,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 395,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 413,
+    "Measure Name": "Number of children tested",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 413,
+    "Measure Name": "Number of children tested",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 414,
+    "Measure Name": "Percent of children tested",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 414,
+    "Measure Name": "Percent of children tested",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 415,
+    "Measure Name": "Number of children tested with confirmed  blood lead levels of 10 μg/dL or greater",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 415,
+    "Measure Name": "Number of children tested with confirmed  blood lead levels of 10 μg/dL or greater",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 416,
+    "Measure Name": "Percent of children tested with confirmed blood lead levels of 10 μg/dL or greater",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 416,
+    "Measure Name": "Percent of children tested with confirmed blood lead levels of 10 μg/dL or greater",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 418,
+    "Measure Name": "Percent of adults who ever smoked (2000-2010)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 420,
+    "Measure Name": "Percent of current adult smokers(2000-2010)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 422,
+    "Measure Name": "Percent of former adult smokers(2000-2010)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 427,
+    "Measure Name": "Number of population living within half a mile of a park",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 427,
+    "Measure Name": "Number of population living within half a mile of a park",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 428,
+    "Measure Name": "Percentage of population living within half a mile of a park",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 428,
+    "Measure Name": "Percentage of population living within half a mile of a park",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 431,
+    "Measure Name": "Number of hospitalizations for heat stress",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 432,
+    "Measure Name": "Crude rate of hospitalizations for heat stress",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 433,
+    "Measure Name": "Age-adjusted rate of hospitalizations for heat stress",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 434,
+    "Measure Name": "Number of emergency department visits for asthma",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 434,
+    "Measure Name": "Number of emergency department visits for asthma",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 436,
+    "Measure Name": "Crude rate of emergency department visits for asthma",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 436,
+    "Measure Name": "Crude rate of emergency department visits for asthma",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 436,
+    "Measure Name": "Crude rate of emergency department visits for asthma",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 436,
+    "Measure Name": "Crude rate of emergency department visits for asthma",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 437,
+    "Measure Name": "Age-adjusted rate of emergency department visits for asthma",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 437,
+    "Measure Name": "Age-adjusted rate of emergency department visits for asthma",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 437,
+    "Measure Name": "Age-adjusted rate of emergency department visits for asthma",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 437,
+    "Measure Name": "Age-adjusted rate of emergency department visits for asthma",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 438,
+    "Measure Name": "Number of emergency department visits for heat stress",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 439,
+    "Measure Name": "Crude rate of emergency department visits for heat stress",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 440,
+    "Measure Name": "Age-adjusted rate of emergency department visits for heat stress",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 481,
+    "Measure Name": "Annual number of cases",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 482,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 482,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 483,
+    "Measure Name": "Age-adjusted rate per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 484,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 484,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 484,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 485,
+    "Measure Name": "Annual number of cases",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 486,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 486,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 487,
+    "Measure Name": "Age-adjusted rate per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 488,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 488,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 488,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 489,
+    "Measure Name": "Annual number of cases",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 490,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 490,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 491,
+    "Measure Name": "Age-adjusted rate per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 492,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 492,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 492,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 493,
+    "Measure Name": "Annual number of cases",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 494,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 494,
+    "Measure Name": "Average annual number of cases over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 495,
+    "Measure Name": "Age-adjusted rate per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 496,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 496,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 496,
+    "Measure Name": "Age-adjusted rate per 100,000 population over a 5 year period",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 497,
+    "Measure Name": "Number of children tested with blood lead levels between 5 and less than 10 μg/dL",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 497,
+    "Measure Name": "Number of children tested with blood lead levels between 5 and less than 10 μg/dL",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 498,
+    "Measure Name": "Percent of children tested with blood lead levels between 5 and less than 10 μg/dL",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 498,
+    "Measure Name": "Percent of children tested with blood lead levels between 5 and less than 10 μg/dL",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 505,
+    "Measure Name": "Number of Exposures to All Pesticides",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 506,
+    "Measure Name": "Rate of Exposure to All Pesticides per 100,000 people",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 507,
+    "Measure Name": "Number of Exposures to Disinfectants",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 508,
+    "Measure Name": "Rate of Exposure to Disinfectants per 100,000 people",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 509,
+    "Measure Name": "Number of Exposures to Fumigants",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 510,
+    "Measure Name": "Rate of Exposure to Fumigants per 100,000 people",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 511,
+    "Measure Name": "Number of Exposures to Fungicides",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 512,
+    "Measure Name": "Rate of Exposure to Fungicides per 100,000 people",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 513,
+    "Measure Name": "Number of Exposures to Herbicides",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 514,
+    "Measure Name": "Rate of Exposure to Herbicides per 100,000 people",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 515,
+    "Measure Name": "Number of Exposures to Insecticides",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 516,
+    "Measure Name": "Rate of Exposure to Insecticides per 100,000 people",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 517,
+    "Measure Name": "Number of Exposures to Repellents",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 518,
+    "Measure Name": "Rate of Exposure to Repellents per 100,000 people",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 519,
+    "Measure Name": "Number of Exposures to Rodenticides",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 520,
+    "Measure Name": "Rate of Exposure to Rodenticides per 100,000 people",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 521,
+    "Measure Name": "Number of Deaths from Exposures to All Pesticides",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 523,
+    "Measure Name": "Number of Major Effect Illnesses from Exposure to All Pesticides",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 525,
+    "Measure Name": "Number of Moderate Effect Illnesses from Exposure to All Pesticides",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 526,
+    "Measure Name": "Rate of Moderate Effect Illnesses from Exposure to All Pesticides per 100,000 people",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 527,
+    "Measure Name": "Number of Minor Effect Illnesses from Exposure to All Pesticides",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 528,
+    "Measure Name": "Rate of Minor Effect Illnesses from Exposure to All Pesticides per 100,000 people",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 529,
+    "Measure Name": "Number of No Effect Illnesses from Exposure to All Pesticides",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 530,
+    "Measure Name": "Rate of No Effect Illnesses from Exposure to All Pesticides per 100,000 people",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 531,
+    "Measure Name": "Number of Unable to Follow-Potentially Toxic Illnesses from Exposure to All Pesticides",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 532,
+    "Measure Name": "Rate of Unable to Follow-Potentially Toxic Illnesses from Exposure to All Pesticides per 100,000 people",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 538,
+    "Measure Name": "Number of population aged 5 to 9 years that resides within half a mile of a public elementary school",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 538,
+    "Measure Name": "Number of population aged 5 to 9 years that resides within half a mile of a public elementary school",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 539,
+    "Measure Name": "Percentage of population aged 5 to 9 years that resides within half a mile of a public elementary school",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 539,
+    "Measure Name": "Percentage of population aged 5 to 9 years that resides within half a mile of a public elementary school",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 540,
+    "Measure Name": "Percent of adults who were obese (BMI=30.0 to 99.8) 2000 - 2010",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 541,
+    "Measure Name": "Percent of adults who were overweight (BMI=25.0 to 29.9) 2000 - 2010",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 545,
+    "Measure Name": "Number of schools proximity to highway",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 545,
+    "Measure Name": "Number of schools proximity to highway",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 546,
+    "Measure Name": "Percent of schools proximity to highway",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 546,
+    "Measure Name": "Percent of schools proximity to highway",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 547,
+    "Measure Name": "Number of people proximity to highway",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 547,
+    "Measure Name": "Number of people proximity to highway",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 548,
+    "Measure Name": "Percent of population proximity to highway",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 548,
+    "Measure Name": "Percent of population proximity to highway",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 549,
+    "Measure Name": "Number of deaths from Ischemic Heart Disease",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 549,
+    "Measure Name": "Number of deaths from Ischemic Heart Disease",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 550,
+    "Measure Name": "Crude mortality from Ischemic Heart Disease",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 550,
+    "Measure Name": "Crude mortality from Ischemic Heart Disease",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 550,
+    "Measure Name": "Crude mortality from Ischemic Heart Disease",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 551,
+    "Measure Name": "Age-adjusted mortality from Ischemic Heart Disease (IHD)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 551,
+    "Measure Name": "Age-adjusted mortality from Ischemic Heart Disease (IHD)",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 551,
+    "Measure Name": "Age-adjusted mortality from Ischemic Heart Disease (IHD)",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 552,
+    "Measure Name": "Number of deaths from Heart Attack",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 552,
+    "Measure Name": "Number of deaths from Heart Attack",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 553,
+    "Measure Name": "Crude mortality from Heart Attack",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 553,
+    "Measure Name": "Crude mortality from Heart Attack",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 553,
+    "Measure Name": "Crude mortality from Heart Attack",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 554,
+    "Measure Name": "Age-adjusted mortality from Heart Attack",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 554,
+    "Measure Name": "Age-adjusted mortality from Heart Attack",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 554,
+    "Measure Name": "Age-adjusted mortality from Heart Attack",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 555,
+    "Measure Name": "Number of Reported Acute Toxic Substance Release Incidents",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 555,
+    "Measure Name": "Number of Reported Acute Toxic Substance Release Incidents",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 556,
+    "Measure Name": "Percent of Reported Acute Toxic Substance Release Incidents with at Least One Injury or Fatality",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 556,
+    "Measure Name": "Percent of Reported Acute Toxic Substance Release Incidents with at Least One Injury or Fatality",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 557,
+    "Measure Name": "Percent of Reported Acute Toxic Substance Release Incidents with Evacuation Ordered",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 557,
+    "Measure Name": "Percent of Reported Acute Toxic Substance Release Incidents with Evacuation Ordered",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 558,
+    "Measure Name": "Rate of Injuries and Fatalities due to Reported Acute Toxic Substance Release Incidents per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 558,
+    "Measure Name": "Rate of Injuries and Fatalities due to Reported Acute Toxic Substance Release Incidents per 100,000 population",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 559,
+    "Measure Name": "Rate of Reported Acute Toxic Substance Release Incidents per 100,000 population",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 559,
+    "Measure Name": "Rate of Reported Acute Toxic Substance Release Incidents per 100,000 population",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 560,
+    "Measure Name": "Percent of adults who ever smoked (2011 and onward)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 561,
+    "Measure Name": "Percent of current adult smokers(2011 and onward)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 562,
+    "Measure Name": "Percent of former adult smokers(2011 and onward)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 563,
+    "Measure Name": "Percent of adults who were overweight (BMI=25.0 to 29.9) 2011 and onward",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 564,
+    "Measure Name": "Percent of adults who were obese (BMI=30.0 to 99.8) 2011 and onward",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 570,
+    "Measure Name": "Hospital Counts",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 571,
+    "Measure Name": "Hospitals per 100,000 people",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 573,
+    "Measure Name": "CO Poisoning Average Number of Deaths",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 574,
+    "Measure Name": "CO Poisoning Crude Mortality",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 575,
+    "Measure Name": "CO Poisoning Age Adjusted Mortality",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 581,
+    "Measure Name": "Total Area (square miles) FEMA Floodplain",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 582,
+    "Measure Name": "Percent Area (square miles) FEMA Floodplain",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 583,
+    "Measure Name": "Population FEMA Floodplain",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 584,
+    "Measure Name": "Housing Units FEMA Floodplain",
+    "IsCount": 1
+  },
+  {
+    "MeasureId": 585,
+    "Measure Name": "Percent of adults with diagnosed asthma (2011 and onward)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 586,
+    "Measure Name": "Percent of adults with current asthma (2011 and onward)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 587,
+    "Measure Name": "Percent of children with diagnosed asthma (2011 and onward)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 588,
+    "Measure Name": "Percent of children with current asthma (2011 and onward)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 589,
+    "Measure Name": "Percent of adults with active asthma diagnosed within the past 5 years (2011 and onward)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 590,
+    "Measure Name": "Percent of adults with active asthma with an attack in the past year (2011 and onward)",
+    "IsCount": 0
+  },
+  {
+    "MeasureId": 591,
+    "Measure Name": "Percent of adults with active asthma with one or more routine doctor’s visit in the past year (2011 and onward)",
+    "IsCount": 0
+  }
+]

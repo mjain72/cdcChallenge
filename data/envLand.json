@@ -1,0 +1,118 @@
+{
+	"central": [{
+			"measureId": 506,
+			"name": "Pesticide Exposure",
+			"info": "Reported exposure per 100,000",
+			"desc": "\"A pesticide poisoning occurs when chemicals intended to control a pest affect non-target organisms such as humans, wildlife, or bees. There are three types of pesticide poisoning. The first of the three is a single and short-term very high level of exposure which can be experienced by individuals who commit suicide, as well as pesticide formulators. The second type of poisoning is long-term high-level exposure, which can occur in pesticide formulators and manufacturers. The third type of poisoning is a long-term low-level exposure, which individuals are exposed to from sources such as pesticide residues in food as well as contact with pesticide residues in the air, water, soil, sediment, food materials, plants and animals.\"-wikiPedia",
+			"bench": 32.77
+		},
+		{
+			"measureId": 520,
+			"name": "Rodenticides Exposure",
+			"info": "Reported exposure per 100,000",
+			"desc": "\"Rodenticides, colloquially rat poison, are typically non-specific pest control chemicals made and sold for the purpose of killing rodents. Besides being directly toxic to the mammals that ingest them, including dogs, cats, and humans, many rodenticides present a secondary poisoning risk to animals that hunt or scavenge the dead corpses of rats.\"-wikiPedia",
+			"bench": 3.92
+		},
+		{
+			"measureId": 508,
+			"name": "Disinfectants Exposure",
+			"info": "Reported exposure per 100,000",
+			"desc": "\"Disinfectants are antimicrobial agents that are applied to the surface of non-living objects to destroy microorganisms that are living on the objects\"",
+			"bench": 6.02
+		},
+        {
+			"measureId": 510,
+			"name": "Fumigants Exposure",
+			"info": "Reported exposure per 100,000",
+			"desc": "\"Fumigation is a method of pest control that completely fills an area with gaseous pesticides—or fumigants—to suffocate or poison the pests within.\"-wikiPedia",
+			"bench": 0.09
+		},
+        {
+			"measureId": 512,
+			"name": "Fungicides Exposure",
+			"info": "Reported exposure per 100,000",
+			"desc": "\"Fungicides are biocidal chemical compounds or biological organisms used to kill fungi or fungal spores. A fungistatic inhibits their growth.\"-wikiPedia",
+			"bench": 0.28
+		},
+        {
+			"measureId": 514,
+			"name": "Herbicides Exposure",
+			"info": "Reported exposure per 100,000",
+			"desc": "\"Herbicide(s), also commonly known as weedkillers, are chemical substances used to control unwanted plants.\"-wikiPedia",
+			"bench": 3.27
+		},
+        {
+			"measureId": 516,
+			"name": "Insecticides Exposure",
+			"info": "Reported exposure per 100,000",
+			"desc": "\"An insecticide is a substance used to kill insects. They include ovicides and larvicides used against insect eggs and larvae, respectively\"",
+			"bench": 16.12
+		},
+        {
+			"measureId": 518,
+			"name": "Repellents Exposure",
+			"info": "Reported exposure per 100,000",
+			"desc": "\"An insect repellent (also commonly called -bug spray-) is a substance applied to skin, clothing, or other surfaces which discourages insects (and arthropods in general) from landing or climbing on that surface.\"-wikiPedia",
+			"bench": 3.03
+		},
+        {
+			"measureId": 559,
+			"name": "Acute Toxic Substance Release",
+			"info": "Reported release incidents per 100,000",
+			"desc": "\"Acute toxicity describes the adverse effects of a substance that result either from a single exposure[1] or from multiple exposures in a short period of time (usually less than 24 hours).[2] To be described as acute toxicity, the adverse effects should occur within 14 days of the administration of the substance.\"-wikiPedia",
+			"bench": 6.45
+		}
+
+
+	],
+
+	"side": [{
+			"measureId": 48,
+			"name": "Bladder Cancer",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Bladder cancer is any of several types of cancer arising from the epithelial lining (i.e., the urothelium) of the urinary bladder. Rarely the bladder is involved by non-epithelial cancers, such as lymphoma or sarcoma, but these are not ordinarily included in the colloquial term \"bladder cancer.\" It is a disease in which abnormal cells multiply without control in the bladder.\"-wikiPedia"
+		},
+
+        {
+			"measureId": 56,
+			"name": "Leukemia",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Leukemia, also spelled leukaemia, is a group of cancers that usually begin in the bone marrow and result in high numbers of abnormal white blood cells. These white blood cells are not fully developed and are called blasts or leukemia cells. Symptoms may include bleeding and bruising problems, feeling tired, fever, and an increased risk of infections. These symptoms occur due to a lack of normal blood cells..\"-wikiPedia"
+		},
+
+		 {
+			"measureId": 394,
+			"name": "Liver Cancer",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Liver cancer, also known as hepatic cancer and primary hepatic cancer, is cancer that starts in the liver. Cancer which has spread from elsewhere to the liver, known as liver metastasis, is more common than that which starts in the liver.[3] Symptoms of liver cancer may include a lump or pain in the right side below the rib cage, swelling of the abdomen, yellowish skin, easy bruising, weight loss, and weakness.\"-wikiPedia"
+		},
+         {
+			"measureId": 62,
+			"name": "Lung/Bronchus Cancer",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Lung cancer, also known as lung carcinoma,is a malignant lung tumor characterized by uncontrolled cell growth in tissues of the lung.[10] This growth can spread beyond the lung by the process of metastasis into nearby tissue or other parts of the body. Most cancers that start in the lung, known as primary lung cancers, are carcinomas. The two main types are small-cell lung carcinoma (SCLC) and non-small-cell lung carcinoma (NSCLC).\"-wikiPedia"
+		},
+        {
+			"measureId": 390,
+			"name": "Kidney Cancer",
+			"info": "rate per 100,000 adults",
+			"desc": "\"Kidney cancer, also known as renal cancer, is a type of cancer that starts in the cells in the kidney.The two most common types of kidney cancer are renal cell carcinoma (RCC) and transitional cell carcinoma (TCC, also known as urothelial cell carcinoma) of the renal pelvis. These names reflect the type of cell from which the cancer developed.\"-wikiPedia"
+		},
+        {
+			"measureId": 487,
+			"name": "Esophageal Cancer",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Esophageal cancer is cancer arising from the esophagus—the food pipe that runs between the throat and the stomach. Symptoms often include difficulty in swallowing and weight loss. Other symptoms may include pain when swallowing, a hoarse voice, enlarged lymph nodes (\"glands\") around the collarbone, a dry cough, and possibly coughing up or vomiting blood.\"-wikiPedia"
+		}
+
+
+    
+    ]
+
+   
+}

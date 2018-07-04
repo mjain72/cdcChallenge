@@ -1,0 +1,1958 @@
+[
+   {
+      "contentAreaName": "Air Quality",
+      "indicatorName": "Annual PM2.5 Level (Monitor only)",
+      "measureId": 87,
+      "measureName": "Annual average ambient concentrations of PM2.5 in micrograms per cubic meter (based on seasonal averages and daily measurement)"
+   },
+   {
+      "contentAreaName": "Air Quality",
+      "indicatorName": "Ozone - Days Above Regulatory Standard (Monitor only)",
+      "measureId": 83,
+      "measureName": "Number of days with maximum 8-hour average ozone concentration over the National Ambient Air Quality Standard"
+   },
+   {
+      "contentAreaName": "Air Quality",
+      "indicatorName": "Ozone - Days Above Regulatory Standard (Monitor only)",
+      "measureId": 84,
+      "measureName": "Number of person-days with maximum 8-hour average ozone concentration over the National Ambient Air Quality Standard"
+   },
+   {
+      "contentAreaName": "Air Quality",
+      "indicatorName": "PM2.5 -  Days Above Regulatory Standard (Monitor only)",
+      "measureId": 85,
+      "measureName": "Percent of days with PM2.5 levels over the National Ambient Air Quality Standard (NAAQS)"
+   },
+   {
+      "contentAreaName": "Air Quality",
+      "indicatorName": "PM2.5 -  Days Above Regulatory Standard (Monitor only)",
+      "measureId": 86,
+      "measureName": "Person-days with PM2.5 over the National Ambient Air Quality Standard"
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Asthma Prevalence among Adults",
+      "measureId": 333,
+      "measureName": "Percent of adults ever diagnosed with asthma (2010 and earlier)"
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Asthma Prevalence among Adults",
+      "measureId": 585,
+      "measureName": "Percent of adults ever diagnosed with asthma (2011 and onward)"
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Asthma Prevalence among Adults",
+      "measureId": 334,
+      "measureName": "Percent of adults ever diagnosed with asthma who report they currently have asthma (2010 and earlier)"
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Asthma Prevalence among Adults",
+      "measureId": 586,
+      "measureName": "Percent of adults ever diagnosed with asthma who report they currently have asthma (2011 and onward)"
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Asthma Prevalence among Adults",
+      "measureId": 337,
+      "measureName": "Percent of adults with active asthma diagnosed within the past 5 years (2010 and earlier)"
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Asthma Prevalence among Adults",
+      "measureId": 589,
+      "measureName": "Percent of adults with active asthma diagnosed within the past 5 years (2011 and onward)"
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Asthma Prevalence among Adults",
+      "measureId": 338,
+      "measureName": "Percent of adults with active asthma with an attack in the past year (2010 and earlier)"
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Asthma Prevalence among Adults",
+      "measureId": 590,
+      "measureName": "Percent of adults with active asthma with an attack in the past year (2011 and onward)"
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Asthma Prevalence among Adults",
+      "measureId": 339,
+      "measureName": "Percent of adults with active asthma with one or more routine doctor’s visit in the past year (2010 and earlier)"
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Asthma Prevalence among Adults",
+      "measureId": 591,
+      "measureName": "Percent of adults with active asthma with one or more routine doctor’s visit in the past year (2011 and onward)"
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Asthma Prevalence among adults - 500 Cities",
+      "measureId": 678,
+      "measureName": "Crude rate of current asthma among adults aged >=18 Years"
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Asthma Prevalence among Children",
+      "measureId": 335,
+      "measureName": "Percent of children ever diagnosed with asthma (2010 and earlier)"
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Asthma Prevalence among Children",
+      "measureId": 587,
+      "measureName": "Percent of children ever diagnosed with asthma (2011 and onward)"
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Asthma Prevalence among Children",
+      "measureId": 336,
+      "measureName": "Percent of children ever diagnosed with asthma and currently have asthma (2010 and earlier)"
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Asthma Prevalence among Children",
+      "measureId": 588,
+      "measureName": "Percent of children ever diagnosed with asthma and currently have asthma (2011 and onward)"
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Emergency department visits for asthma",
+      "measureId": 437,
+      "measureName": "Age-adjusted rate of emergency department visits for asthma per 10,000 population"
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Emergency department visits for asthma",
+      "measureId": 436,
+      "measureName": "Crude rate of emergency department visits for asthma per 10,000 population"
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Emergency department visits for asthma",
+      "measureId": 434,
+      "measureName": "Number of emergency department visits for asthma"
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Hospitalizations for Asthma",
+      "measureId": 103,
+      "measureName": "Age-adjusted rate of hospitalization for asthma per 10,000 population "
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Hospitalizations for Asthma",
+      "measureId": 101,
+      "measureName": "Crude rate of hospitalization for asthma per 10,000 population "
+   },
+   {
+      "contentAreaName": "Asthma",
+      "indicatorName": "Hospitalizations for Asthma",
+      "measureId": 99,
+      "measureName": "Number of hospitalizations for asthma "
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Acute Myeloid Leukemia",
+      "measureId": 58,
+      "measureName": "Age-adjusted incidence rate of Acute Myeloid Leukemia per 100,000 population"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Acute Myeloid Leukemia",
+      "measureId": 57,
+      "measureName": "Annual number of cases of Acute Myeloid Leukemia "
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Bladder Cancer",
+      "measureId": 48,
+      "measureName": "Age-adjusted incidence rate of Bladder Cancer (including in situ) per 100,000 population "
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Bladder Cancer",
+      "measureId": 221,
+      "measureName": "Age-adjusted incidence rate of Bladder Cancer (including in situ) per 100,000 population over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Bladder Cancer",
+      "measureId": 47,
+      "measureName": "Annual number of cases of Bladder Cancer (including in situ) "
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Bladder Cancer",
+      "measureId": 229,
+      "measureName": "Average annual number of cases of Bladder Cancer (including in situ) over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Brain and Other Nervous System Cancer",
+      "measureId": 50,
+      "measureName": "Age-adjusted incidence rate of Brain and Other Nervous System Cancer per 100,000 population "
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Brain and Other Nervous System Cancer",
+      "measureId": 222,
+      "measureName": "Age-adjusted incidence rate of Brain and Other Nervous System Cancer per 100,000 population over a five year period "
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Brain and Other Nervous System Cancer",
+      "measureId": 49,
+      "measureName": "Annual number of cases of Brain and Other Nervous System Cancer "
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Brain and Other Nervous System Cancer",
+      "measureId": 230,
+      "measureName": "Average annual number of cases of Brain and Other Nervous System Cancer over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Breast Cancer (Females Only)",
+      "measureId": 287,
+      "measureName": "Age-adjusted incidence rate of Breast Cancer per 100,000 population "
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Breast Cancer (Females Only)",
+      "measureId": 291,
+      "measureName": "Age-adjusted incidence rate of Breast Cancer per 100,000 population over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Breast Cancer (Females Only)",
+      "measureId": 286,
+      "measureName": "Annual number of cases of Breast Cancer"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Breast Cancer (Females Only)",
+      "measureId": 290,
+      "measureName": "Average annual number of cases of Breast Cancer over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Chronic Lymphocytic Leukemia",
+      "measureId": 60,
+      "measureName": "Age-adjusted incidence rate of Chronic Lymphocytic Leukemia per 100,000 population"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Chronic Lymphocytic Leukemia",
+      "measureId": 59,
+      "measureName": "Annual number of cases of Chronic Lymphocytic Leukemia "
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Esophageal Cancer",
+      "measureId": 487,
+      "measureName": "Age-Adjusted incidence rate of Esophageal Cancer per 100,000 population"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Esophageal Cancer",
+      "measureId": 488,
+      "measureName": "Age-adjusted incidence rate of Esophageal Cancer per 100,000 population over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Esophageal Cancer",
+      "measureId": 485,
+      "measureName": "Annual number of cases of Esophageal Cancer"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Esophageal Cancer",
+      "measureId": 486,
+      "measureName": "Average annual number of cases of Esophageal Cancer over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Kidney Cancer",
+      "measureId": 390,
+      "measureName": "Age-Adjusted incidence rate of Kidney and Renal Pelvis Cancer per 100,000 population"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Kidney Cancer",
+      "measureId": 391,
+      "measureName": "Age-adjusted incidence rate of Kidney and Renal Pelvis Cancer per 100,000 population over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Kidney Cancer",
+      "measureId": 388,
+      "measureName": "Annual number of cases of Kidney and Renal Pelvis Cancer"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Kidney Cancer",
+      "measureId": 389,
+      "measureName": "Average annual number of cases of Kidney and Renal Pelvis Cancer over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Larynx Cancer",
+      "measureId": 495,
+      "measureName": "Age-Adjusted incidence rate of Larynx Cancer per 100,000 population"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Larynx Cancer",
+      "measureId": 496,
+      "measureName": "Age-adjusted incidence rate of Larynx Cancer per 100,000 population over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Larynx Cancer",
+      "measureId": 493,
+      "measureName": "Annual number of cases of Larynx Cancer"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Larynx Cancer",
+      "measureId": 494,
+      "measureName": "Average annual number of cases of Larynx Cancer over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Leukemia",
+      "measureId": 56,
+      "measureName": "Age-adjusted incidence rate of Leukemia per 100,000 population"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Leukemia",
+      "measureId": 223,
+      "measureName": "Age-adjusted incidence rate of Leukemia per 100,000 population over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Leukemia",
+      "measureId": 55,
+      "measureName": "Annual number of cases of Leukemia "
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Leukemia",
+      "measureId": 231,
+      "measureName": "Average annual number of cases of Leukemia over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Liver Cancer",
+      "measureId": 394,
+      "measureName": "Age-Adjusted incidence rate of Liver and Intrahepatic Bile Duct Cancer per 100,000 population"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Liver Cancer",
+      "measureId": 395,
+      "measureName": "Age-adjusted incidence rate of Liver and Intrahepatic Bile Duct Cancer per 100,000 population over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Liver Cancer",
+      "measureId": 392,
+      "measureName": "Annual number of cases of Liver and Intrahepatic Bile Duct Cancer"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Liver Cancer",
+      "measureId": 393,
+      "measureName": "Average annual number of cases of Liver and Intrahepatic Bile Duct Cancer over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Lung and Bronchus Cancers",
+      "measureId": 62,
+      "measureName": "Age-adjusted incidence rate of Lung and Bronchus Cancer per 100,000 population "
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Lung and Bronchus Cancers",
+      "measureId": 224,
+      "measureName": "Age-adjusted incidence rate of Lung and Bronchus Cancer per 100,000 population over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Lung and Bronchus Cancers",
+      "measureId": 61,
+      "measureName": "Annual number of cases of Lung and Bronchus Cancer "
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Lung and Bronchus Cancers",
+      "measureId": 232,
+      "measureName": "Average annual number of cases of Lung and Bronchus Cancer over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Melanoma",
+      "measureId": 386,
+      "measureName": "Age-Adjusted incidence rate of Melanoma of the Skin per 100,000 population"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Melanoma",
+      "measureId": 387,
+      "measureName": "Age-adjusted incidence rate of Melanoma of the Skin per 100,000 population over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Melanoma",
+      "measureId": 384,
+      "measureName": "Annual number of cases of Melonoma of the Skin"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Melanoma",
+      "measureId": 385,
+      "measureName": "Average annual number of cases of Melanoma of the Skin over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Mesothelioma",
+      "measureId": 383,
+      "measureName": "Age-adjusted incidence rate of Mesothelioma per 100,000 population over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Mesothelioma",
+      "measureId": 382,
+      "measureName": "Average annual number of cases of Mesothelioma over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Non-Hodgkin's Lymphoma",
+      "measureId": 64,
+      "measureName": "Age-adjusted incidence rate of Non-Hodgkin's Lymphoma per 100,000 population"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Non-Hodgkin's Lymphoma",
+      "measureId": 225,
+      "measureName": "Age-adjusted incidence rate of Non-Hodgkin's Lymphoma per 100,000 population over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Non-Hodgkin's Lymphoma",
+      "measureId": 63,
+      "measureName": "Annual number of cases of Non-Hodgkin's Lymphoma"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Non-Hodgkin's Lymphoma",
+      "measureId": 233,
+      "measureName": "Average annual number of cases of Non-Hodgkin's Lymphoma over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Oral Cancer",
+      "measureId": 483,
+      "measureName": "Age-Adjusted incidence rate of Oral/Pharynx Cancer per 100,000 population"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Oral Cancer",
+      "measureId": 484,
+      "measureName": "Age-adjusted incidence rate of Oral/Pharynx Cancer per 100,000 population over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Oral Cancer",
+      "measureId": 481,
+      "measureName": "Annual number of Oral/Pharynx cases of Cancer"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Oral Cancer",
+      "measureId": 482,
+      "measureName": "Average annual number of cases of Oral/Pharynx Cancer over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Pancreatic Cancer",
+      "measureId": 491,
+      "measureName": "Age-Adjusted incidence rate of Pancreas Cancer per 100,000 population"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Pancreatic Cancer",
+      "measureId": 492,
+      "measureName": "Age-adjusted incidence rate of Pancreas Cancer per 100,000 population over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Pancreatic Cancer",
+      "measureId": 489,
+      "measureName": "Annual number of cases of Pancreas Cancer"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Pancreatic Cancer",
+      "measureId": 490,
+      "measureName": "Average annual number of cases of Pancreas Cancer over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Thyroid Cancers",
+      "measureId": 66,
+      "measureName": "Age-adjusted incidence rate of Thyroid Cancer per 100,000 population "
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Thyroid Cancers",
+      "measureId": 226,
+      "measureName": "Age-adjusted incidence rate of Thyroid Cancer per 100,000 population over a five year period"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Thyroid Cancers",
+      "measureId": 65,
+      "measureName": "Annual number of cases of Thyroid Cancer"
+   },
+   {
+      "contentAreaName": "Cancer",
+      "indicatorName": "Incidence of Thyroid Cancers",
+      "measureId": 234,
+      "measureName": "Average annual number of cases of Thyroid Cancer over a five year period"
+   },
+   {
+      "contentAreaName": "Carbon Monoxide Poisoning",
+      "indicatorName": "Carbon Monoxide Poisoning Emergency Department Visits",
+      "measureId": 122,
+      "measureName": "Age-adjusted rate of emergency department visits for CO poisoning per 100,000 population "
+   },
+   {
+      "contentAreaName": "Carbon Monoxide Poisoning",
+      "indicatorName": "Carbon Monoxide Poisoning Emergency Department Visits",
+      "measureId": 121,
+      "measureName": "Crude rate of emergency department visits for CO poisoning per 100,000 population "
+   },
+   {
+      "contentAreaName": "Carbon Monoxide Poisoning",
+      "indicatorName": "Carbon Monoxide Poisoning Emergency Department Visits",
+      "measureId": 120,
+      "measureName": "Number of emergency department visits for CO Poisoning"
+   },
+   {
+      "contentAreaName": "Carbon Monoxide Poisoning",
+      "indicatorName": "Carbon Monoxide Poisoning Hospitalizations",
+      "measureId": 119,
+      "measureName": "Age-adjusted rate of hospitalization for CO poisoning per 100,000 population "
+   },
+   {
+      "contentAreaName": "Carbon Monoxide Poisoning",
+      "indicatorName": "Carbon Monoxide Poisoning Hospitalizations",
+      "measureId": 118,
+      "measureName": "Crude rate of hospitalization for CO poisoning per 100,000 population "
+   },
+   {
+      "contentAreaName": "Carbon Monoxide Poisoning",
+      "indicatorName": "Carbon Monoxide Poisoning Hospitalizations",
+      "measureId": 117,
+      "measureName": "Number of hospitalizations for CO poisoning "
+   },
+   {
+      "contentAreaName": "Carbon Monoxide Poisoning",
+      "indicatorName": "Carbon Monoxide Poisoning Mortality",
+      "measureId": 575,
+      "measureName": "Age-adjusted rate of death from CO poisoning per 100,000 population over 5 year period"
+   },
+   {
+      "contentAreaName": "Carbon Monoxide Poisoning",
+      "indicatorName": "Carbon Monoxide Poisoning Mortality",
+      "measureId": 573,
+      "measureName": "Average annual number of deaths from CO poisoning over 5 year period"
+   },
+   {
+      "contentAreaName": "Carbon Monoxide Poisoning",
+      "indicatorName": "Carbon Monoxide Poisoning Mortality",
+      "measureId": 574,
+      "measureName": "Crude rate of death from CO poisoning per 100,000 population over 5 year period"
+   },
+   {
+      "contentAreaName": "Childhood Cancers",
+      "indicatorName": "Incidence of Acute Lymphocytic Leukemia",
+      "measureId": 82,
+      "measureName": "Age-adjusted incidence rate of Acute Lymphocytic Leukemia among children less than 15 years of age per 1,000,000 population "
+   },
+   {
+      "contentAreaName": "Childhood Cancers",
+      "indicatorName": "Incidence of Acute Lymphocytic Leukemia",
+      "measureId": 80,
+      "measureName": "Age-adjusted incidence rate of Acute Lymphocytic Leukemia among children less than 20 years of age per 1,000,000 population"
+   },
+   {
+      "contentAreaName": "Childhood Cancers",
+      "indicatorName": "Incidence of Acute Lymphocytic Leukemia",
+      "measureId": 81,
+      "measureName": "Annual number of cases of Acute Lymphocytic Leukemia among children less than 15 years of age"
+   },
+   {
+      "contentAreaName": "Childhood Cancers",
+      "indicatorName": "Incidence of Acute Lymphocytic Leukemia",
+      "measureId": 79,
+      "measureName": "Annual number of cases of Acute Lymphocytic Leukemia among children less than 20 years of age"
+   },
+   {
+      "contentAreaName": "Childhood Cancers",
+      "indicatorName": "Incidence of Acute Myeloid Leukemia",
+      "measureId": 78,
+      "measureName": "Age-adjusted incidence rate of Acute Myeloid Leukemia among children less than 15 years of age per 1,000,000 population "
+   },
+   {
+      "contentAreaName": "Childhood Cancers",
+      "indicatorName": "Incidence of Acute Myeloid Leukemia",
+      "measureId": 76,
+      "measureName": "Age-adjusted incidence rate of Acute Myeloid Leukemia among children less than 20 years of age per 1,000,000 population "
+   },
+   {
+      "contentAreaName": "Childhood Cancers",
+      "indicatorName": "Incidence of Acute Myeloid Leukemia",
+      "measureId": 77,
+      "measureName": "Annual number of Acute Myeloid Leukemia among children less than 15 years of age"
+   },
+   {
+      "contentAreaName": "Childhood Cancers",
+      "indicatorName": "Incidence of Acute Myeloid Leukemia",
+      "measureId": 75,
+      "measureName": "Annual number of Acute Myeloid Leukemia among children less than 20 years of age"
+   },
+   {
+      "contentAreaName": "Childhood Cancers",
+      "indicatorName": "Incidence of Brain and Central Nervous System Cancer",
+      "measureId": 70,
+      "measureName": "Age-adjusted incidence rate of Brain and Central Nervous System Cancer among children less than 15 years of age per 1,000,000 population "
+   },
+   {
+      "contentAreaName": "Childhood Cancers",
+      "indicatorName": "Incidence of Brain and Central Nervous System Cancer",
+      "measureId": 68,
+      "measureName": "Age-adjusted incidence rate of Brain and Central Nervous System Cancer among children less than 20 years of age per 1,000,000 population "
+   },
+   {
+      "contentAreaName": "Childhood Cancers",
+      "indicatorName": "Incidence of Brain and Central Nervous System Cancer",
+      "measureId": 69,
+      "measureName": "Annual number of cases of Brain and Central Nervous System Cancer among children less than 15 years of age"
+   },
+   {
+      "contentAreaName": "Childhood Cancers",
+      "indicatorName": "Incidence of Brain and Central Nervous System Cancer",
+      "measureId": 67,
+      "measureName": "Annual number of cases of Brain and Central Nervous System Cancer among children less than 20 years of age"
+   },
+   {
+      "contentAreaName": "Childhood Cancers",
+      "indicatorName": "Incidence of Leukemia",
+      "measureId": 74,
+      "measureName": "Age-adjusted incidence rate of Leukemia among children less than 15 years of age per 1,000,000 population "
+   },
+   {
+      "contentAreaName": "Childhood Cancers",
+      "indicatorName": "Incidence of Leukemia",
+      "measureId": 72,
+      "measureName": "Age-adjusted incidence rate of Leukemia among children less than 20 years of age per 1,000,000 population "
+   },
+   {
+      "contentAreaName": "Childhood Cancers",
+      "indicatorName": "Incidence of Leukemia",
+      "measureId": 73,
+      "measureName": "Annual number of Leukemia among children less than 15 years of age"
+   },
+   {
+      "contentAreaName": "Childhood Cancers",
+      "indicatorName": "Incidence of Leukemia",
+      "measureId": 71,
+      "measureName": "Annual number of Leukemia among children less than 20 years of age"
+   },
+   {
+      "contentAreaName": "Childhood Lead Poisoning",
+      "indicatorName": "Age of Housing",
+      "measureId": 95,
+      "measureName": "Number of homes built before 1950 (as measured in the 2000 Census)"
+   },
+   {
+      "contentAreaName": "Childhood Lead Poisoning",
+      "indicatorName": "Age of Housing",
+      "measureId": 97,
+      "measureName": "Number of homes built between 1950 and 1979 (as measured in the 2000 Census)"
+   },
+   {
+      "contentAreaName": "Childhood Lead Poisoning",
+      "indicatorName": "Age of Housing",
+      "measureId": 96,
+      "measureName": "Percent of homes built before 1950 (as measured in the 2000 Census)"
+   },
+   {
+      "contentAreaName": "Childhood Lead Poisoning",
+      "indicatorName": "Age of Housing",
+      "measureId": 98,
+      "measureName": "Percent of homes built between 1950 and 1979 (as measured in the 2000 Census)"
+   },
+   {
+      "contentAreaName": "Childhood Lead Poisoning",
+      "indicatorName": "Annual Blood Lead Levels",
+      "measureId": 413,
+      "measureName": "Number of children tested"
+   },
+   {
+      "contentAreaName": "Childhood Lead Poisoning",
+      "indicatorName": "Annual Blood Lead Levels",
+      "measureId": 497,
+      "measureName": "Number of children tested with blood lead levels between 5 and less than 10 µg/dL"
+   },
+   {
+      "contentAreaName": "Childhood Lead Poisoning",
+      "indicatorName": "Annual Blood Lead Levels",
+      "measureId": 415,
+      "measureName": "Number of children tested with confirmed  blood lead levels of 10 µg/dL or greater"
+   },
+   {
+      "contentAreaName": "Childhood Lead Poisoning",
+      "indicatorName": "Annual Blood Lead Levels",
+      "measureId": 414,
+      "measureName": "Percent of children tested"
+   },
+   {
+      "contentAreaName": "Childhood Lead Poisoning",
+      "indicatorName": "Annual Blood Lead Levels",
+      "measureId": 498,
+      "measureName": "Percent of children tested with blood lead levels between 5 and less than 10 µg/dL"
+   },
+   {
+      "contentAreaName": "Childhood Lead Poisoning",
+      "indicatorName": "Annual Blood Lead Levels",
+      "measureId": 416,
+      "measureName": "Percent of children tested with confirmed blood lead levels of 10 µg/dL or greater"
+   },
+   {
+      "contentAreaName": "Childhood Lead Poisoning",
+      "indicatorName": "Blood Lead Levels by Birth Cohort",
+      "measureId": 89,
+      "measureName": "Number of children born in the same year and tested before age 3"
+   },
+   {
+      "contentAreaName": "Childhood Lead Poisoning",
+      "indicatorName": "Blood Lead Levels by Birth Cohort",
+      "measureId": 93,
+      "measureName": "Number of children born in the same year and tested before age 3 with confirmed blood lead levels of 10 µg/dL or greater"
+   },
+   {
+      "contentAreaName": "Childhood Lead Poisoning",
+      "indicatorName": "Blood Lead Levels by Birth Cohort",
+      "measureId": 90,
+      "measureName": "Percent of children born in the same year and tested before age 3"
+   },
+   {
+      "contentAreaName": "Childhood Lead Poisoning",
+      "indicatorName": "Blood Lead Levels by Birth Cohort",
+      "measureId": 94,
+      "measureName": "Percent of children born in the same year and tested before age 3 with confirmed blood lead levels of 10 µg/dL or greater"
+   },
+   {
+      "contentAreaName": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "indicatorName": "COPD Emergency Department Visits",
+      "measureId": 652,
+      "measureName": "Age-adjusted rate of emergency department visits  persons 25 and over for COPD per 10,000 population"
+   },
+   {
+      "contentAreaName": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "indicatorName": "COPD Emergency Department Visits",
+      "measureId": 651,
+      "measureName": "Crude rate of emergency department visits  among persons 25 and over for COPD per 10,000 population"
+   },
+   {
+      "contentAreaName": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "indicatorName": "COPD Emergency Department Visits",
+      "measureId": 650,
+      "measureName": "Number of emergency department visits for COPD among persons 25 and over "
+   },
+   {
+      "contentAreaName": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "indicatorName": "COPD Hospitalizations",
+      "measureId": 649,
+      "measureName": "Age-adjusted rate of hospitalizations for COPD among persons 25 and over per 10,000 population"
+   },
+   {
+      "contentAreaName": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "indicatorName": "COPD Hospitalizations",
+      "measureId": 648,
+      "measureName": "Crude rate of hospitalizations for COPD among persons 25 and over per 10,000 population "
+   },
+   {
+      "contentAreaName": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "indicatorName": "COPD Hospitalizations",
+      "measureId": 647,
+      "measureName": "Number of hospitalizations for COPD among persons 25 and over"
+   },
+   {
+      "contentAreaName": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "indicatorName": "COPD Mortality",
+      "measureId": 706,
+      "measureName": "Age-adjusted death rate  from COPD among persons 25 and over per 100,000 population"
+   },
+   {
+      "contentAreaName": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "indicatorName": "COPD Mortality",
+      "measureId": 705,
+      "measureName": "Crude death rate  from COPD among persons 25 and over per 100,000 population"
+   },
+   {
+      "contentAreaName": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "indicatorName": "COPD Mortality",
+      "measureId": 704,
+      "measureName": "Number of deaths from COPD among persons 25 and over"
+   },
+   {
+      "contentAreaName": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "indicatorName": "COPD Prevalence - 500 Cities",
+      "measureId": 674,
+      "measureName": "Crude rate of chronic obstructive pulmonary disease among adults aged >=18 Years"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Flood Vulnerability",
+      "measureId": 584,
+      "measureName": "Number of housing units within FEMA designated flood hazard area"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Flood Vulnerability",
+      "measureId": 583,
+      "measureName": "Number of people within FEMA designated flood hazard area"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Flood Vulnerability",
+      "measureId": 581,
+      "measureName": "Number of square miles within FEMA designated flood hazard area"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Flood Vulnerability",
+      "measureId": 582,
+      "measureName": "Percent area (square miles) within FEMA designated flood hazard area"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Future Projections of Extreme Precipitation",
+      "measureId": 579,
+      "measureName": "Projected annual precipitation intensity"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Future Projections of Extreme Precipitation",
+      "measureId": 578,
+      "measureName": "Projected number of future extreme precipitation days"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Future Projections of Extreme Precipitation",
+      "measureId": 580,
+      "measureName": "Projected ratio of precipitation falling as rain to that falling as snow"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Heat stress emergency department visits",
+      "measureId": 440,
+      "measureName": "Age-adjusted rate of emergency department visits for heat stress per 100,000 population"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Heat stress emergency department visits",
+      "measureId": 439,
+      "measureName": "Crude rate of emergency department visits for heat stress per 100,000 population"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Heat stress emergency department visits",
+      "measureId": 438,
+      "measureName": "Number of emergency department visits for heat stress"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Heat stress hospitalizations",
+      "measureId": 433,
+      "measureName": "Age-adjusted rate of hospitalizations for heat stress per 100,000 population"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Heat stress hospitalizations",
+      "measureId": 432,
+      "measureName": "Crude rate of hospitalizations for heat stress per 100,000 population"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Heat stress hospitalizations",
+      "measureId": 431,
+      "measureName": "Number of hospitalizations for heat stress"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Heat Vulnerability - Adaptive Capacity",
+      "measureId": 570,
+      "measureName": "Hospital Counts"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Heat Vulnerability - Adaptive Capacity",
+      "measureId": 571,
+      "measureName": "Hospitals per 100,000 people"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Heat Vulnerability - Sensitivity",
+      "measureId": 108,
+      "measureName": "Age-adjusted rate of hospitalization for heart attack among persons 35 and over per 10,000 population "
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Heat Vulnerability - Sensitivity",
+      "measureId": 360,
+      "measureName": "Age-adjusted, estimated percent of adults >= 20 years with diagnosed diabetes"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Heat Vulnerability - Sensitivity",
+      "measureId": 328,
+      "measureName": "Median Household Income"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Heat Vulnerability - Sensitivity",
+      "measureId": 326,
+      "measureName": "Number of People in Poverty"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Heat Vulnerability - Sensitivity",
+      "measureId": 329,
+      "measureName": "Number of People without Health Insurance"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Heat Vulnerability - Sensitivity",
+      "measureId": 327,
+      "measureName": "Percent of People in Poverty"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Heat Vulnerability - Sensitivity",
+      "measureId": 330,
+      "measureName": "Percent of People without Health insurance"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Heat Vulnerability - Sensitivity",
+      "measureId": 364,
+      "measureName": "Percent of population aged 65 years and over living alone in a non-family household "
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Heat Vulnerability - Sensitivity",
+      "measureId": 363,
+      "measureName": "Percent of population of a race other than white"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Heat-Related Mortality",
+      "measureId": 370,
+      "measureName": "Number of summertime (May-Sep) heat-related deaths, by year"
+   },
+   {
+      "contentAreaName": "Climate Change",
+      "indicatorName": "Historical Extreme Precipitation",
+      "measureId": 576,
+      "measureName": "Number of extreme precipitation days"
+   },
+   {
+      "contentAreaName": "Community Characteristics",
+      "indicatorName": "Flood Vulnerability",
+      "measureId": 584,
+      "measureName": "Number of housing units within FEMA designated flood hazard area"
+   },
+   {
+      "contentAreaName": "Community Characteristics",
+      "indicatorName": "Flood Vulnerability",
+      "measureId": 583,
+      "measureName": "Number of people within FEMA designated flood hazard area"
+   },
+   {
+      "contentAreaName": "Community Characteristics",
+      "indicatorName": "Flood Vulnerability",
+      "measureId": 581,
+      "measureName": "Number of square miles within FEMA designated flood hazard area"
+   },
+   {
+      "contentAreaName": "Community Characteristics",
+      "indicatorName": "Flood Vulnerability",
+      "measureId": 582,
+      "measureName": "Percent area (square miles) within FEMA designated flood hazard area"
+   },
+   {
+      "contentAreaName": "Community Characteristics",
+      "indicatorName": "Households",
+      "measureId": 613,
+      "measureName": "Number of housing units"
+   },
+   {
+      "contentAreaName": "Community Characteristics",
+      "indicatorName": "Households",
+      "measureId": 614,
+      "measureName": "Number of housing units with 10 or more units"
+   },
+   {
+      "contentAreaName": "Community Characteristics",
+      "indicatorName": "Households",
+      "measureId": 615,
+      "measureName": "Number of housing units with more people than rooms"
+   },
+   {
+      "contentAreaName": "Community Characteristics",
+      "indicatorName": "Households",
+      "measureId": 619,
+      "measureName": "Number of housing units with no vehicle available"
+   },
+   {
+      "contentAreaName": "Community Characteristics",
+      "indicatorName": "Households",
+      "measureId": 618,
+      "measureName": "Number of mobile-home housing units"
+   },
+   {
+      "contentAreaName": "Community Characteristics",
+      "indicatorName": "Households",
+      "measureId": 620,
+      "measureName": "Number of people living in group quarters"
+   },
+   {
+      "contentAreaName": "Community Characteristics",
+      "indicatorName": "Households",
+      "measureId": 617,
+      "measureName": "Number of renter-occupied housing units"
+   },
+   {
+      "contentAreaName": "Community Characteristics",
+      "indicatorName": "Households",
+      "measureId": 616,
+      "measureName": "Number of vacant housing units"
+   },
+   {
+      "contentAreaName": "Community Characteristics",
+      "indicatorName": "Households",
+      "measureId": 638,
+      "measureName": "Percent of housing units with 10 or more units"
+   },
+   {
+      "contentAreaName": "Community Characteristics",
+      "indicatorName": "Households",
+      "measureId": 639,
+      "measureName": "Percent of housing units with more people than rooms"
+   },
+   {
+      "contentAreaName": "Community Characteristics",
+      "indicatorName": "Households",
+      "measureId": 643,
+      "measureName": "Percent of housing units with no vehicle available"
+   },
+   {
+      "contentAreaName": "Community Characteristics",
+      "indicatorName": "Households",
+      "measureId": 642,
+      "measureName": "Percent of mobile-home housing units"
+   },
+   {
+      "contentAreaName": "Community Characteristics",
+      "indicatorName": "Households",
+      "measureId": 641,
+      "measureName": "Percent of renter-occupied housing units"
+   },
+   {
+      "contentAreaName": "Community Characteristics",
+      "indicatorName": "Households",
+      "measureId": 640,
+      "measureName": "Percent of vacant housing units"
+   },
+   {
+      "contentAreaName": "Community Characteristics",
+      "indicatorName": "Households",
+      "measureId": 644,
+      "measureName": "Percent population living in group quarters"
+   },
+   {
+      "contentAreaName": "Community Design",
+      "indicatorName": "Access to Parks and Public Elementary Schools",
+      "measureId": 538,
+      "measureName": "Number of children aged 5 to 9 years living within a half mile of a public elementary school"
+   },
+   {
+      "contentAreaName": "Community Design",
+      "indicatorName": "Access to Parks and Public Elementary Schools",
+      "measureId": 427,
+      "measureName": "Number of people living within a half mile of a park"
+   },
+   {
+      "contentAreaName": "Community Design",
+      "indicatorName": "Access to Parks and Public Elementary Schools",
+      "measureId": 539,
+      "measureName": "Percent of population aged 5 to 9 years living within a half mile of a public elementary school"
+   },
+   {
+      "contentAreaName": "Community Design",
+      "indicatorName": "Access to Parks and Public Elementary Schools",
+      "measureId": 428,
+      "measureName": "Percent of population living within a half mile of a park"
+   },
+   {
+      "contentAreaName": "Community Design",
+      "indicatorName": "Proximity of Population and Schools to Highways",
+      "measureId": 547,
+      "measureName": "Number of people living within 150m of a highway"
+   },
+   {
+      "contentAreaName": "Community Design",
+      "indicatorName": "Proximity of Population and Schools to Highways",
+      "measureId": 545,
+      "measureName": "Number of public schools located within 150m of a highway"
+   },
+   {
+      "contentAreaName": "Community Design",
+      "indicatorName": "Proximity of Population and Schools to Highways",
+      "measureId": 548,
+      "measureName": "Percent of population living within 150m of a highway"
+   },
+   {
+      "contentAreaName": "Community Design",
+      "indicatorName": "Proximity of Population and Schools to Highways",
+      "measureId": 546,
+      "measureName": "Percent of public schools located within 150m of a highway"
+   },
+   {
+      "contentAreaName": "Community Design",
+      "indicatorName": "Types of Transportation to Work",
+      "measureId": 356,
+      "measureName": "Number of workers over 16 years"
+   },
+   {
+      "contentAreaName": "Community Design",
+      "indicatorName": "Types of Transportation to Work",
+      "measureId": 698,
+      "measureName": "Number of workers over 16 years that used active transportation"
+   },
+   {
+      "contentAreaName": "Community Design",
+      "indicatorName": "Types of Transportation to Work",
+      "measureId": 700,
+      "measureName": "Number of workers over 16 years that used car, truck, van"
+   },
+   {
+      "contentAreaName": "Community Design",
+      "indicatorName": "Types of Transportation to Work",
+      "measureId": 344,
+      "measureName": "Number of workers over 16 years that used public transportation (excluding taxicabs)"
+   },
+   {
+      "contentAreaName": "Community Design",
+      "indicatorName": "Types of Transportation to Work",
+      "measureId": 702,
+      "measureName": "Number of workers over 16 years that worked at home"
+   },
+   {
+      "contentAreaName": "Community Design",
+      "indicatorName": "Types of Transportation to Work",
+      "measureId": 699,
+      "measureName": "Percent of workers over 16 years that used active transportation"
+   },
+   {
+      "contentAreaName": "Community Design",
+      "indicatorName": "Types of Transportation to Work",
+      "measureId": 701,
+      "measureName": "Percent of workers over 16 years that used car, truck, van"
+   },
+   {
+      "contentAreaName": "Community Design",
+      "indicatorName": "Types of Transportation to Work",
+      "measureId": 345,
+      "measureName": "Percent of workers over 16 years that used public transportation (excluding taxicabs)"
+   },
+   {
+      "contentAreaName": "Community Design",
+      "indicatorName": "Types of Transportation to Work",
+      "measureId": 703,
+      "measureName": "Percent of workers over 16 years that worked at home"
+   },
+   {
+      "contentAreaName": "Community Water",
+      "indicatorName": "Public Water Use",
+      "measureId": 129,
+      "measureName": "Number of people receiving water from community water systems"
+   },
+   {
+      "contentAreaName": "Developmental Disabilities",
+      "indicatorName": "Children Receiving Interventions or Services",
+      "measureId": 380,
+      "measureName": "Number of children ages 12 to 17 receiving early intervention, special education, or related services for a developmental disability "
+   },
+   {
+      "contentAreaName": "Developmental Disabilities",
+      "indicatorName": "Children Receiving Interventions or Services",
+      "measureId": 374,
+      "measureName": "Number of children ages 3 to 17 receiving early intervention, special education, or related services for a developmental disability "
+   },
+   {
+      "contentAreaName": "Developmental Disabilities",
+      "indicatorName": "Children Receiving Interventions or Services",
+      "measureId": 376,
+      "measureName": "Number of children ages 3 to 5 receiving early intervention, special education, or related services for a developmental disability "
+   },
+   {
+      "contentAreaName": "Developmental Disabilities",
+      "indicatorName": "Children Receiving Interventions or Services",
+      "measureId": 378,
+      "measureName": "Number of children ages 6 to 11 receiving early intervention, special education, or related services for a developmental disability "
+   },
+   {
+      "contentAreaName": "Developmental Disabilities",
+      "indicatorName": "Children Receiving Interventions or Services",
+      "measureId": 381,
+      "measureName": "Percent of children ages 12 to 17 receiving early intervention, special education, or related services for a developmental disability "
+   },
+   {
+      "contentAreaName": "Developmental Disabilities",
+      "indicatorName": "Children Receiving Interventions or Services",
+      "measureId": 375,
+      "measureName": "Percent of children ages 3 to 17 receiving early intervention, special education, or related services for a developmental disability "
+   },
+   {
+      "contentAreaName": "Developmental Disabilities",
+      "indicatorName": "Children Receiving Interventions or Services",
+      "measureId": 377,
+      "measureName": "Percent of children ages 3 to 5 receiving early intervention, special education, or related services for a developmental disability "
+   },
+   {
+      "contentAreaName": "Developmental Disabilities",
+      "indicatorName": "Children Receiving Interventions or Services",
+      "measureId": 379,
+      "measureName": "Percent of children ages 6 to 11 receiving early intervention, special education, or related services for a developmental disability "
+   },
+   {
+      "contentAreaName": "Heart Disease",
+      "indicatorName": "Coronary Heart Disease Prevalence - 500 Cities",
+      "measureId": 676,
+      "measureName": "Crude rate of coronary heart disease among adults aged >=18 Years"
+   },
+   {
+      "contentAreaName": "Heart Disease",
+      "indicatorName": "Heart Attack Mortality",
+      "measureId": 554,
+      "measureName": "Age-adjusted rate of death from Heart Attack among persons 35 and older per 100,000 population"
+   },
+   {
+      "contentAreaName": "Heart Disease",
+      "indicatorName": "Heart Attack Mortality",
+      "measureId": 553,
+      "measureName": "Crude rate of death from Heart Attack among persons 35 and older per 100,000 population"
+   },
+   {
+      "contentAreaName": "Heart Disease",
+      "indicatorName": "Heart Attack Mortality",
+      "measureId": 552,
+      "measureName": "Number of deaths from Heart Attack among persons 35 and older"
+   },
+   {
+      "contentAreaName": "Heart Disease",
+      "indicatorName": "Hospitalizations for Heart Attack",
+      "measureId": 108,
+      "measureName": "Age-adjusted rate of hospitalization for heart attack among persons 35 and over per 10,000 population "
+   },
+   {
+      "contentAreaName": "Heart Disease",
+      "indicatorName": "Hospitalizations for Heart Attack",
+      "measureId": 106,
+      "measureName": "Crude rate of hospitalization for heart attack among persons 35 and over per 10,000 population "
+   },
+   {
+      "contentAreaName": "Heart Disease",
+      "indicatorName": "Hospitalizations for Heart Attack",
+      "measureId": 104,
+      "measureName": "Number of hospitalizations for heart attack among persons 35 and older"
+   },
+   {
+      "contentAreaName": "Heart Disease",
+      "indicatorName": "Ischemic Heart Disease Mortality",
+      "measureId": 551,
+      "measureName": "Age-adjusted rate of death from Ischemic Heart Disease among persons 35 and older per 100,000 population"
+   },
+   {
+      "contentAreaName": "Heart Disease",
+      "indicatorName": "Ischemic Heart Disease Mortality",
+      "measureId": 550,
+      "measureName": "Crude rate of death from Ischemic Heart Disease among persons 35 and older per 100,000 population"
+   },
+   {
+      "contentAreaName": "Heart Disease",
+      "indicatorName": "Ischemic Heart Disease Mortality",
+      "measureId": 549,
+      "measureName": "Number of deaths from Ischemic Heart Disease among persons 35 and older"
+   },
+   {
+      "contentAreaName": "Heat Stress Illness",
+      "indicatorName": "Heat stress emergency department visits",
+      "measureId": 440,
+      "measureName": "Age-adjusted rate of emergency department visits for heat stress per 100,000 population"
+   },
+   {
+      "contentAreaName": "Heat Stress Illness",
+      "indicatorName": "Heat stress emergency department visits",
+      "measureId": 439,
+      "measureName": "Crude rate of emergency department visits for heat stress per 100,000 population"
+   },
+   {
+      "contentAreaName": "Heat Stress Illness",
+      "indicatorName": "Heat stress emergency department visits",
+      "measureId": 438,
+      "measureName": "Number of emergency department visits for heat stress"
+   },
+   {
+      "contentAreaName": "Heat Stress Illness",
+      "indicatorName": "Heat stress hospitalizations",
+      "measureId": 433,
+      "measureName": "Age-adjusted rate of hospitalizations for heat stress per 100,000 population"
+   },
+   {
+      "contentAreaName": "Heat Stress Illness",
+      "indicatorName": "Heat stress hospitalizations",
+      "measureId": 432,
+      "measureName": "Crude rate of hospitalizations for heat stress per 100,000 population"
+   },
+   {
+      "contentAreaName": "Heat Stress Illness",
+      "indicatorName": "Heat stress hospitalizations",
+      "measureId": 431,
+      "measureName": "Number of hospitalizations for heat stress"
+   },
+   {
+      "contentAreaName": "Heat Stress Illness",
+      "indicatorName": "Heat Vulnerability - Adaptive Capacity",
+      "measureId": 570,
+      "measureName": "Hospital Counts"
+   },
+   {
+      "contentAreaName": "Heat Stress Illness",
+      "indicatorName": "Heat Vulnerability - Adaptive Capacity",
+      "measureId": 571,
+      "measureName": "Hospitals per 100,000 people"
+   },
+   {
+      "contentAreaName": "Heat Stress Illness",
+      "indicatorName": "Heat Vulnerability - Sensitivity",
+      "measureId": 108,
+      "measureName": "Age-adjusted rate of hospitalization for heart attack among persons 35 and over per 10,000 population "
+   },
+   {
+      "contentAreaName": "Heat Stress Illness",
+      "indicatorName": "Heat Vulnerability - Sensitivity",
+      "measureId": 360,
+      "measureName": "Age-adjusted, estimated percent of adults >= 20 years with diagnosed diabetes"
+   },
+   {
+      "contentAreaName": "Heat Stress Illness",
+      "indicatorName": "Heat Vulnerability - Sensitivity",
+      "measureId": 328,
+      "measureName": "Median Household Income"
+   },
+   {
+      "contentAreaName": "Heat Stress Illness",
+      "indicatorName": "Heat Vulnerability - Sensitivity",
+      "measureId": 326,
+      "measureName": "Number of People in Poverty"
+   },
+   {
+      "contentAreaName": "Heat Stress Illness",
+      "indicatorName": "Heat Vulnerability - Sensitivity",
+      "measureId": 329,
+      "measureName": "Number of People without Health Insurance"
+   },
+   {
+      "contentAreaName": "Heat Stress Illness",
+      "indicatorName": "Heat Vulnerability - Sensitivity",
+      "measureId": 327,
+      "measureName": "Percent of People in Poverty"
+   },
+   {
+      "contentAreaName": "Heat Stress Illness",
+      "indicatorName": "Heat Vulnerability - Sensitivity",
+      "measureId": 330,
+      "measureName": "Percent of People without Health insurance"
+   },
+   {
+      "contentAreaName": "Heat Stress Illness",
+      "indicatorName": "Heat Vulnerability - Sensitivity",
+      "measureId": 364,
+      "measureName": "Percent of population aged 65 years and over living alone in a non-family household "
+   },
+   {
+      "contentAreaName": "Heat Stress Illness",
+      "indicatorName": "Heat Vulnerability - Sensitivity",
+      "measureId": 363,
+      "measureName": "Percent of population of a race other than white"
+   },
+   {
+      "contentAreaName": "Heat Stress Illness",
+      "indicatorName": "Heat-Related Mortality",
+      "measureId": 370,
+      "measureName": "Number of summertime (May-Sep) heat-related deaths, by year"
+   },
+   {
+      "contentAreaName": "Lifestyle Risk Factors",
+      "indicatorName": "Overweight and Obesity",
+      "measureId": 564,
+      "measureName": "Percent of adults aged 18 years and over who were obese (BMI=30.0 to 99.8) 2011 and onward"
+   },
+   {
+      "contentAreaName": "Lifestyle Risk Factors",
+      "indicatorName": "Overweight and Obesity",
+      "measureId": 541,
+      "measureName": "Percent of adults aged 18 years and over who were overweight (BMI=25.0 to 29.9) 2000 - 2010"
+   },
+   {
+      "contentAreaName": "Lifestyle Risk Factors",
+      "indicatorName": "Overweight and Obesity",
+      "measureId": 540,
+      "measureName": "Percent of adults aged 18 years and overwho were obese (BMI=30.0 to 99.8) 2000 - 2010"
+   },
+   {
+      "contentAreaName": "Lifestyle Risk Factors",
+      "indicatorName": "Overweight and Obesity",
+      "measureId": 563,
+      "measureName": "Percent of adults aged 18 years and overwho were overweight (BMI=25.0 to 29.9) 2011 and onward"
+   },
+   {
+      "contentAreaName": "Lifestyle Risk Factors",
+      "indicatorName": "Overweight and Obesity - 500 Cities",
+      "measureId": 694,
+      "measureName": "Crude rate of obesity among adults aged >=18 Years"
+   },
+   {
+      "contentAreaName": "Lifestyle Risk Factors",
+      "indicatorName": "Physical Activity - 500 Cities",
+      "measureId": 696,
+      "measureName": "Crude rate of no leisure-time physical activity among adults aged >=18 Years"
+   },
+   {
+      "contentAreaName": "Lifestyle Risk Factors",
+      "indicatorName": "Smoking",
+      "measureId": 418,
+      "measureName": "Percent of adults who ever smoked (2000-2010)"
+   },
+   {
+      "contentAreaName": "Lifestyle Risk Factors",
+      "indicatorName": "Smoking",
+      "measureId": 560,
+      "measureName": "Percent of adults who ever smoked (2011 and onward)"
+   },
+   {
+      "contentAreaName": "Lifestyle Risk Factors",
+      "indicatorName": "Smoking",
+      "measureId": 420,
+      "measureName": "Percent of current adult smokers(2000-2010)"
+   },
+   {
+      "contentAreaName": "Lifestyle Risk Factors",
+      "indicatorName": "Smoking",
+      "measureId": 561,
+      "measureName": "Percent of current adult smokers(2011 and onward)"
+   },
+   {
+      "contentAreaName": "Lifestyle Risk Factors",
+      "indicatorName": "Smoking",
+      "measureId": 422,
+      "measureName": "Percent of former adult smokers(2000-2010)"
+   },
+   {
+      "contentAreaName": "Lifestyle Risk Factors",
+      "indicatorName": "Smoking",
+      "measureId": 562,
+      "measureName": "Percent of former adult smokers(2011 and onward)"
+   },
+   {
+      "contentAreaName": "Lifestyle Risk Factors",
+      "indicatorName": "Smoking - 500 Cities",
+      "measureId": 692,
+      "measureName": "Crude rate of current smoking among adults aged >=18 Years"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Pesticide-Related Illness",
+      "measureId": 521,
+      "measureName": "Number of Deaths from Exposures to All Pesticides"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Pesticide-Related Illness",
+      "measureId": 523,
+      "measureName": "Number of Major Effect Illnesses from Exposure to All Pesticides"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Pesticide-Related Illness",
+      "measureId": 527,
+      "measureName": "Number of Minor Effect Illnesses from Exposure to All Pesticides"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Pesticide-Related Illness",
+      "measureId": 529,
+      "measureName": "Number of No Effect Illnesses from Exposure to All Pesticides"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Pesticide-Related Illness",
+      "measureId": 525,
+      "measureName": "Number of Reported Exposures to Rodenticides"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Pesticide-Related Illness",
+      "measureId": 531,
+      "measureName": "Number of Unable to Follow-Potentially Toxic Illnesses from Exposure to All Pesticides"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Pesticide-Related Illness",
+      "measureId": 528,
+      "measureName": "Rate of Minor Effect Illnesses from Exposure to All Pesticides per 100,000 people"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Pesticide-Related Illness",
+      "measureId": 526,
+      "measureName": "Rate of Moderate Effect Illnesses from Exposure to All Pesticides per 100,000 people"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Pesticide-Related Illness",
+      "measureId": 530,
+      "measureName": "Rate of No Effect Illnesses from Exposure to All Pesticides per 100,000 people"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Pesticide-Related Illness",
+      "measureId": 532,
+      "measureName": "Rate of Unable to Follow-Potentially Toxic Illnesses from Exposure to All Pesticides per 100,000 people"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Reported Pesticide Exposures",
+      "measureId": 505,
+      "measureName": "Number of Reported Exposures to All Pesticides"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Reported Pesticide Exposures",
+      "measureId": 507,
+      "measureName": "Number of Reported Exposures to Disinfectants"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Reported Pesticide Exposures",
+      "measureId": 509,
+      "measureName": "Number of Reported Exposures to Fumigants"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Reported Pesticide Exposures",
+      "measureId": 511,
+      "measureName": "Number of Reported Exposures to Fungicides"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Reported Pesticide Exposures",
+      "measureId": 513,
+      "measureName": "Number of Reported Exposures to Herbicides"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Reported Pesticide Exposures",
+      "measureId": 515,
+      "measureName": "Number of Reported Exposures to Insecticides"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Reported Pesticide Exposures",
+      "measureId": 517,
+      "measureName": "Number of Reported Exposures to Repellents"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Reported Pesticide Exposures",
+      "measureId": 519,
+      "measureName": "Number of Reported Exposures to Rodenticides"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Reported Pesticide Exposures",
+      "measureId": 506,
+      "measureName": "Rate of Reported Exposures to All Pesticides per 100,000 people"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Reported Pesticide Exposures",
+      "measureId": 508,
+      "measureName": "Rate of Reported Exposures to Disinfectants per 100,000 people"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Reported Pesticide Exposures",
+      "measureId": 510,
+      "measureName": "Rate of Reported Exposures to Fumigants per 100,000 people"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Reported Pesticide Exposures",
+      "measureId": 512,
+      "measureName": "Rate of Reported Exposures to Fungicides per 100,000 people"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Reported Pesticide Exposures",
+      "measureId": 514,
+      "measureName": "Rate of Reported Exposures to Herbicides per 100,000 people"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Reported Pesticide Exposures",
+      "measureId": 516,
+      "measureName": "Rate of Reported Exposures to Insecticides per 100,000 people"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Reported Pesticide Exposures",
+      "measureId": 518,
+      "measureName": "Rate of Reported Exposures to Repellents per 100,000 people"
+   },
+   {
+      "contentAreaName": "Pesticide Exposures",
+      "indicatorName": "Reported Pesticide Exposures",
+      "measureId": 520,
+      "measureName": "Rate of Reported Exposures to Rodenticides per 100,000 people"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Demographics",
+      "measureId": 324,
+      "measureName": "Number of People"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Demographics",
+      "measureId": 597,
+      "measureName": "Number of people aged 65 years and over living alone in a non-family household "
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Demographics",
+      "measureId": 595,
+      "measureName": "Number of people who speak English less than \"Very Well\" (>=5)"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Demographics",
+      "measureId": 593,
+      "measureName": "Number of single-parent households"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Demographics",
+      "measureId": 596,
+      "measureName": "Percent of people who speak English less than \"Very Well\" (>=5)"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Demographics",
+      "measureId": 364,
+      "measureName": "Percent of population aged 65 years and over living alone in a non-family household "
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Demographics",
+      "measureId": 645,
+      "measureName": "Percent of population by demographic group"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Demographics",
+      "measureId": 594,
+      "measureName": "Percent of Single-Parent Households"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Health Status",
+      "measureId": 360,
+      "measureName": "Age-adjusted, estimated percent of adults >= 20 years with diagnosed diabetes"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Health Status",
+      "measureId": 600,
+      "measureName": "Number of people (>=5) with a Disability"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Health Status",
+      "measureId": 329,
+      "measureName": "Number of People without Health Insurance"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Health Status",
+      "measureId": 601,
+      "measureName": "Percent of People (>= 5) with a Disability"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Health Status",
+      "measureId": 330,
+      "measureName": "Percent of People without Health insurance"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Health Status - 500 Cities",
+      "measureId": 672,
+      "measureName": "Crude rate of chronic kidney disease among adults aged >=18 Years"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Health Status - 500 Cities",
+      "measureId": 674,
+      "measureName": "Crude rate of chronic obstructive pulmonary disease among adults aged >=18 Years"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Health Status - 500 Cities",
+      "measureId": 676,
+      "measureName": "Crude rate of coronary heart disease among adults aged >=18 Years"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Health Status - 500 Cities",
+      "measureId": 678,
+      "measureName": "Crude rate of current asthma among adults aged >=18 Years"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Health Status - 500 Cities",
+      "measureId": 690,
+      "measureName": "Crude rate of current lack of health insurance among adults aged 18-64 Years"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Health Status - 500 Cities",
+      "measureId": 680,
+      "measureName": "Crude rate of diagnosed diabetes among adults aged >=18 Years"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Health Status - 500 Cities",
+      "measureId": 682,
+      "measureName": "Crude rate of high blood pressure among adults aged >=18 Years"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Health Status - 500 Cities",
+      "measureId": 684,
+      "measureName": "Crude rate of high cholesterol among adults aged >=18 Years who have been screened in the past 5 Years"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Health Status - 500 Cities",
+      "measureId": 686,
+      "measureName": "Crude rate of mental health not good for >=14 days among adults aged >=18 Years"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Health Status - 500 Cities",
+      "measureId": 688,
+      "measureName": "Crude rate of physical health not good for >=14 days among adults aged >=18 Years"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Socioeconomic Status",
+      "measureId": 328,
+      "measureName": "Median Household Income"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Socioeconomic Status",
+      "measureId": 598,
+      "measureName": "Number of people (>=16) who are unemployed"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Socioeconomic Status",
+      "measureId": 331,
+      "measureName": "Number of People aged 25 years and older with High School Diploma or Equivalent"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Socioeconomic Status",
+      "measureId": 326,
+      "measureName": "Number of People in Poverty"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Socioeconomic Status",
+      "measureId": 599,
+      "measureName": "Percent of people (>=16) who are unemployed"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Socioeconomic Status",
+      "measureId": 332,
+      "measureName": "Percent of People aged 25 years and older with High School Diploma or Equivalent"
+   },
+   {
+      "contentAreaName": "Populations and Vulnerabilities",
+      "indicatorName": "Socioeconomic Status",
+      "measureId": 327,
+      "measureName": "Percent of People in Poverty"
+   },
+   {
+      "contentAreaName": "Reproductive and Birth Outcomes",
+      "indicatorName": "Fertility Rate",
+      "measureId": 45,
+      "measureName": "Total Fertility Rate per 1000 women of reproductive age "
+   },
+   {
+      "contentAreaName": "Reproductive and Birth Outcomes",
+      "indicatorName": "Infant Mortality",
+      "measureId": 279,
+      "measureName": "Average annual Infant (less than 1 year of age) Mortality Rate per 1000 live births over 5 year period"
+   },
+   {
+      "contentAreaName": "Reproductive and Birth Outcomes",
+      "indicatorName": "Infant Mortality",
+      "measureId": 281,
+      "measureName": "Average annual Neonatal (less than 28 days of age) Mortality Rate per 1000 live births over 5 year period"
+   },
+   {
+      "contentAreaName": "Reproductive and Birth Outcomes",
+      "indicatorName": "Infant Mortality",
+      "measureId": 278,
+      "measureName": "Average annual number of Infant (less than 1 year of age) Deaths over 5 year period"
+   },
+   {
+      "contentAreaName": "Reproductive and Birth Outcomes",
+      "indicatorName": "Infant Mortality",
+      "measureId": 280,
+      "measureName": "Average annual number of Neonatal (less than 28 days of age) Deaths over 5 year period"
+   },
+   {
+      "contentAreaName": "Reproductive and Birth Outcomes",
+      "indicatorName": "Infant Mortality",
+      "measureId": 284,
+      "measureName": "Average annual number of Postneonatal (equal to or greater than 28 days to less than 1 year of age) Deaths over 5 year period"
+   },
+   {
+      "contentAreaName": "Reproductive and Birth Outcomes",
+      "indicatorName": "Infant Mortality",
+      "measureId": 285,
+      "measureName": "Average annual Postneonatal (equal to or greater than 28 days to less than 1 year of age) Mortality Rate per 1000 live births over 5 year period"
+   },
+   {
+      "contentAreaName": "Reproductive and Birth Outcomes",
+      "indicatorName": "Low Birthweight among Singleton Births",
+      "measureId": 276,
+      "measureName": "Average annual number of very low birthweight (less than 1500 grams) live singleton births over 5 year period"
+   },
+   {
+      "contentAreaName": "Reproductive and Birth Outcomes",
+      "indicatorName": "Low Birthweight among Singleton Births",
+      "measureId": 277,
+      "measureName": "Average annual percent of very low birthweight (less than 1500 grams) live singleton births over 5 year period"
+   },
+   {
+      "contentAreaName": "Reproductive and Birth Outcomes",
+      "indicatorName": "Low Birthweight among Singleton Births",
+      "measureId": 35,
+      "measureName": "Number of low birthweight (less than 2500 grams) live term singleton births "
+   },
+   {
+      "contentAreaName": "Reproductive and Birth Outcomes",
+      "indicatorName": "Low Birthweight among Singleton Births",
+      "measureId": 36,
+      "measureName": "Percent of low birthweight (less than 2500 grams) live term singleton births "
+   },
+   {
+      "contentAreaName": "Reproductive and Birth Outcomes",
+      "indicatorName": "Prematurity among Singleton Births",
+      "measureId": 274,
+      "measureName": "Average annual number of very preterm (less than 32 weeks gestation) live singleton births over 5 year period"
+   },
+   {
+      "contentAreaName": "Reproductive and Birth Outcomes",
+      "indicatorName": "Prematurity among Singleton Births",
+      "measureId": 275,
+      "measureName": "Average annual percent of very preterm (less than 32 weeks gestation) live singleton births over 5 year period"
+   },
+   {
+      "contentAreaName": "Reproductive and Birth Outcomes",
+      "indicatorName": "Prematurity among Singleton Births",
+      "measureId": 29,
+      "measureName": "Number of preterm (less than 37 weeks gestation) live singleton births"
+   },
+   {
+      "contentAreaName": "Reproductive and Birth Outcomes",
+      "indicatorName": "Prematurity among Singleton Births",
+      "measureId": 30,
+      "measureName": "Percent of preterm (less than 37 weeks gestation) live singleton births "
+   },
+   {
+      "contentAreaName": "Reproductive and Birth Outcomes",
+      "indicatorName": "Sex Ratio",
+      "measureId": 46,
+      "measureName": "Male to Female sex ratio at birth (term singletons only) "
+   },
+   {
+      "contentAreaName": "Toxic Substance Releases",
+      "indicatorName": "Acute Toxic Substance Releases",
+      "measureId": 555,
+      "measureName": "Number of Reported Acute Toxic Substance Release Incidents"
+   },
+   {
+      "contentAreaName": "Toxic Substance Releases",
+      "indicatorName": "Acute Toxic Substance Releases",
+      "measureId": 556,
+      "measureName": "Percent of Reported Acute Toxic Substance Release Incidents with at Least One Injury or Fatality"
+   },
+   {
+      "contentAreaName": "Toxic Substance Releases",
+      "indicatorName": "Acute Toxic Substance Releases",
+      "measureId": 557,
+      "measureName": "Percent of Reported Acute Toxic Substance Release Incidents with Evacuation Ordered"
+   },
+   {
+      "contentAreaName": "Toxic Substance Releases",
+      "indicatorName": "Acute Toxic Substance Releases",
+      "measureId": 558,
+      "measureName": "Rate of Injuries and Fatalities due to Reported Acute Toxic Substance Release Incidents per 100,000 population"
+   },
+   {
+      "contentAreaName": "Toxic Substance Releases",
+      "indicatorName": "Acute Toxic Substance Releases",
+      "measureId": 559,
+      "measureName": "Rate of Reported Acute Toxic Substance Release Incidents per 100,000 population"
+   }
+]

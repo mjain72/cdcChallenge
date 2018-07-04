@@ -1,0 +1,61 @@
+{
+	"central": [{
+			"measureId": 87,
+			"name": "Annual PM2.5",
+			"info": "ug/m3",
+			"bench": 0,
+			"desc": "\"Atmospheric particulate matter, also known as particulate matter (PM) or particulates, are microscopic solid or liquid matter suspended in Earth's atmosphere. The term aerosol commonly refers to the particulate/air mixture, as opposed to the particulate matter alone. Sources of particulate matter can be natural or anthropogenic. They have impacts on climate and precipitation that adversely affect human health.\"-wikiPedia"
+		},
+		{
+			"measureId": 83,
+			"name": "Ozone - Days above regulatory standard",
+			"info": "Number of Days",
+			"bench": 3.3,
+			"desc": "\"Ozone, while a minority constituent in Earth's atmosphere, is responsible for most of the absorption of UVB radiation. The amount of UVB radiation that penetrates through the ozone layer decreases exponentially with the slant-path thickness and density of the layer. When stratospheric ozone levels decrease, higher levels of UVB reach the Earth’s surface. UV-driven phenolic formation in tree rings has dated the start of ozone depletion in northern latitudes to the late 1700s.\"-wikiPedia"
+		},
+		{
+			"measureId": 119,
+			"name": "Carbon Monoxide Posioning",
+			"info": "Hospitalization rate per 100,000 over ",
+			"bench": 12.47,
+			"desc": "\"CO is found in fumes produced any time you burn fuel in cars or trucks, small engines, stoves, lanterns, grills, fireplaces, gas ranges, or furnaces. CO can build up indoors and poison people and animals who breathe it.\"-wikiPedia"
+		}
+
+	],
+
+	"side": [{
+		"measureId": 585,
+		"name": "Adults with asthma (ever)",
+		"info": "% adults ever diagnosed (2011-)",
+		"bench": 14.2,
+		"desc": "\"Asthma is a common long term inflammatory disease of the airways of the lungs. It is characterized by variable and recurring symptoms, reversible airflow obstruction, and bronchospasm. Symptoms include episodes of wheezing, coughing, chest tightness, and shortness of breath. These episodes may occur a few times a day or a few times per week.\"-wikiPedia"
+
+	    },
+
+        {
+			"measureId": 588,
+			"name": "Children with asthma (active)",
+			"info": "percent",
+			"bench": 9.42,
+			"desc": "\"Asthma is the leading cause of chronic illness in children. It affects about 7 million children in the United States and, for unknown reasons, is steadily increasing. Asthma can begin at any age (even in the very elderly), but most children have their first symptoms by age 5.\"-webMd"
+		},
+
+		 {
+			"measureId": 62,
+			"name": "Lung/Bronchus Cancer",
+			"info": "rate per 100,000",
+			"bench": 0,
+			"desc": "\"Lung cancer, also known as lung carcinoma,is a malignant lung tumor characterized by uncontrolled cell growth in tissues of the lung.[10] This growth can spread beyond the lung by the process of metastasis into nearby tissue or other parts of the body. Most cancers that start in the lung, known as primary lung cancers, are carcinomas. The two main types are small-cell lung carcinoma (SCLC) and non-small-cell lung carcinoma (NSCLC).\"-wikiPedia"
+		},
+         {
+			"measureId": 386,
+			"name": "Melanoma",
+			"info": "rate per 100,000",
+			"bench": 0,
+			"desc": "\"Melanoma, also known as malignant melanoma, is a type of cancer that develops from the pigment-containing cells known as melanocytes. Melanomas typically occur in the skin but may rarely occur in the mouth, intestines, or eye. In women they most commonly occur on the legs, while in men they are most common on the back.\"-wikiPedia"
+		}
+    
+    ]
+
+   
+}

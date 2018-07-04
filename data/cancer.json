@@ -1,0 +1,70 @@
+[
+  {
+    "measureId": 58,
+    "name": "Acute Myeloid Leukemia"
+  },
+  {
+    "measureId": 48,
+    "name": "Bladder"
+  },
+  {
+    "measureId": 50,
+    "name": "Brain/Nervous System"
+  },
+  {
+    "measureId": 287,
+    "name": "Breast"
+  },
+  {
+    "measureId": 60,
+    "name": "Chronic Lymphocytic Leukemia"
+  },
+  {
+    "measureId": 487,
+    "name": "Esophageal"
+  },
+  {
+    "measureId": 390,
+    "name": "Kidney"
+  },
+  {
+    "measureId": 495,
+    "name": "Larynx"
+  },
+  {
+    "measureId": 56,
+    "name": "Leukemia"
+  },
+  {
+    "measureId": 394,
+    "name": "Liver"
+  },
+  {
+    "measureId": 62,
+    "name": "Lung/Bronchus"
+  },
+  {
+    "measureId": 386,
+    "name": "Melanoma"
+  },
+  {
+    "measureId": 383,
+    "name": "Mesothelioma"
+  },
+  {
+    "measureId": 64,
+    "name": "Non-Hodgkin's Lymphoma"
+  },
+  {
+    "measureId": 483,
+    "name": "Oral"
+  },
+  {
+    "measureId": 491,
+    "name": "Pancreatic"
+  },
+  {
+    "measureId": 66,
+    "name": "Thyroid"
+  }
+]

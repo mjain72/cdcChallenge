@@ -1,0 +1,152 @@
+{
+    "compareTwo":[
+	
+		{	"measureId":58,
+        "calculationType":"per 100,000 population",
+         "displayName": "Acute Myeloid Leukemia"
+
+		},
+		{
+			 "measureId":48,
+        "calculationType":"per 100,000 population",
+        "displayName": "Bladder"
+		},
+		{
+			"measureId":50,
+        "calculationType":"per 100,000 population",
+        "displayName": "Brain/Nervous System"
+		},
+		{
+			"measureId": 287,
+			"calculationType": "rate per 100,000 adults",
+			"displayName": "Breast"
+		},
+		{
+			"measureId": 60,
+			"calculationType": "rate per 100,000 adults",
+			"displayName": "Chronic Lymphocytic Leukemia"
+		},
+		{
+			"measureId": 487,
+			"calculationType": "rate per 100,000 adults",
+			"displayName": "Esophageal"
+		},
+		{
+			"measureId": 390,
+			"calculationType": "rate per 100,000 adults",
+			"displayName": "Kidney"
+		},
+		{
+			"measureId": 495,
+			"calculationType": "rate per 100,000 adults",
+			"displayName": "Larynx"
+		},
+		{
+			"measureId": 56,
+			"calculationType": "rate per 100,000 adults",
+			"displayName": "Leukemia"
+		},
+		{
+			"measureId": 394,
+			"calculationType": "rate per 100,000 adults",
+			"displayName": "Liver"
+		},
+		{
+			"measureId": 62,
+			"calculationType": "rate per 100,000 adults",
+			"displayName": "Lung/Bronchus"
+		},
+		{
+			"measureId": 386,
+			"calculationType": "rate per 100,000 adults",
+			"displayName": "Melanoma"
+		},
+		{
+			"measureId": 383,
+			"calculationType": "rate per 100,000 adults",
+			"displayName": "Mesothelioma"
+		},
+		{
+			"measureId": 64,
+			"calculationType": "rate per 100,000 adults",
+			"displayName": "Non-Hodgkin's Lymphoma"
+		},
+		{
+			"measureId": 483,
+			"calculationType": "rate per 100,000 adults",
+			"displayName": "Oral"
+		},
+		{
+			"measureId": 491,
+			"calculationType": "rate per 100,000 adults",
+			"displayName": "Pancreatic"
+		},
+		{
+			"measureId": 66,
+			"calculationType": "rate per 100,000 adults",
+			"displayName": "Thyroid"
+		},
+		
+		{
+			"measureId": 585,
+			"calculationType": "Percent Adults Ever Diagnosed",
+			"displayName": "Adults (ever) (2011-)"
+		},
+		{
+			"measureId": 587,
+			"calculationType": "Percent Children Ever Diagnosed",
+			"displayName": "Children (ever) (2011-)"
+		},
+
+		{
+			"measureId": 554,
+			"calculationType": "rate per 100,000",
+			"displayName": "Death from heart attack (>35)"
+		},
+		{
+			"measureId": 551,
+			"calculationType": "rate per 100,000",
+			"displayName": "Death from ischemic heart disease"
+		},
+
+
+
+		{
+			"measureId": 87,
+			"calculationType": "Annual PM2.5 Level ug/m3",
+			"displayName": "Particles"
+		},
+	
+		 {
+         "measureId":526,
+        "calculationType":"Yearly cases",
+        "displayName": "Pesticide"},
+
+        {
+         "measureId":83,
+        "calculationType":"Number of max. days (>8 hours)",
+        "displayName": "Ozone"},
+
+
+		{
+         "measureId":563,
+        "calculationType":"percent overwight adults",
+        "displayName": "Overweight"},
+
+        {
+         "measureId":564,
+        "calculationType":"percent obese adults",
+        "displayName": "Obesity"},
+
+		{
+         "measureId":560,
+        "calculationType":"Percent Adult Smoker",
+        "displayName": "Smoking"},
+        
+        {
+         "measureId":327,
+        "calculationType":"Percent of People in Poverty",
+        "displayName": "Poverty"}]
+ 
+	
+}

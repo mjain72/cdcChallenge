@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CDC Data Explorer</title>
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+   <link rel="stylesheet" type="text/css" href="css/jquery.flexdatalist.min.css">
+   <link rel="stylesheet" href="css/tether.min.css">
+   
+   <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    
+     
+   <script type="text/javascript" src="lib/jquery-3.2.1.min.js"></script>
+   <script type="text/javascript" src="lib/jstat.min.js"></script>
+   <script type="text/javascript" src="lib/tether.min.js"></script>
+   <script type="text/javascript" src="lib/bootstrap.min.js"></script>
+   <script type="text/javascript" src="lib/bootstrap-select.min.js"></script>
+   <script type="text/javascript" src="lib/d3.min.js"></script>
+   <script type="text/javascript" src="lib/jquery.flexdatalist.min.js"></script>
+   <script type="text/javascript" src="lib/cdcdata-1.0.68.min.js"></script>
+
+  <script> 
+  
+            var progress=0, val, stateCode, countyCode, disease, urlCDC, year=2012,  thyroidCancer=66,
+            heartDisease=108,indicatorName = "test", contentArea = [], income = 328, compareDataFlag = 0;
+           
+            var demoId = [328, 327];
+            var dataMeasureId = [];
+            var dataSideLeft = [];
+            var dataSideRight = [];
+            var dataAnnualTrend;
+            var firstId, secondId; //for comapring two ids
+            var twoCompareYear1 =[], twoCompareValue1 = [], twoCompareYear2 = [], twoCompareValue2 = [];
+            var secondRowShow = false;
+            var femalePopulation, malePopulation, maleFemaleRatio;
+            var healthClick = 0, envClick = 0, lifClick = 0;
+            var thirdRow_L = 0, thirdRow_C = 0;
+            var sixthRow_L = 0, sixthRow_C =0 , sixthRow_R = 0;
+            var summaryCounter = 0;
+            
+
+       
+            //set state and county code
+
+            
+
+            //measureId = [66, 108, 333];
+
+            function showCategoryButton(value){
+
+                val = value;
+               // d3.select("#yearInfo").text(val);
+               
+               
+                 /*
+                 $("#secondRow").show(1000);
+                
+                
+                 $("#summaryMapDiv").show(1000);
+                 //$("#sixthRow").show(1000);
+                 $("#compareDiv").show(1000);
+                 */
+                 setStateCountyId(val);
+                  //$("#showCatagory").show(1000);
+                d3.select("#newChart").selectAll('g').remove();
+                d3.select("#effectSvg").selectAll('g').remove();
+                d3.select("#summaryHealthMap").selectAll('g').remove();
+                 d3.select("#summaryEnvMap").selectAll('g').remove();
+                 d3.select("#summaryLifeMap").selectAll('g').remove();
+
+                 d3.select("#healthOutlier").selectAll('g').remove();
+                 d3.select("#envOutlier").selectAll('g').remove();
+                 d3.select("#lifeOutlier").selectAll('g').remove();
+
+                 d3.select("#healthOutlierInfo").text("");
+                 d3.select("#lifeOutlierInfo").text("");
+                 d3.select("#envOutlierInfo").text("");
+
+                 d3.select("#raceInfo").selectAll('svg').remove();
+                 d3.select("#maleInfo").selectAll('svg').remove();
+                 d3.select("#femaleInfo").selectAll('svg').remove();
+                 d3.select("#incomeInfo").selectAll('svg').remove();
+                 d3.select("#povertyInfo").selectAll('svg').remove();
+
+                 $("#thirdRow").hide();
+                 $("#fourthRow").hide();
+                    $("#fifthRow").hide();
+                     $("#annualArrow").hide();
+                    $("#sideCompareArrow").hide();
+                    d3.select("#annualTrendTitle").text("");
+                    d3.select("#compareInfo").text("");
+                    $("#summaryArrowClose").hide();
+                     $('#summaryArrowOpen').show();
+                $("#sixthRow").hide();
+                $("#seventhRow").hide();
+
+
+                    thirdRow_C = 0;
+                    thirdRow_L = 0;
+              
+              // d3.select("#raceDataPie").remove();
+
+            }
+
+            function showDiseaseButton(){
+                
+                $("#showDisease").show(1000);
+            }
+          
+
+            function cdcHealthData(val, url, barOrRect) {
+            
+                   dataMeasureId.splice(0); 
+                
+                    getCdcData(val, url, barOrRect);
+
+            }//end of cdcData
+
+
+            //toggel divs
+
+       
+ 
+         
+  
+    //jQuery based function
+$(document).ready(function(){
+
+  //  $("#showCatagory").hide();
+   // $("#showDisease").hide();
+    $("#secondRow").hide();
+    $("#thirdRow").hide();
+    $("#annualArrow").hide();
+    $("#sideCompareArrow").hide();
+    $("#fourthRow").hide();
+    $("#fifthRow").hide();
+   
+    $("#sixthRow").hide();
+    $("#summaryMapDiv").hide();
+    $("#summaryArrowClose").hide();
+     $('#summaryArrowOpen').show()
+    
+    $("#seventhRow").hide();
+    $("#twoCorr").hide();
+    $("#compareDiv").hide();
+    $("#loading").hide();
+
+     var isSummaryClicked = 0;
+
+
+  //  getRaceData(34, 23);
+
+ //This function is for dropdown datalist, need flexdatalist package (MIT License)
+$('.flexdatalist').flexdatalist({
+        minLength: 1,
+        textProperty: '{county_name}, {state}',
+        valueProperty: 'id',
+        selectionRequired: true,
+        visibleProperties:["county_name", "state"],
+        searchIn: 'county_name',
+        data: 'data/national_county_id.json'
+  });
+
+  $('#healthButton').click(function(){
+      showDiseaseButton();
+  });
+
+  $('#cancerButton').click(function(){
+
+      $("#loading").show();
+
+                 d3.select("#newChart").selectAll('g').remove();
+                    d3.select("#effectSvg").selectAll('g').remove();
+                    d3.select("div#annualChart").selectAll('svg').remove();
+
+                     $("#fourthRow").hide();
+                    $("#fifthRow").hide();
+                     $("#annualArrow").hide();
+                    $("#sideCompareArrow").hide();
+                    d3.select("#annualTrendTitle").text("");
+                    d3.select("#compareInfo").text("");
+
+                    d3.select("h3#sideDataHeading").text("Factors that might have an effect on this disease")
+                        .style("color", "white")
+                        .style("text-anchor", 'middle')
+                        .style("text-align", 'center');
+
+                    healthClick = 1; envClick =0; lifClick = 0;
+
+                        var x = document.getElementById("diseaseName");
+                        x.style.textAlign = "center";
+                        x.style
+                        x.innerHTML = "Cancer Information*";
+                        var url = "data/cancerAll.json"
+                        var barOrRect = 1;
+                         getCdcData(val, url, barOrRect);
+                        $("#thirdRow").show(1000);
+                        ScrollTo("thirdRow");
+
+                        
+});
+  $('#asthmaButton').click(function(){
+
+      $("#loading").show();
+                 d3.select("#newChart").selectAll('g').remove();
+                    d3.select("#effectSvg").selectAll('g').remove();
+                    d3.select("div#annualChart").selectAll('svg').remove();
+
+                     $("#fourthRow").hide();
+                    $("#fifthRow").hide();
+                     $("#annualArrow").hide();
+                    $("#sideCompareArrow").hide();
+                    d3.select("#annualTrendTitle").text("");
+                    d3.select("#compareInfo").text("");
+
+                    healthClick = 1; envClick =0; lifClick = 0;
+
+                     d3.select("h3#sideDataHeading").text("Factors that might have an effect on this disease")
+                        .style("color", "white")
+                        .style("text-anchor", 'middle')
+                        .style("text-align", 'center');
+
+                    var x = document.getElementById("diseaseName");
+                    x.style.textAlign = "center";
+                    x.style
+                    x.innerHTML = "Asthma Information*";
+                    var url = "data/asthmaAll.json"
+                    var barOrRect = 0;
+                     getCdcData(val, url, barOrRect);
+                     $("#thirdRow").show(1000);
+                     ScrollTo("thirdRow");
+                     
+  
+});
+
+  $('#heartButton').click(function(){
+
+      $("#loading").show();
+                  d3.select("#newChart").selectAll('g').remove();
+                  d3.select("#effectSvg").selectAll('g').remove();
+                  d3.select("div#annualChart").selectAll('svg').remove();
+
+                    $("#fourthRow").hide();
+                    $("#fifthRow").hide();
+                     $("#annualArrow").hide();
+                    $("#sideCompareArrow").hide();
+                    d3.select("#annualTrendTitle").text("");
+                    d3.select("#compareInfo").text("");
+
+                  healthClick = 1; envClick =0; lifClick = 0;
+
+                d3.select("h3#sideDataHeading").text("Factors that might have an effect on this disease")
+                        .style("color", "white")
+                        .style("text-anchor", 'middle')
+                        .style("text-align", 'center');
+
+                        var x = document.getElementById("diseaseName");
+                        x.style.textAlign = "center";
+                        x.style
+                        x.innerHTML = "Heart Information*";
+                        var url = "data/heartAll.json"
+                        var barOrRect = 0;
+                         getCdcData(val, url, barOrRect);
+                         $("#thirdRow").show(1000);
+                         ScrollTo("thirdRow");
+  
+});
+
+  $('#airButton').click(function(){
+
+     $("#loading").show();
+                 d3.select("#newChart").selectAll('g').remove();
+                    d3.select("#effectSvg").selectAll('g').remove();
+                    d3.select("div#annualChart").selectAll('svg').remove();
+
+
+
+                    $("#fourthRow").hide();
+                    $("#fifthRow").hide();
+                     $("#annualArrow").hide();
+                    $("#sideCompareArrow").hide();
+                    d3.select("#annualTrendTitle").text("");
+                    d3.select("#compareInfo").text("");
+
+                    healthClick = 0; envClick =1; lifClick = 0;
+
+                    d3.select("h3#sideDataHeading").text("Diseases that might be effected by these factors")
+                    .style("color", "white")
+                    .style("text-anchor", 'middle')
+                    .style("text-align", 'center');
+
+                        var x = document.getElementById("diseaseName");
+                        x.style.textAlign = "center";
+                        x.style
+                        x.innerHTML = "Environmental Risk Information (Air)*";
+                        var url = "data/envAir.json"
+                        var barOrRect = 0;
+                         getCdcData(val, url, barOrRect);
+                        $("#thirdRow").show(1000);
+                        ScrollTo("thirdRow");
+  
+});
+
+  $('#landButton').click(function(){
+
+     $("#loading").show();
+                  d3.select("#newChart").selectAll('g').remove();
+                  d3.select("#effectSvg").selectAll('g').remove();
+                  d3.select("div#annualChart").selectAll('svg').remove();
+
+
+                   $("#fourthRow").hide();
+                    $("#fifthRow").hide();
+                     $("#annualArrow").hide();
+                    $("#sideCompareArrow").hide();
+                    d3.select("#annualTrendTitle").text("");
+                    d3.select("#compareInfo").text("");
+
+                  healthClick = 0; envClick =1; lifClick = 0;
+
+                  d3.select("h3#sideDataHeading").text("Diseases that might be effected by these factors")
+                    .style("color", "white")
+                    .style("text-anchor", 'middle')
+                    .style("text-align", 'center');
+
+                        var x = document.getElementById("diseaseName");
+                        x.style.textAlign = "center";
+                        x.style
+                        x.innerHTML = "Environmental Risk Information (Land)";
+                        var url = "data/envLand.json"
+                        var barOrRect = 1;
+                         getCdcData(val, url, barOrRect);
+                         $("#thirdRow").show(1000);
+                         ScrollTo("thirdRow");
+  
+});
+
+  $('#lifeRiskButton').click(function(){
+
+     $("#loading").show();
+                 d3.select("#newChart").selectAll('g').remove();
+                    d3.select("#effectSvg").selectAll('g').remove();
+                    d3.select("div#annualChart").selectAll('svg').remove();
+
+                     $("#fourthRow").hide();
+                    $("#fifthRow").hide();
+                     $("#annualArrow").hide();
+                    $("#sideCompareArrow").hide();
+                    d3.select("#annualTrendTitle").text("");
+                    d3.select("#compareInfo").text("");
+
+                    healthClick = 0; envClick =0; lifClick = 1;
+
+                    d3.select("h3#sideDataHeading").text("Diseases that might be effected by these factors")
+                    .style("color", "white")
+                    .style("text-anchor", 'middle')
+                    .style("text-align", 'center');
+
+                        var x = document.getElementById("diseaseName");
+                        x.style.textAlign = "center";
+                        x.style
+                        x.innerHTML = "Life Style Risk Factors*";
+                        var url = "data/lifeRiskFactor.json"
+                        var barOrRect = 0;
+                         getCdcData(val, url, barOrRect);
+                        $("#thirdRow").show(1000);
+                        ScrollTo("thirdRow");
+  
+});
+
+  $('#lifeDemoButton').click(function(){
+
+       $("#loading").show();
+                  d3.select("#newChart").selectAll('g').remove();
+                  d3.select("#effectSvg").selectAll('g').remove();
+                  d3.select("div#annualChart").selectAll('svg').remove();
+
+                  healthClick = 0; envClick =0; lifClick = 1;
+
+                  d3.select("h3#sideDataHeading").text("Diseases that might be effected by these factors")
+                    .style("color", "white")
+                    .style("text-anchor", 'middle')
+                    .style("text-align", 'center');
+                    
+                        var x = document.getElementById("diseaseName");
+                        x.style.textAlign = "center";
+                        x.style
+                        x.innerHTML = "Demographic Information*";
+                        var url = "data/demographyFactor.json"
+                        var barOrRect = 0;
+                         getCdcData(val, url, barOrRect);
+                         $("#thirdRow").show(1000);
+                         ScrollTo("thirdRow");
+  
+});
+
+  $('#summaryArrowOpen').click(function(){
+
+      progress = 0;
+      clicked = 0;
+      summaryCounter = 0;
+      //$("#loading").show();
+
+     $("#sixthRow").show(1000);
+
+      urlH = "data/summaryMapHealth.json";
+      svgH = "svg#summaryHealthMap";
+      svgH_O = "svg#healthOutlier";
+      
+
+      urlE = "data/summaryMapEnv.json";
+      svgE = "svg#summaryEnvMap";
+      svgE_O = "svg#envOutlier";
+
+      urlL = "data/summaryMapLife.json";
+      svgL = "svg#summaryLifeMap";
+      svgL_O = "svg#lifeOutlier"
+
+      if(isSummaryClicked == 0){
+          $("#loading").show();
+      summaryMap(stateCode, countyCode, urlH, svgH, svgH_O, "p#healthOutlierInfo");
+      summaryMap(stateCode, countyCode, urlE, svgE, svgE_O, "p#envOutlierInfo");
+      summaryMap(stateCode, countyCode, urlL, svgL, svgL_O, "p#lifeOutlierInfo");
+      }
+      $('#summaryArrowOpen').hide()
+      $("#summaryArrowClose").show();
+      
+
+  });
+
+$( "#summaryArrowClose" ).click(function() {
+ 
+  $("#sixthRow").hide(1000);
+  $("#summaryArrowClose").hide();
+  $("#summaryArrowOpen").show(1000);
+  isSummaryClicked = 1;
+ 
+  
+   // $("#sixthRow").show(1000);
+
+/*
+  
+    if($('.div-img1').attr('src') == "img/downArrow.png" ) {
+       d3.select("p#togImg").text("I toggle");
+       
+        $('.div-img1').attr('src', "img/upArrow.png");
+    } else {
+        $('.div-img1').attr('src', "img/downArrow.png" );
+    }
+    */
+});
+
+  $('#twoIdButton').click(function(){
+
+      getTwoMeasureId();
+
+  });
+
+   $('#findBench').click(function(){
+
+      findBenchMark();
+
+  });
+
+
+
+  $('#checkCorr').click(function(){
+
+      //findCorr();
+  });
+
+
+
+//to center loadingBar animation
+
+//$('#loading').centerDiv();
+
+
+//tooltip initialization
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+});
+
+
+
+  
+
+</script>
+</head>
+<body>
+
+    <img src="img/logo2.png" height="300" width="300" class="mx-auto d-block my-3">
+    <h1 class="text-center" style="color: #898a8c;">CDC Environment Lifestyle Health Connection Explorer</h1>
+
+<!-- Navigation Bar -->
+
+<div class="loading" id="loading" style="background: url(img/loadingBar.gif) center no-repeat;">
+                        
+     
+
+                    
+                    </div>
+
+     
+    <div class="container-fluid">
+
+            <!-- Navigation Bar 
+
+
+            <nav class="navbar navbar-toggleable-md navbar-light" style="background-color: #597DFF">
+                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Main</a>
+                        <div class="collapse navbar-collapse" id="home">
+                            <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Help <span class="sr-only">(current)</span></a>
+                            </li>
+                            
+                            </ul>
+                        </div>
+                        </nav>
+
+    -->
+         
+       
+   <!-- main contents -->
+<div class="parent row divMarginV">
+     
+
+    <div class="child text-center col-12 divMargin0">
+     <div  id="county">
+         <h3 class="text-center" style="color: #898a8c;">Please enter your county name to get detailed information</h3>
+       <!--For dropdown menu> <-->
+        <input type='text' style="margin-left:auto; margin-right:auto"
+            placeholder='County name please'
+            class='flexdatalist'
+            data-data='data/national_county_id.json'
+            data-search-in='county_name'
+            data-visible-properties='["county_name", "state"]'
+            data-selection-required='true'
+            data-value-property='id',
+            data-text-property='{county_name}, {state}'
+            data-min-length='1'
+            name='county_id' 
+            value = ""
+            onchange="showCategoryButton(this.value);"> <!--this is where you pass the id of the county from json file -->
+          
+            <div id="state_code"> </div>
+            <div id="county_code"></div>
+            
+       
+      </div>
+    
+    </div>
+    
+</div>
+
+
+
+<!--second row-->
+
+ <h2 id="cdcState"></h2>
+ 
+  <div class="parent row no-gutters divMarginV  divColor1 mx-0 " id="secondRow">
+    <div class="child  col-4 divColor1 makeBorder" style="padding-top:300px;" >
+        <h4 id="popData"class="text-center" style="color: #898a8c;"></h4>
+        <h4 id="financial" class="text-center mt-4" style="color: #898a8c;">Financial Information</h4>
+          <div class="divMargin divColor1 divPadding" style="margin-left:150px;"> 
+                
+               
+                <div id="incomeInfo"></div>
+                <div id="povertyInfo"></div>
+          
+           </div>
+    </div>
+
+    <div class="child col-4  divColor2   makeBorder">
+        <h4 id="dateInfo" class="text-center mt-4" style="color:#ffffff; padding-top:70px"></h4> 
+
+                <script type="text/javascript"> 
+                var date = new Date();
+                var options = {  
+                            weekday: "long", year: "numeric", month: "short",  
+                            day: "numeric", hour: "2-digit", minute: "2-digit"  
+                        };
+                   d3.select("#dateInfo") //
+                      .text(function(){ return date.toLocaleTimeString("en-us", options);}); 
+                    // document.write(date.toLocaleTimeString("en-us", options));  
+                </script>
+      <h4 class="text-center " style="color:white; padding-top:150px; ">Select the category you would like to explore</h4>
+        <div class="divColor2" style="margin-top:20px; margin-left:100px;">
+
+            <div id="showCatagory">
+                            <!-- Split button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-secondary btn-sm">Health</button>
+                        <button type="button" class="btn btn-secondary  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <!--
+                            <span class="caret"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                            -->
+                        </button>
+            
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <button class="dropdown-item" id="cancerButton">Cancer</button>
+                            <button class="dropdown-item" id="asthmaButton">Asthma</buton>
+                            <button class="dropdown-item" id="heartButton">Heart</button>
+                        </div>
+                    </div>
+
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-secondary btn-sm ">Env</button>
+                        <button type="button" class="btn btn-secondary  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             <!--
+                            <span class="caret"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                            -->
+                        </button>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <button class="dropdown-item" id="airButton">Air Risk</button>
+                            <button class="dropdown-item" id="landButton">Land Risk</buton>
+                            
+                        </div>
+            
+                    </div>
+                    <div class="btn-group">
+                            <button type="button" class="btn btn-secondary btn-sm">Life</button>
+                            <button type="button" class="btn btn-secondary   dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <!--
+                            <span class="caret"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                            -->
+                            </button>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <button class="dropdown-item" id="lifeRiskButton">Risk Factor</button>
+                               
+                                
+                            </div>
+                            <!--
+                                <select name="lifeStyle" id="lifeStyle" class="dropdown-menu">
+                                <option value="-1">Select Life Style Factor</option>
+                                <option value="0">Risk</option>
+                                    <option value="1">Demographic</option>
+                                    
+                                </select>
+                            -->
+                    </div>
+                </div>
+            
+                
+        </div>
+         
+
+        <p id="hospData" class="text-center mt-4" style="color: #fff; font-size: 1.2em"></p>
+        <p id="hospPerData" class="text-center mt-2" style="color: #fff; font-size: 1.2em"></p>
+        <p id="houseData" class="text-center mt-2" style="color: #fff; font-size: 1.2em"></p>
+        <p id="parkData" class="text-center mt-2" style="color: #fff; font-size: 1.2em"></p>
+    </div>
+  
+
+    <div class="child col-4  divColor1 m-x-0 makeBorder">
+        
+         <div class="divMargin divColor1" style="padding-left:100px;">
+
+           
+          <h4 id="demoInfo" class="text-center mt-4" style="color: #898a8c;">Demographic Information</h4>
+                <div id="raceInfo" class="mx-auto d-block" ></div>
+                <div id="femaleInfo" class="mx-auto d-block" ></div>
+                <div id="maleInfo" class="mx-auto d-block" ></div>
+               
+                
+
+        </div>
+         <p class="text-center" id="genderRatio" style="color: #898a8c; font-size: 1.2em"></p>
+    </div>
+    </div>
+  
+
+
+  
+<!-- Third Row -->
+
+  <div class="parent row no-gutters divMarginV divColor2" id="thirdRow">
+
+    
+
+     <div class="child col-3 divColor2 makeBorder">
+         <div class="mx-0 divColor2 divPadding center" >
+              
+
+        
+
+                <div id="effect">
+                    
+                    <h3 id="sideDataHeading" class="my-4"></h3> <!-- for title -->
+
+                    <svg id="effectSvg" class="mx-auto d-block"></svg>
+
+                <div>
+                    <svg class="mx-auto d-block mt-4" id="colorCodeL" style="margin-bottom: -50"></svg>
+                    <script>
+                        var place = "svg#colorCodeL";
+                        circleText(place);
+                    </script>
+                </div>
+
+                    <h5 id="sideDataLegend" class="mt-4"></h5>
+                </div>
+        </div>
+
+    </div>
+    
+    <div id="cdc-data" class="child col-6 divColor1 makeBorder">
+         <div class="mx-0 divColor1" style="margin: auto;">
+            <div id="chart divPadding0">
+                <p id="length"></p>
+                
+            </div>
+               
+                
+               
+                <p id="cdcdata"></p>
+                <p id="national"></p>
+               
+                <h3 id="diseaseName"></h3>
+         
+                <p id="rateIncident"></p>
+               
+                <svg class="mx-auto d-block" id="newChart"></svg>
+
+                <div>
+                <svg class="mx-auto d-block mt-4" id="colorCode" style="margin-bottom: -50"></svg>
+                <script>
+                    var place = "svg#colorCode";
+                circleText(place);
+                </script>
+                </div>
+                
+                <p id="calc"></p>
+                  <h5 id="numberHigher" class="text-center my-4" style="color: #898a8c;"></h5>
+                  <h5 id="centerDataLegend" class="mt-4"></h5>
+                <h5 class="text-center my-4" style="color: #898a8c;">Click the measure to get annual trends and risk factors comparison</h5>
+        </div>
+                 
+    </div>
+    <div class="child col-3 divColor2 makeBorder" >
+        <div class="divMargin divColor2 divPadding">
+              
+               
+                <div></div>
+                <blockquote class="blockquote">
+                    <p class="mb-0" id="infoClip"></p>
+                   
+                </blockquote>
+
+        </div>
+    </div>
+
+  </div>
+  <!-- fourth row -->
+<div id="annualArrow" class="mt-4">
+<img class="div-img3 mx-auto d-block" src="img/upArrow.png" height="50" width="50">
+</div> 
+<h5 id="annualTrendTitle" class="text-center my-2" style="color: #898a8c;"></h5>
+
+  <div class="row parent no-gutters divMarginV divColor2" id="fourthRow">
+    
+      <div class="child col-12  divColor2">
+          <div class="divMargin divColor2 divPadding">
+                <p id="annualTrendRecived"></p>
+                <p id="annualTrend"></p>
+                 
+
+                <div id= "annualChart" class="mt-4 mb-2 mx-4"></div>
+        </div>
+
+      </div>
+    
+  </div>
+
+  <!--fifth row -->
+  <div id="sideCompareArrow" class="mt-4">
+    <img class="div-img4 mx-auto d-block" src="img/upArrow.png" height="50" width="50">
+    </div> 
+  <h5 id="compareInfo" class="text-center my-2" style="color: #898a8c;"></h5>
+  <div class="row parent no-gutters divMarginV divColor1" id="fifthRow">
+      <div class="child col-12  divColor1">
+          
+     
+        <div class="divMargin divPadding divColor1">
+
+            <p id="compareDataInfo"></p>
+            
+           
+     
+            
+            <div id="compareDataPlot" class="mt-4 mb-2 mx-4"></div>
+      
+        </div>
+      </div>
+  </div>
+
+  <!--sixth row -->
+  
+
+ <div id="summaryMapDiv">
+     <h3 id="summaryTitle" class="text-center my-2" style="color: #898a8c;">Compare Your Region with the Nation</h3>
+     <!--
+   <button class="btn my-4 btn-primary btn-lg btn-block rounded" type="button" id="summaryButton">Click to compare your region with the nation</button> 
+   -->
+    <div id="summaryArrowOpen">
+    <img class="div-img1 mx-auto d-block myCursor" src="img/downArrow.png" height="50" width="50">
+    </div>
+<div id="summaryArrowClose">
+    <img class="div-img1 mx-auto d-block myCursor" src="img/upArrow.png" height="50" width="50">
+ </div>
+   <!--<img id="summaryArrow" class="div-img1 mx-auto d-block" src="img/downArrow.png" height="50" width="50">-->
+ 
+     
+
+    <div class="row parent no-gutters divMarginV divColor2" id="sixthRow">
+         
+                
+                    <div class="divMargin0 divPadding0 child col-4 divColor2 makeBorder">
+                    
+                    <h4 id="envInf" class="text-center my-4" style="color: #ffffff;">Environmental Factors</h4>
+                            <div id="envSummary" class="divMargin divPadding divColor2">
+
+                                <p id="envOutlierInfo" class="text-center"></p>
+                                <svg id="envOutlier" class="mx-auto d-block"></svg>
+                                 <h5 class="text-center divPadding0" style="color:#ffbf00; font-weight:bold">Rates Summary</h5>
+                                <svg id="summaryEnvMap" class="mx-auto d-block">></svg>
+
+                                 <div>
+                                        <svg class="mx-auto d-block mt-4" id="summaryCodeE" style="margin-bottom: -50"></svg>
+                                            <script>
+                                                var place = "svg#summaryCodeE";
+                                                circleText(place);
+                                            </script>
+                                </div>
+
+                                  <h5 id="summaryDataLegend_L"></h5>
+                    
+                            </div>
+                    </div>
+                    
+                    <div  class="divMargin0 divPadding0 child col-4 divColor1 makeBorder">
+                        
+                                 
+
+
+
+                            <h4 id="healthInf" class="text-center mt-4" style="color: #898a8c;">Disease Rates</h4>
+                            <div id="healthSummary" class="divMargin divPadding divColor1">
+
+                                <p id="healthOutlierInfo" class="text-center"></p>
+
+                                <svg id="healthOutlier" class="mx-auto d-block outlier"></svg>
+
+                                <h5 class="text-center divPadding0" style="color:#ffbf00; font-weight:bold">Rates Summary</h5>
+                                
+                                <svg id="summaryHealthMap" class="mx-auto d-block"></svg>
+
+                                <div>
+                                        <svg class="mx-auto d-block mt-4" id="summaryCode" style="margin-bottom: -50"></svg>
+                                            <script>
+                                                var place = "svg#summaryCode";
+                                                circleText(place);
+                                            </script>
+                                </div>
+                                <p id="summaryHealth"></p>
+                                <h5 id="summaryDataLegend"></h5>
+                                
+                            </div>
+                           <!-- <button class="btn my-4 btn-primary btn-lg btn-block rounded" type="button" id="summaryButton">Click to compare your region with the nation</button> -->
+                    </div>
+
+                    <div  class="divMargin0 divPadding0 child col-4 divColor2 makeBorder">
+                    <h4 id="lifeInf" class="text-center my-4" style="color: #ffffff;">Lifestyle Factors</h4>
+                        <div id="lifeSummary" class="divMargin divPadding divColor2">
+                            <p id="lifeOutlierInfo" class="text-center"> </p>
+                            <svg id="lifeOutlier" class="mx-auto d-block"></svg>
+                             <h5 class="text-center divPadding0" style="color:#ffbf00; font-weight:bold">Rates Summary</h5>
+                                <svg id="summaryLifeMap" class="mx-auto d-block">></svg>
+                                 <div>
+                                        <svg class="mx-auto d-block mt-4" id="summaryCodeL" style="margin-bottom: -50"></svg>
+                                            <script>
+                                                var place = "svg#summaryCodeL";
+                                                circleText(place);
+                                            </script>
+                                </div>
+                                  <h5 id="summaryDataLegend_R"></h5>
+
+                        </div>     
+                    </div>
+                    
+      </div>
+</div>
+  
+<!-- seventh row -->
+<div id="compareDiv">
+ <h3 id="compareTrendTitle" class="text-center my-2" style="color: #898a8c;">Compare Two Measures for Change in Annual Trends</h3>
+ <img id="compareArrow" class="div-img2 mx-auto d-block" src="img/downArrow.png" height="50" width="50">
+ <h5 id="twoCorr" class="text-center my-2" style="color: #898a8c;" data-toggle="tooltip" title="Correlation coefficient has a value between +1 and −1, where 1 is total positive linear correlation, 0 is no linear correlation, and −1 is total negative linear correlation." data-placement="top" ></h5>
+  <div class="row parent no-gutters divMarginV divColor1" id="seventhRow">
+     
+      <div class="child col-6  divColor1 ">
+          
+          <div class="divMargin divPadding divColor1">
+                <select class="dropdown mx-auto d-block custom-select mb-2 mr-sm-2 mb-sm-0" id="measureId1">
+                    <optgroup label="Cancer">
+                        <option>Acute Myeloid Leukemia</option>
+                        <option>Breast</option>
+                        <option>Thyroid</option>
+                        <option>Bladder</option>
+                        <option>Brain/Nervous System</option>
+                        <option>Chronic Lymphocytic Leukemia</option>
+                        <option>Esophageal</option>
+                        <option>Kidney</option>
+                        <option>Larynx</option>
+                        <option>Leukemia</option>
+                        <option>Liver</option>
+                        <option>Lung/Bronchus</option>
+                        <option>Melanoma</option>
+                        <option>Non-Hodgkin's Lymphoma</option>
+                        <option>Oral</option>
+                        <option>Pancreatic</option>
+                        <option>Melanoma</option>
+                    </optgroup>
+
+                        <optgroup label="Asthma">
+                        <option>Adults (ever) (2011-)</option>
+                        <option>Children (ever) (2011-)</option>
+                    </optgroup>
+
+                    <optgroup label="Heart Disease">
+                        <option>Death from heart attack (>35)</option>
+                        <option>Death from ischemic heart disease</option>
+                    </optgroup>
+                    
+                    <optgroup label="Environment">
+                        <option>Particles</option>
+                        <option>Ozone</option>
+                        <option>Pesticide</option>
+                    </optgroup>
+
+                    <optgroup label="Life Style">
+                        <option>Obesity</option>
+                        <option>Smoking</option>
+                        <option>Overweight</option>
+                        <option>Poverty</option>
+                    </optgroup>
+                </select>
+          </div>
+          <div id="compareTwo_1" class="divColor2  center90 py-4 px-4"></div>
+
+        </div>
+
+        <div class="child col-6 divMargin0 divColor1">
+           
+          <div class="divMargin divPadding divColor1">
+
+                <select class="dropdown custom-select mb-2 mr-sm-2 mb-sm-0" id="measureId2" data-live-search="true">
+                    <optgroup label="Cancer">
+                        <option>Acute Myeloid Leukemia</option>
+                        <option>Breast</option>
+                        <option>Thyroid</option>
+                        <option>Bladder</option>
+                        <option>Brain/Nervous System</option>
+                        <option>Chronic Lymphocytic Leukemia</option>
+                        <option>Esophageal</option>
+                        <option>Kidney</option>
+                        <option>Larynx</option>
+                        <option>Leukemia</option>
+                        <option>Liver</option>
+                        <option>Lung/Bronchus</option>
+                        <option>Melanoma</option>
+                        <option>Non-Hodgkin's Lymphoma</option>
+                        <option>Oral</option>
+                        <option>Pancreatic</option>
+                        <option>Melanoma</option>
+                    </optgroup>
+
+                     <optgroup label="Asthma">
+                        <option>Adults (ever) (2011-)</option>
+                        <option>Children (ever) (2011-)</option>
+                    </optgroup>
+
+                    <optgroup label="Heart Disease">
+                        <option>Death from heart attack (>35)</option>
+                        <option>Death from ischemic heart disease</option>
+                    </optgroup>
+
+                    <optgroup label="Environment">
+                        <option>Particles</option>
+                        <option>Ozone</option>
+                        <option>Pesticide</option>
+                    </optgroup>
+                    
+                    <optgroup label="Life Style">
+                        <option>Obesity</option>
+                        <option>Smoking</option>
+                        <option>Overweight</option>
+                        <option>Poverty</option>
+                    </optgroup>
+                </select>
+                 
+           </div>
+           <div id="compareTwo_2" class="divColor2 center90 py-4 px-4"></div>
+        
+        </div>
+        
+        
+        <button type="button" id="twoIdButton" class="btn-primary btn-lg btn-block my-4 mx-4 rounded" 
+                    style="margin-left:auto; margin-right:auto;">Compare</button>
+        
+        
+            </div>
+    </div>
+
+
+  <!-- Eigth Row -->
+  <div class="row parent no-gutters divMarginV" id="eightRow">
+           <div class="child col-12">
+               <p class="text-center"> Copyright 2017 HM InnoWiz, LLC</p>
+           </div>
+
+  </div>
+
+
+  <!-- extra row 
+<div class="row parent no-gutters divMarginV" id="eightRow">
+           <div class="child col-12">
+               <button type="button" class="btn btn-primary" id ="findBench">FindBench</button>
+           </div>
+
+  </div>
+
+<div class="row parent no-gutters divMarginV" id="testRow">
+           <div class="child col-12">
+               <button type="button" class="btn btn-primary" id ="checkCorr">checkCorr</button>
+
+               <p id="findCorr1"></p>
+           </div>
+
+  </div>
+-->
+
+
+ 
+
+</div>
+
+ 
+<script>
+    $( "#annualArrow" ).click(function() {
+ 
+  $("#fourthRow").toggle(1000);
+  
+
+  
+    if($('.div-img3').attr('src') == "img/upArrow.png" ) {
+       d3.select("p#togImg").text("I toggle");
+       
+        $('.div-img3').attr('src', "img/downArrow.png");
+    } else {
+        $('.div-img3').attr('src', "img/upArrow.png" );
+    }
+});
+
+   $( "#sideCompareArrow" ).click(function() {
+ 
+  $("#fifthRow").toggle(1000);
+  
+
+  
+    if($('.div-img4').attr('src') == "img/upArrow.png" ) {
+       d3.select("p#togImg").text("I toggle");
+       
+        $('.div-img4').attr('src', "img/downArrow.png");
+    } else {
+        $('.div-img4').attr('src', "img/upArrow.png" );
+    }
+});
+
+
+
+$( "#compareArrow" ).click(function() {
+ 
+  $("#seventhRow").toggle(1000);
+  $("#twoCorr").toggle(1000);
+  
+    if($('.div-img2').attr('src') == "img/downArrow.png" ) {
+       d3.select("p#togImg").text("I toggle");
+       
+        $('.div-img2').attr('src', "img/upArrow.png");
+    } else {
+        $('.div-img2').attr('src', "img/downArrow.png" );
+    }
+});
+
+
+</script>
+
+</body>
+</html>

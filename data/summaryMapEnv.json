@@ -1,0 +1,94 @@
+{
+	"central": [{
+			"measureId": 506,
+			"name": "Pesticide Exposure",
+			"info": "rate per 100,000",
+			"desc": "Astma is typically caused by ....",
+			"bench": 32.77
+		},
+		{
+			"measureId": 520,
+			"name": "Rodenticides Exposure",
+			"info": "rate per 100,000",
+			"desc": "Astma is typically caused by ....",
+			"bench": 3.92
+		},
+		{
+			"measureId": 508,
+			"name": "Disinfectants Exposure",
+			"info": "rate per 100,000",
+			"desc": "Astma is typically caused by ....",
+			"bench": 6.02
+		},
+        {
+			"measureId": 510,
+			"name": "Fumigants Exposure",
+			"info": "rate per 100,000",
+			"desc": "Astma is typically caused by ....",
+			"bench": 0.09
+		},
+        {
+			"measureId": 512,
+			"name": "Fumicides Exposure",
+			"info": "rate per 100,000",
+			"desc": "Astma is typically caused by ....",
+			"bench": 0.28
+		},
+        {
+			"measureId": 514,
+			"name": "Herbicides Exposure",
+			"info": "rate per 100,000",
+			"desc": "Astma is typically caused by ....",
+			"bench": 3.27
+		},
+        {
+			"measureId": 516,
+			"name": "Insecticides Exposure",
+			"info": "rate per 100,000",
+			"desc": "Astma is typically caused by ....",
+			"bench": 16.12
+		},
+        {
+			"measureId": 518,
+			"name": "Repellents Exposure",
+			"info": "rate per 100,000",
+			"desc": "Astma is typically caused by ....",
+			"bench": 3.03
+		},
+        {
+			"measureId": 559,
+			"name": "Acute Toxic Substance Release",
+			"info": "rate per 100,000",
+			"desc": "Astma is typically caused by ....",
+			"bench": 6.45
+		},
+
+        {
+			"measureId": 87,
+			"name": "Annual PM2.5",
+			"info": "ug/m3",
+			"desc": "Astma is typically caused by ....",
+            "bench": 0
+		},
+		{
+			"measureId": 83,
+			"name": "Ozone - Days above regulatory standard",
+			"info": "# days",
+			"desc": "Astma is typically caused by ....",
+            "bench": 3.3
+		},
+		{
+			"measureId": 575,
+			"name": "Carbon Monoxide Posioning Deaths",
+			"info": "rate per 100,000",
+			"desc": "Astma is typically caused by ....",
+            "bench": 0.36
+            
+		}
+
+
+	]
+
+	
+   
+}

@@ -1,0 +1,61 @@
+{
+	"central": [{
+			"measureId": 564,
+			"name": "Obesity",
+			"info": "percent of obese adults",
+			"desc": "\"Obesity is a medical condition in which excess body fat has accumulated to the extent that it may have a negative effect on health.[1] People are generally considered obese when their body mass index (BMI), a measurement obtained by dividing a person's weight by the square of the person's height, is over 30 kg/m2\"",
+			"bench": 29.28
+		},
+		{
+			"measureId": 563,
+			"name": "Overweight",
+			"info": "percent of overweight adults",
+			"desc": "\"Overweight is having more body fat than is optimally healthy. Being overweight is common especially where food supplies are plentiful and lifestyles are sedentary.\"-wikiPedia",
+			"bench": 35.51
+
+		},
+		{
+			"measureId": 561,
+			"name": "Smoking",
+			"info": "% of adult smokers",
+			"desc": "\"Smoking generally has negative health effects, because smoke inhalation inherently poses challenges to various physiologic processes such as respiration. Diseases related to tobacco smoking have been shown to kill approximately half of long-term smokers when compared to average mortality rates faced by non-smokers.\"-wikiPedia",
+			"bench": 17.8
+		}
+
+	],
+
+	"side": [{"measureId": 554,
+			"name": "Death from heart attack (>35)",
+			"info": "rate per 100,000",
+			"bench": 97.74,
+			"desc": "\"Cardiovascular disease (CVD) is a class of diseases that involve the heart or blood vessels. Cardiovascular disease includes coronary artery diseases (CAD) such as angina and myocardial infarction (commonly known as a heart attack). Other CVDs include stroke, heart failure, hypertensive heart disease, rheumatic heart disease, cardiomyopathy, heart arrhythmia, congenital heart disease, valvular heart disease, carditis, aortic aneurysms, peripheral artery disease, thromboembolic disease, and venous thrombosis.\"-wikiPedia"
+
+	    },
+
+        {
+			"measureId": 551,
+			"name": "Death-ischemic heart disease",
+			"info": "rate per 100,000",
+			"bench": 185.23,
+			"desc": "\"Coronary artery disease (CAD), also known as ischemic heart disease (IHD), is a group of diseases that includes: stable angina, unstable angina, myocardial infarction, and sudden cardiac death. It is within the group of cardiovascular diseases of which it is the most common type. A common symptom is chest pain or discomfort which may travel into the shoulder, arm, back, neck, or jaw.\"-wikiPedia"
+		},
+
+	{
+			"measureId": 62,
+			"name": "Lung/Bronchus Cancer",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Lung cancer, also known as lung carcinoma,is a malignant lung tumor characterized by uncontrolled cell growth in tissues of the lung.[10] This growth can spread beyond the lung by the process of metastasis into nearby tissue or other parts of the body. Most cancers that start in the lung, known as primary lung cancers, are carcinomas. The two main types are small-cell lung carcinoma (SCLC) and non-small-cell lung carcinoma (NSCLC).\"-wikiPedia"
+		},
+         {
+			"measureId": 483,
+			"name": "Oral Cancer",
+			"info": "rate per 100,000 adults",
+			"bench": 0,
+			"desc": "\"Oral cancer, also known as mouth cancer, is a type of head and neck cancer and is any cancerous tissue growth located in the oral cavity.It may arise as a primary lesion originating in any of the tissues in the mouth, by metastasis from a distant site of origin, or by extension from a neighboring anatomic structure, such as the nasal cavity.\"-wikiPedia"
+		}
+        
+    ]
+
+   
+}
